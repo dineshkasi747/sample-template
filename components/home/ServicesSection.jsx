@@ -3,30 +3,61 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaArrowCircleRight } from 'react-icons/fa';
+import { FaArrowCircleRight, FaStethoscope, FaBone, FaBabyCarriage, FaBriefcaseMedical, FaClock } from 'react-icons/fa';
 
 export default function ServicesSection() {
   const sectionRef = useScrollAnimation();
 
+  // Define actual react-icons instead of simple SVGs for a cleaner, modern look
   const services = [
-    { title: "Eye Care", body: "We understand the importance of clear vision and its impact on your.", icon: "/images/SVG/svg-1.svg" },
-    { title: "Medical Checkup", body: "During your medical checkup, our skilled healthcare professionals.", icon: "/images/SVG/svg-2.svg" },
-    { title: "Dental Care", body: "We are passionate about providing top-notch dental care to help you.", icon: "/images/SVG/svg-3.svg" },
-    { title: "Laboratory Service", body: "We understand the critical role that accurate diagnostics play in guiding.", icon: "/images/SVG/svg-4.svg" },
-    { title: "Patient-Centered", body: "Hospitals, or clinics with positive reviews and ratings from patients.", icon: "/images/SVG/svg-5.svg" }
+    { 
+      title: "General Surgery", 
+      body: "State-of-the-art surgical care specializing in laparoscopic repairs, thyroidectomy, and trauma care.", 
+      icon: FaStethoscope,
+      href: "/services/general-surgery"
+    },
+    { 
+      title: "Orthopedics (Ortho)", 
+      body: "Specialized bone and joint care covering replacements, ligament repairs, and spine surgeries.", 
+      icon: FaBone,
+      href: "/services/orthopedic-clinic"
+    },
+    { 
+      title: "Gynecology", 
+      body: "Comprehensive care for women, routine wellness, normal deliveries, and C-sections.", 
+      icon: FaBabyCarriage,
+      href: "/services/gynecology-obstetrics"
+    },
+    { 
+      title: "General Medicine", 
+      body: "Primary consultations and long-term care management for diabetes, blood pressure, and chronic issues.", 
+      icon: FaBriefcaseMedical,
+      href: "/services/general-medicine"
+    },
+    { 
+      title: "24/7 Emergency", 
+      body: "Round-the-clock emergency stabilization with dedicated trauma beds and in-house pharmacy.", 
+      icon: FaClock,
+      href: "/services/pharmacy-emergency"
+    }
   ];
 
   return (
-    <section ref={sectionRef} className="py-24 bg-[var(--color-primary)] relative overflow-hidden z-0">
+    <section ref={sectionRef} className="py-28 bg-[var(--color-primary)] relative overflow-hidden z-0">
+      
+      {/* Background radial gradients for premium feel */}
+      <div className="absolute -right-24 -top-24 w-96 h-96 bg-red-600/10 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute -left-24 -bottom-24 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10 scroll-reveal" data-animation="fadeInUp">
         
         {/* Section Heading */}
-        <div className="text-center mb-16 max-w-3xl mx-auto scroll-reveal" data-animation="fadeInUp">
-          <span className="type-label text-[var(--color-accent)] scroll-reveal" data-animation="fadeInUp">
+        <div className="text-center mb-20 max-w-3xl mx-auto scroll-reveal" data-animation="fadeInUp">
+          <span className="type-label text-red-500 font-bold tracking-widest scroll-reveal" data-animation="fadeInUp">
             Medical Services
           </span>
-          <h2 className="type-h2 text-white mt-4 scroll-reveal" data-animation="fadeInUp">
-            <SplitText text="We're Providing Best Services." />
+          <h2 className="type-h2 text-white font-extrabold mt-4 scroll-reveal" data-animation="fadeInUp">
+            <SplitText text="We are Providing Best Services." />
           </h2>
         </div>
 
@@ -35,18 +66,30 @@ export default function ServicesSection() {
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="bg-white/5 border border-white/10 p-8 rounded-xl card-hover-lift group scroll-reveal"
+              className="relative overflow-hidden bg-white/5 border border-white/10 p-8 rounded-2xl transition-all duration-500 hover:bg-white/10 hover:border-red-500/40 hover:shadow-2xl hover:shadow-red-500/5 hover:-translate-y-2 group scroll-reveal flex flex-col justify-between"
               data-animation="fadeInUp"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-[var(--color-accent)] transition-colors duration-300 scroll-reveal" data-animation="fadeInUp">
-                <img src={service.icon} alt={service.title} className="w-8 h-8 brightness-0 invert scroll-reveal" data-animation="fadeInUp" />
+              {/* Animated glowing bottom bar */}
+              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-red-500 to-red-700 transition-all duration-500 group-hover:w-full"></div>
+
+              <div>
+                {/* Icon Container */}
+                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-8 text-white transition-all duration-300 group-hover:bg-red-600 group-hover:scale-115 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-red-600/30 scroll-reveal" data-animation="fadeInUp">
+                  <service.icon size={28} className="scroll-reveal" data-animation="fadeInUp" />
+                </div>
+                
+                <h3 className="text-xl font-bold text-white mb-4 scroll-reveal" data-animation="fadeInUp">{service.title}</h3>
+                <p className="text-white/70 text-sm leading-relaxed mb-8 line-clamp-4 scroll-reveal" data-animation="fadeInUp">{service.body}</p>
               </div>
-              <h3 className="text-xl font-bold text-white mb-4 scroll-reveal" data-animation="fadeInUp">{service.title}</h3>
-              <p className="text-white/70 mb-6 line-clamp-3 scroll-reveal" data-animation="fadeInUp">{service.body}</p>
               
-              <Link href="/services" className="inline-flex items-center text-[var(--color-accent)] font-semibold transition-all duration-300 scroll-reveal group" data-animation="fadeInUp">
-                <span className="scroll-reveal" data-animation="fadeInUp">Read More</span>
-                <FaArrowCircleRight className="ml-2 scroll-reveal group-hover:text-white transition-colors" data-animation="fadeInUp" />
+              <Link 
+                href={service.href} 
+                className="inline-flex items-center text-red-400 font-semibold transition-all duration-300 scroll-reveal group/link text-sm mt-auto" 
+                data-animation="fadeInUp"
+              >
+                <span className="scroll-reveal group-hover/link:text-white transition-colors" data-animation="fadeInUp">Explore Service</span>
+                <FaArrowCircleRight className="ml-2 text-base scroll-reveal text-red-400 group-hover/link:text-white group-hover/link:translate-x-1 transition-all" data-animation="fadeInUp" />
               </Link>
             </div>
           ))}

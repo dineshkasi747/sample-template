@@ -2,6 +2,7 @@
 
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
+import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function AboutIntroSection() {
   const sectionRef = useScrollAnimation();
@@ -18,40 +19,46 @@ export default function AboutIntroSection() {
             </span>
             
             <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp" data-delay="200">
-              <SplitText text="Caring For The Health & Well Being Of Family." />
+              <SplitText text="Your Health, Our Priority – Always." />
             </h2>
             
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="400">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                Our family-centered approach to healthcare ensures that each member of your family receives personalized attention and care tailored to their unique needs. We believe in building strong relationships with our patients, fostering trust.
+                Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram, Visakhapatnam, Andhra Pradesh. We are dedicated to providing compassionate, affordable, and high-quality medical care to every patient who walks through our doors. Our hospital is equipped with modern facilities and staffed by experienced medical professionals who are committed to your well-being.
               </span>
             </p>
             
-            {/* Doctor Card */}
-            <div className="flex items-center space-x-6 pt-6 mt-6 border-t border-gray-100 scroll-reveal" data-animation="fadeInUp" data-delay="600">
-              <img src="/about/JPG/about-footer-img.jpg" alt="Dr. Elizabeth Foster" className="w-[60px] h-[60px] rounded-full object-cover scroll-reveal" data-animation="fadeInUp" data-delay="700" />
-              <div className="flex flex-col">
-                <img src="/about/PNG/signature.png" alt="Signature" className="w-[114px] h-[36px] object-contain mb-2 scroll-reveal" data-animation="fadeInUp" data-delay="800" />
-                <h4 className="font-bold text-[var(--color-primary)] text-lg scroll-reveal" data-animation="fadeInUp" data-delay="900">
-                  <span className="scroll-reveal" data-animation="fadeInUp">Dr. Elizabeth Foster</span>
-                </h4>
-                <span className="text-[var(--color-accent)] font-semibold text-sm scroll-reveal" data-animation="fadeInUp" data-delay="1000">
-                  <span className="scroll-reveal" data-animation="fadeInUp">Family Physician</span>
-                </span>
+            {/* Contact Info */}
+            <div className="flex flex-col sm:flex-row gap-6 pt-6 mt-6 border-t border-gray-100 scroll-reveal" data-animation="fadeInUp" data-delay="600">
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-[var(--color-accent)]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <FaPhoneAlt className="text-[var(--color-accent)]" size={18} />
+                </div>
+                <div>
+                  <p className="text-sm text-[var(--color-primary)]/50 font-medium">For Appointments</p>
+                  <a href="tel:+919515236524" className="font-bold text-[var(--color-primary)] text-lg hover:text-[var(--color-accent)] transition-colors">9515236524</a>
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-[var(--color-accent)]/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <FaMapMarkerAlt className="text-[var(--color-accent)]" size={18} />
+                </div>
+                <div>
+                  <p className="text-sm text-[var(--color-primary)]/50 font-medium">Location</p>
+                  <p className="font-bold text-[var(--color-primary)] text-sm">Sriharipuram, Visakhapatnam</p>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Right Content - Image Collage */}
-          <div className="relative h-[500px] w-full flex justify-center lg:justify-end gap-6">
-            <img src="/about/PNG/half-circle-img.png" alt="Decorative" className="absolute top-1/2 left-0 -translate-y-1/2 opacity-20 pointer-events-none w-1/2 scroll-reveal z-0" data-animation="fadeInUp" />
-            
-            <div className="w-[250px] h-[370px] rounded-full overflow-hidden shadow-2xl border-[6px] border-white relative z-10 self-end scroll-reveal" data-animation="slideInLeft">
-              <img src="/about/JPG/page-about-us-img-1.jpg" alt="About" className="w-full h-full object-cover scroll-reveal" data-animation="paperReveal" />
+          {/* Right Content - Hospital Photo */}
+          <div className="relative w-full scroll-reveal" data-animation="fadeInUp" data-delay="300">
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+              <img src="/images/JPG/pavan-sai-hospital-front.jpg" alt="Pavan Sai Hospital - 24 Hours Healthcare" className="w-full h-auto object-cover" />
             </div>
-            
-            <div className="w-[250px] h-[375px] rounded-full overflow-hidden shadow-2xl border-[6px] border-white relative z-10 self-start scroll-reveal" data-animation="slideInLeft" data-delay="150">
-              <img src="/about/JPG/page-about-us-img-2.jpg" alt="About" className="w-full h-full object-cover scroll-reveal" data-animation="paperReveal" data-delay="150" />
+            {/* 24 Hours Badge */}
+            <div className="absolute -bottom-4 -left-4 bg-[var(--color-accent)] text-white px-6 py-3 rounded-xl shadow-lg font-bold text-lg">
+              24 Hours Open
             </div>
           </div>
 

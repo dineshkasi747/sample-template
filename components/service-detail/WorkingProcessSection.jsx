@@ -2,7 +2,7 @@
 
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaTooth, FaUserDoctor } from 'react-icons/fa6';
+import { FaHospital, FaUserDoctor } from 'react-icons/fa6';
 import { FaComments, FaCalendarCheck } from 'react-icons/fa';
 
 export default function WorkingProcessSection() {
@@ -25,9 +25,9 @@ export default function WorkingProcessSection() {
     },
     {
       number: "03",
-      Icon: FaTooth,
-      title: "Arrival To DentiCore",
-      body: "Your premier destination for comprehensive dental care. Experience exceptional treatments.",
+      Icon: FaHospital,
+      title: "Arrival at Clinic",
+      body: "Visit our hospital in Visakhapatnam for specialized consultations and state-of-the-art diagnostics.",
       delay: 300
     },
     {

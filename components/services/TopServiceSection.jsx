@@ -2,7 +2,7 @@
 
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaHeartPulse, FaTooth, FaVirus, FaHandHoldingMedical } from 'react-icons/fa6';
+import { FaHeartPulse, FaFlask, FaVirus, FaHandHoldingMedical } from 'react-icons/fa6';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 
 export default function TopServiceSection() {
@@ -15,7 +15,7 @@ export default function TopServiceSection() {
       delay: 100
     },
     {
-      Icon: FaTooth,
+      Icon: FaFlask,
       title: "Diagnostics",
       delay: 200
     },

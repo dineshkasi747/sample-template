@@ -1,18 +1,13 @@
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 import AboutPageHero from '@/components/about/AboutPageHero';
 import AboutIntroSection from '@/components/about/AboutIntroSection';
 import WhoWeAreSection from '@/components/about/WhoWeAreSection';
 import TopServicesSection from '@/components/about/TopServicesSection';
 import FamilyCareSection from '@/components/about/FamilyCareSection';
 import AppointmentBannerAbout from '@/components/about/AppointmentBannerAbout';
-import OurDoctorsSection from '@/components/about/OurDoctorsSection';
-import TestimonialsAboutSection from '@/components/about/TestimonialsAboutSection';
-import BlogAboutSection from '@/components/about/BlogAboutSection';
 
 export const metadata = {
-  title: 'About Us - MediPro',
-  description: 'Learn more about MediPro and our dedicated healthcare professionals.',
+  title: 'About Us - Pavan Sai Hospital | 24 Hours Healthcare in Visakhapatnam',
+  description: 'Pavan Sai Hospital is a trusted 24-hour healthcare facility in Sriharipuram, Visakhapatnam. We offer OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups, and emergency care. Call 9515236524.',
 };
 
 export default function AboutPage() {
@@ -24,9 +19,6 @@ export default function AboutPage() {
       <TopServicesSection />
       <FamilyCareSection />
       <AppointmentBannerAbout />
-      <OurDoctorsSection />
-      <TestimonialsAboutSection />
-      <BlogAboutSection />
     </>
   );
 }

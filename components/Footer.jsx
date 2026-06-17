@@ -7,12 +7,12 @@ export default function Footer() {
   return (
     <footer className="bg-[var(--color-primary)] text-white pt-20 pb-6 relative">
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           
           {/* Brand Column */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <img src="/images/SVG/default-logo.svg" alt="MediPro" className="h-12 brightness-0 invert" />
+              <img src="/images/SVG/hospital-logo-white.svg" alt="Pavan Sai Hospital" className="h-12" />
             </Link>
             <p className="text-white/70 type-body">
               Our family-centered approach to healthcare ensures that each member of your family receives personalized attention.
@@ -39,7 +39,6 @@ export default function Footer() {
               {[
                 { label: 'Home', href: '/' },
                 { label: 'About Us', href: '/about' },
-                { label: 'Doctors', href: '/our-team' },
                 { label: 'Services', href: '/services' },
                 { label: 'Contact Us', href: '/contact' }
               ].map((link, i) => (
@@ -58,52 +57,28 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start text-white/70">
                 <FaMapMarkerAlt className="text-[var(--color-accent)] mt-1 mr-3 flex-shrink-0" size={18} />
-                <span>Jl. Raya Kuta No.70, Kuta</span>
+                <span>Door No 64-144, Opposite Swamy Vivekananda School, Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam-530011, Andhra Pradesh</span>
               </li>
               <li className="flex items-center text-white/70">
                 <FaEnvelope className="text-[var(--color-accent)] mr-3 flex-shrink-0" size={18} />
-                <span>healthcare@gmail.com</span>
+                <span>contact@pavansaihospital.com</span>
               </li>
               <li className="flex items-center text-white/70">
                 <FaPhone className="text-[var(--color-accent)] mr-3 flex-shrink-0" size={18} />
-                <span>+01 547 547 5478</span>
+                <span>9515236524, 9848620929, 8008380083</span>
               </li>
               <li className="flex items-start text-white/70">
                 <FaClock className="text-[var(--color-accent)] mt-1 mr-3 flex-shrink-0" size={18} />
-                <span>8 AM - 5 PM, Monday - Saturday</span>
+                <span>Open 24 Hours, Everyday</span>
               </li>
             </ul>
           </div>
 
-          {/* Newsletter Column */}
-          <div>
-            <h3 className="type-h3 mb-6 text-white text-[24px]">Newsletter</h3>
-            <p className="text-[var(--color-accent)] font-semibold mb-2">Subscribe To Our Newsletter</p>
-            <p className="text-white/70 type-body mb-6">
-              Stay informed and never miss out on the latest news, health tips.
-            </p>
-            <form className="relative" onSubmit={(e) => e.preventDefault()} suppressHydrationWarning>
-              <input 
-                type="email" 
-                placeholder="Enter Your Email" 
-                className="w-full bg-white/10 border border-white/20 rounded-md py-3 px-4 text-white placeholder-white/50 focus:outline-none focus:border-[var(--color-accent)] transition-colors"
-                required
-                suppressHydrationWarning
-              />
-              <button 
-                type="submit"
-                className="mt-4 w-full bg-[var(--color-accent)] text-white py-3 rounded-md hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300 font-semibold"
-                suppressHydrationWarning
-              >
-                Send
-              </button>
-            </form>
-          </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-white/10 text-center text-white/50">
-          <p>Copyright 2026 © MediPro All Right Reserved.</p>
+          <p>Copyright 2026 © Pavan Sai Hospital. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

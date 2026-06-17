@@ -32,7 +32,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="type-h3 text-[20px] text-[var(--color-primary)] mb-1">Our Location</h3>
-                  <p className="type-body text-[#555555]">Jl. Raya Kuta No.70, Kuta<br/>Bali 80361, Indonesia</p>
+                  <p className="type-body text-[#555555]">Door No 64-144, Opposite Swamy Vivekananda School,<br/>Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam-530011</p>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="type-h3 text-[20px] text-[var(--color-primary)] mb-1">Phone Number</h3>
-                  <p className="type-body text-[#555555]">+01 547 547 5478<br/>+01 356 897 4521</p>
+                  <p className="type-body text-[#555555]">9515236524<br/>9848620929<br/>8008380083</p>
                 </div>
               </div>
 
@@ -52,7 +52,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="type-h3 text-[20px] text-[var(--color-primary)] mb-1">Email Address</h3>
-                  <p className="type-body text-[#555555]">healthcare@gmail.com<br/>info@medipro.com</p>
+                  <p className="type-body text-[#555555]">contact@pavansaihospital.com<br/>info@pavansaihospital.com</p>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function ContactSection() {
 
           {/* Right: Contact Form */}
           <div className="w-full lg:w-2/3">
-            <div className="bg-[#FFF7F4] p-[40px] md:p-[60px] rounded-[12px] h-full scroll-reveal" data-animation="fadeLeftUp">
+            <div className="bg-[var(--color-surface)] p-[40px] md:p-[60px] rounded-[12px] h-full scroll-reveal" data-animation="fadeLeftUp">
               <h3 className="type-h2 text-[32px] text-[var(--color-primary)] mb-8">Send Us A Message</h3>
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

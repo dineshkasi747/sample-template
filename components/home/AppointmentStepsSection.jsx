@@ -3,64 +3,95 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaCalendarAlt } from 'react-icons/fa';
+import { FaCalendarAlt, FaStethoscope, FaCapsules, FaLaptopMedical, FaHeartbeat } from 'react-icons/fa';
 
 export default function AppointmentStepsSection() {
   const sectionRef = useScrollAnimation();
 
   const steps = [
-    { icon: "/images/SVG/svg-6.svg", title: "Book An Appointment" },
-    { icon: "/images/SVG/svg-7.svg", title: "Conduct Checkup" },
-    { icon: "/images/SVG/svg-8.svg", title: "Perform Treatment" },
-    { icon: "/images/SVG/svg-9.svg", title: "Prescribe & Payment" }
+    { icon: FaLaptopMedical, title: "Book An Appointment", desc: "Easily schedule a slot via call or WhatsApp.", num: "01" },
+    { icon: FaStethoscope, title: "Conduct Checkup", desc: "Consult with our specialist doctors.", num: "02" },
+    { icon: FaHeartbeat, title: "Perform Treatment", desc: "Receive immediate and customized care.", num: "03" },
+    { icon: FaCapsules, title: "Prescribe & Pharmacy", desc: "Get prescriptions and meds from Sai Store.", num: "04" }
   ];
 
   return (
-    <section ref={sectionRef} className="py-24 bg-[var(--color-surface)]">
-      <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 scroll-reveal" data-animation="fadeInUp">
+    <section ref={sectionRef} className="py-28 bg-[var(--color-surface)] relative">
+      
+      {/* Decorative patterns */}
+      <div className="absolute left-0 top-0 w-64 h-64 bg-white/40 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10 scroll-reveal" data-animation="fadeInUp">
         
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start scroll-reveal" data-animation="fadeInUp">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center scroll-reveal" data-animation="fadeInUp">
           
-          {/* Left CTA Box (Col span 4) */}
-          <div className="lg:col-span-4 bg-white p-10 rounded-2xl shadow-xl scroll-reveal" data-animation="fadeInUp">
-            <div className="w-16 h-16 bg-[var(--color-surface)] rounded-full flex items-center justify-center mb-6 scroll-reveal" data-animation="fadeInUp">
-              <img src="/images/SVG/svg-13.svg" alt="Open Appointments" className="w-8 h-8 scroll-reveal" data-animation="fadeInUp" />
+          {/* Left CTA Card (Col span 4) */}
+          <div className="lg:col-span-4 bg-gradient-to-br from-[#0E2E50] to-[#06182C] p-10 rounded-3xl shadow-2xl relative overflow-hidden border border-white/5 scroll-reveal" data-animation="fadeInUp">
+            {/* Glowing bubble */}
+            <div className="absolute -right-12 -top-12 w-36 h-36 bg-red-600/10 rounded-full blur-2xl pointer-events-none"></div>
+            
+            <div className="relative z-10">
+              <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-8 text-red-500 border border-white/10 scroll-reveal" data-animation="fadeInUp">
+                <FaCalendarAlt size={26} className="scroll-reveal" data-animation="fadeInUp" />
+              </div>
+              <h3 className="text-3xl font-extrabold text-white mb-4 scroll-reveal leading-tight" data-animation="fadeInUp">
+                Open For Appointments
+              </h3>
+              <p className="text-white/70 mb-8 text-sm leading-relaxed scroll-reveal" data-animation="fadeInUp">
+                We are now accepting online booking requests and direct walk-ins to serve you better. Contact our desk to schedule your doctor consultation.
+              </p>
+              
+              <Link 
+                href="/contact" 
+                className="inline-flex items-center justify-center bg-[var(--color-accent)] text-white w-full py-4 rounded-xl hover:bg-white hover:text-[var(--color-primary)] hover:scale-105 transition-all duration-300 font-bold scroll-reveal shadow-lg shadow-red-500/20" 
+                data-animation="fadeInUp"
+              >
+                <FaCalendarAlt className="mr-2" />
+                <span>Book Appointment</span>
+              </Link>
             </div>
-            <h3 className="text-2xl font-bold text-[var(--color-primary)] mb-4 scroll-reveal" data-animation="fadeInUp">Open For Appointments</h3>
-            <p className="text-[var(--color-primary)]/70 mb-8 type-body scroll-reveal" data-animation="fadeInUp">
-              We are delighted to announce that our doors are open and we are now accepting appointments to serve you better.
-            </p>
-            <Link href="/contact" className="inline-flex items-center justify-center bg-[var(--color-accent)] text-white w-full py-4 rounded-full hover:bg-[var(--color-primary)] transition-all duration-300 font-semibold scroll-reveal group" data-animation="fadeInUp">
-              <FaCalendarAlt className="mr-2 scroll-reveal group-hover:text-[var(--color-accent)] transition-colors" data-animation="fadeInUp" />
-              <span className="scroll-reveal" data-animation="fadeInUp">Make Appointment</span>
-            </Link>
           </div>
 
           {/* Right Content (Col span 8) */}
-          <div className="lg:col-span-8 lg:pl-8 scroll-reveal" data-animation="fadeInUp">
+          <div className="lg:col-span-8 lg:pl-6 scroll-reveal" data-animation="fadeInUp">
             <div className="mb-12 scroll-reveal" data-animation="fadeInUp">
-              <span className="type-label text-[var(--color-accent)] scroll-reveal" data-animation="fadeInUp">
+              <span className="type-label text-red-600 font-bold tracking-widest scroll-reveal" data-animation="fadeInUp">
                 How We Work
               </span>
-              <h2 className="type-h2 text-[var(--color-primary)] mt-4 mb-6 scroll-reveal" data-animation="fadeInUp">
-                <SplitText text="A Comprehensive Directory For Your Health Care." />
+              <h2 className="type-h2 text-[var(--color-primary)] font-extrabold mt-4 mb-6 scroll-reveal leading-tight" data-animation="fadeInUp">
+                <SplitText text="A Seamless Process For Your Healthcare." />
               </h2>
-              <p className="type-body text-[var(--color-primary)]/70 max-w-2xl scroll-reveal" data-animation="fadeInUp">
-                We are your trusted one-stop destination for all your healthcare needs. Our comprehensive directory connects you with a wide range of qualified healthcare.
+              <p className="type-body text-gray-600 max-w-2xl scroll-reveal text-base leading-relaxed" data-animation="fadeInUp">
+                From your initial appointment booking to consults, diagnostic checkups, treatments, and prescriptions, Pavan Sai Hospital keeps the process clean, quick, and hassle-free.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 scroll-reveal" data-animation="fadeInUp">
+            {/* Structured step list */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 scroll-reveal" data-animation="fadeInUp">
               {steps.map((step, index) => (
                 <div 
                   key={index} 
-                  className="flex items-center space-x-6 card-hover-lift scroll-reveal"
+                  className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-start gap-5 relative overflow-hidden transition-all duration-300 hover:scale-[1.03] hover:shadow-md hover:border-red-500/20 group scroll-reveal animate-fadeInUp"
                   data-animation="fadeInUp"
+                  style={{ animationDelay: `${index * 150}ms` }}
                 >
-                  <div className="w-20 h-20 bg-white rounded-2xl shadow-md flex items-center justify-center flex-shrink-0 scroll-reveal" data-animation="fadeInUp">
-                    <img src={step.icon} alt={step.title} className="w-10 h-10 scroll-reveal" data-animation="fadeInUp" />
+                  {/* Huge outline background step number */}
+                  <div className="absolute right-4 top-4 text-5xl font-extrabold text-[var(--color-primary)]/5 select-none transition-colors duration-300 group-hover:text-red-600/10">
+                    {step.num}
                   </div>
-                  <h4 className="text-xl font-bold text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">{step.title}</h4>
+
+                  <div className="w-14 h-14 bg-[var(--color-surface)] rounded-xl flex items-center justify-center text-[var(--color-primary)] flex-shrink-0 group-hover:bg-red-600 group-hover:text-white transition-all duration-300 shadow-inner">
+                    <step.icon size={22} />
+                  </div>
+                  
+                  <div className="relative z-10 pr-6">
+                    <h4 className="text-lg font-bold text-[var(--color-primary)] mb-1.5 transition-colors duration-300 group-hover:text-red-700">
+                      {step.title}
+                    </h4>
+                    <p className="text-gray-500 text-xs leading-relaxed">
+                      {step.desc}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

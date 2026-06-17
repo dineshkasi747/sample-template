@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   if (!service) return { title: 'Not Found' };
   
   return {
-    title: `${service.title} - MediPro`,
+    title: `${service.title} - Pavan Sai Hospital`,
     description: service.description[0].substring(0, 160)
   };
 }

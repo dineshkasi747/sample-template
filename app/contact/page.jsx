@@ -3,8 +3,8 @@ import ContactSection from '@/components/contact/ContactSection';
 import AppointmentBanner from '@/components/home/AppointmentBanner';
 
 export const metadata = {
-  title: "Contact Us - MediPro",
-  description: "Get in touch with our medical professionals.",
+  title: "Contact Us - Pavan Sai Hospital",
+  description: "Get in touch with Pavan Sai Hospital. Call us at 9515236524 or visit us in Sriharipuram, Visakhapatnam.",
 };
 
 export default function ContactPage() {

@@ -24,12 +24,7 @@ export default function Navbar() {
     {
       label: 'Services',
       href: '/services',
-      dropdown: ['Cardiology Clinic', 'Pathology Clinic', 'Laboratory Analysis', 'Pediatric Clinic', 'Cardiac Clinic', 'Neurology Clinic']
-    },
-    {
-      label: 'Pages',
-      href: '#',
-      dropdown: ['Blog', 'Our Team', 'FAQ\'s']
+      dropdown: ['General Surgery', 'Orthopedic Clinic', 'Gynecology & Obstetrics', 'General Medicine', 'Pharmacy & Emergency', 'Health Insurance Policies']
     },
     { label: 'Contact Us', href: '/contact' }
   ];
@@ -42,7 +37,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 w-[240px] h-[64px] flex items-center">
             <Link href="/" className="block">
-              <img src="/images/SVG/default-logo.svg" alt="MediPro Logo" className="h-[64px] w-auto brightness-0 invert object-contain" />
+              <img src="/images/SVG/hospital-logo-white.svg" alt="Pavan Sai Hospital" className="h-[64px] w-auto object-contain" />
             </Link>
           </div>
 
@@ -72,11 +67,7 @@ export default function Navbar() {
                       {link.dropdown.map((item, i) => {
                         let href = '#';
                         if (link.label === 'Services') {
-                          href = `/services/${item.toLowerCase().replace(/\s+/g, '-')}`;
-                        } else if (link.label === 'Pages') {
-                          if (item === 'Blog') href = '/blog';
-                          else if (item === 'Our Team') href = '/our-team';
-                          else if (item === "FAQ's") href = '/faq';
+                          href = `/services/${item.toLowerCase().replace(/&/g, '').replace(/\s+/g, '-').replace(/-+/g, '-')}`;
                         }
                         return (
                           <li key={i}>
@@ -147,10 +138,6 @@ export default function Navbar() {
                       let href = '#';
                       if (link.label === 'Services') {
                         href = `/services/${item.toLowerCase().replace(/\s+/g, '-')}`;
-                      } else if (link.label === 'Pages') {
-                        if (item === 'Blog') href = '/blog';
-                        else if (item === 'Our Team') href = '/our-team';
-                        else if (item === "FAQ's") href = '/faq';
                       }
                       return (
                         <li key={i}>

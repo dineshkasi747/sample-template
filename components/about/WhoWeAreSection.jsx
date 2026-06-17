@@ -2,10 +2,17 @@
 
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaPlayCircle } from 'react-icons/fa';
+import { FaCheckCircle } from 'react-icons/fa';
 
 export default function WhoWeAreSection() {
   const sectionRef = useScrollAnimation();
+
+  const facilities = [
+    'Clean & Safe Environment',
+    'Affordable Treatment',
+    'Experienced Doctors',
+    'Trusted by Families',
+  ];
 
   return (
     <section ref={sectionRef} className="py-24 overflow-hidden bg-[var(--color-surface)]">
@@ -15,7 +22,7 @@ export default function WhoWeAreSection() {
           {/* Left Content - Image */}
           <div className="relative scroll-reveal" data-animation="slideInLeft">
             <div className="rounded-2xl overflow-hidden shadow-2xl scroll-reveal" data-animation="paperReveal">
-              <img src="/about/JPG/improving-img.jpg" alt="Who We Are" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
+              <img src="/images/JPG/pavan-sai-hospital.png" alt="Pavan Sai Hospital & Sai Medical Store" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
             </div>
           </div>
 
@@ -26,25 +33,30 @@ export default function WhoWeAreSection() {
             </span>
             
             <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp" data-delay="300">
-              <SplitText text="Improving The Quality Of Your Life Through Better Health." />
+              <SplitText text="Compassionate Care, Every Hour, Every Day." />
             </h2>
             
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="500">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                We offer a wide range of comprehensive healthcare services to address all aspects of your health. From preventive care and health screenings to specialized treatments and chronic disease management.
+                At Pavan Sai Hospital, we believe that quality healthcare should be accessible and affordable for everyone. Located in Sriharipuram, Visakhapatnam, Andhra Pradesh, our hospital has been serving the local community with dedication and compassion. We provide round-the-clock emergency care, OPD consultations, diagnostic services, and an in-house pharmacy — all under one roof.
+              </span>
+            </p>
+
+            <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="600">
+              <span className="scroll-reveal" data-animation="fadeInUp">
+                Our attached Sai Medical & General Store ensures that all prescribed medicines are readily available, making the entire treatment process seamless and convenient for our patients and their families.
               </span>
             </p>
             
-            <div className="pt-6 scroll-reveal" data-animation="fadeInUp" data-delay="700">
-              <button 
-                onClick={() => window.open('https://www.youtube.com/embed/VhBl3dHT5SY', '_blank')}
-                className="inline-flex items-center text-[var(--color-primary)] hover:text-[var(--color-accent)] transition-all duration-300 font-semibold text-lg scroll-reveal group" 
-                data-animation="fadeInUp"
-              >
-                <FaPlayCircle size={48} className="mr-4 text-[var(--color-accent)] group-hover:text-[var(--color-primary)] transition-colors scroll-reveal" data-animation="fadeInUp" />
-                <span className="scroll-reveal" data-animation="fadeInUp">Play Video</span>
-              </button>
-            </div>
+            {/* Facilities Checklist */}
+            <ul className="space-y-3 pt-4 scroll-reveal" data-animation="fadeInUp" data-delay="700">
+              {facilities.map((item, i) => (
+                <li key={i} className="flex items-center text-lg font-medium text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">
+                  <FaCheckCircle className="text-[var(--color-accent)] mr-3 flex-shrink-0 scroll-reveal" size={22} data-animation="fadeInUp" />
+                  <span className="scroll-reveal" data-animation="fadeInUp">{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
         </div>

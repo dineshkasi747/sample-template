@@ -3,66 +3,94 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaCheckCircle, FaArrowCircleRight, FaPlay } from 'react-icons/fa';
+import { FaCheckCircle, FaArrowCircleRight, FaHospital, FaUserMd, FaWallet, FaPrescriptionBottleAlt } from 'react-icons/fa';
 
 export default function AboutSection() {
   const sectionRef = useScrollAnimation();
 
+  const details = [
+    { text: '24 Hours Emergency Care', icon: FaHospital, desc: 'Critical care always open' },
+    { text: 'Experienced Medical Team', icon: FaUserMd, desc: 'Specialist doctors on duty' },
+    { text: 'Affordable Treatments', icon: FaWallet, desc: 'Fair & transparent pricing' },
+    { text: 'In-House Pharmacy & Lab', icon: FaPrescriptionBottleAlt, desc: 'Sai Medical Store 24/7' }
+  ];
+
   return (
-    <section ref={sectionRef} className="py-24 overflow-hidden bg-white">
-      <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <section ref={sectionRef} className="py-28 overflow-hidden bg-white relative">
+      
+      {/* Decorative background vectors */}
+      <div className="absolute right-0 top-10 w-96 h-96 bg-blue-50/50 rounded-full blur-3xl pointer-events-none z-0"></div>
+      <div className="absolute left-10 bottom-10 w-[500px] h-[500px] bg-red-50/20 rounded-full blur-3xl pointer-events-none z-0"></div>
+
+      <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           
-          {/* Left Content - Image Collage */}
-          <div className="relative h-[600px] w-full">
-            <img src="/images/PNG/half-shape.png" alt="" className="absolute left-0 bottom-0 opacity-10 pointer-events-none max-w-[60%] scroll-reveal" data-animation="paperReveal" />
+          {/* Left Column - Image & Custom Borders */}
+          <div className="lg:col-span-6 relative w-full flex justify-center py-6">
+            {/* Outline shape */}
+            <div className="absolute -left-2 -top-2 w-[85%] h-[90%] border-4 border-dashed border-red-500/20 rounded-2xl pointer-events-none z-0 hidden sm:block"></div>
             
-            <div className="absolute top-0 left-0 lg:left-4 w-[250px] h-[425px] rounded-full overflow-hidden shadow-xl border-[6px] border-white scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/about-img-1.jpg" alt="About" className="w-full h-full object-cover scroll-reveal" data-animation="paperReveal" />
+            <div className="relative z-10 w-full max-w-[480px] rounded-2xl overflow-hidden shadow-2xl border-[6px] border-white scroll-reveal" data-animation="paperReveal">
+              <img src="/images/JPG/pavan-sai-hospital.png" alt="Pavan Sai Hospital" className="w-full h-auto object-cover" />
             </div>
             
-            <div className="absolute bottom-4 right-0 lg:right-10 w-[250px] h-[425px] rounded-full overflow-hidden shadow-xl border-[6px] border-white scroll-reveal" data-animation="paperReveal" data-delay="300">
-              <img src="/images/JPG/about-img-2.jpg" alt="About" className="w-full h-full object-cover scroll-reveal" data-animation="paperReveal" />
+            {/* Red Gradient Badge 1 */}
+            <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-red-600 to-red-800 text-white px-6 py-4 rounded-2xl shadow-2xl font-bold text-lg flex items-center gap-3 z-20 scroll-reveal" data-animation="fadeInUp" data-delay="300">
+              <span className="relative flex h-3.5 w-3.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-white"></span>
+              </span>
+              <span>Open 24 Hours</span>
             </div>
 
-            {/* Floating Video Card */}
-            <div className="absolute bottom-0 left-[5%] w-48 h-32 rounded-xl overflow-hidden shadow-2xl border-4 border-white group cursor-pointer scroll-reveal" data-animation="paperReveal" data-delay="600">
-              <img src="/images/JPG/about-video-img.jpg" alt="Video thumbnail" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 scroll-reveal" data-animation="paperReveal" />
-              <div className="absolute inset-0 bg-black/40 flex items-center justify-center scroll-reveal" data-animation="fadeInUp">
-                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">
-                  <FaPlay className="ml-1 scroll-reveal" data-animation="fadeInUp" />
-                </div>
-              </div>
+            {/* Glassmorphic Badge 2 */}
+            <div className="absolute top-8 left-[-16px] bg-white/80 backdrop-blur-md border border-gray-100 px-5 py-2.5 rounded-full shadow-lg font-semibold text-sm text-[var(--color-primary)] flex items-center gap-2 z-20 scroll-reveal" data-animation="fadeInDown" data-delay="600">
+              <FaHospital className="text-red-600" />
+              <span>Visakhapatnam, AP</span>
             </div>
           </div>
 
-          {/* Right Content */}
-          <div className="space-y-6">
-            <span className="type-label text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">
-              About Medicalife
-            </span>
+          {/* Right Column - Text & Custom Checklist Cards */}
+          <div className="lg:col-span-6 space-y-8">
+            <div className="space-y-4">
+              <span className="type-label text-red-600 font-bold tracking-wider scroll-reveal" data-animation="fadeInUp">
+                About Pavan Sai Hospital
+              </span>
+              
+              <h2 className="type-h2 text-[var(--color-primary)] font-extrabold scroll-reveal leading-tight" data-animation="fadeInUp" data-delay="200">
+                Your Health, Our Priority – <span className="text-red-600">Always.</span>
+              </h2>
+              
+              <p className="type-body text-gray-600 scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="400">
+                Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram, Visakhapatnam. We are dedicated to providing compassionate, affordable, and high-quality medical services with highly experienced doctors and state-of-the-art facilities.
+              </p>
+            </div>
             
-            <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">
-              <SplitText text="Our Best Services & Popular Treatment Here." />
-            </h2>
-            
-            <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp">
-              We take pride in offering a wide range of best-in-class medical services. Our team is dedicated to providing comprehensive and compassionate care to patients of all ages.
-            </p>
-            
-            <ul className="space-y-4 pt-4 scroll-reveal" data-animation="fadeInUp">
-              {['Mental health Solutions', 'Rapid Patient Improvement', 'World Class Treatment'].map((item, i) => (
-                <li key={i} className="flex items-center text-lg font-medium text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">
-                  <FaCheckCircle className="text-[var(--color-accent)] mr-3 flex-shrink-0 scroll-reveal" size={24} data-animation="fadeInUp" />
-                  <span className="scroll-reveal" data-animation="fadeInUp">{item}</span>
-                </li>
+            {/* Replaced standard list with modern styled cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 scroll-reveal" data-animation="fadeInUp" data-delay="600">
+              {details.map((item, i) => (
+                <div 
+                  key={i} 
+                  className="bg-blue-50/40 hover:bg-[#EFF6FF] border border-blue-100/50 p-4 rounded-xl flex items-start gap-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-md group"
+                >
+                  <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-red-600 shadow-sm flex-shrink-0 group-hover:bg-red-600 group-hover:text-white transition-colors duration-300">
+                    <item.icon size={18} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-[var(--color-primary)] text-sm">{item.text}</h4>
+                    <p className="text-gray-500 text-xs mt-0.5">{item.desc}</p>
+                  </div>
+                </div>
               ))}
-            </ul>
+            </div>
             
-            <div className="pt-6 scroll-reveal" data-animation="fadeInUp">
-              <Link href="/about" className="inline-flex items-center justify-center bg-[var(--color-primary)] text-white px-8 py-4 rounded-full hover:bg-[var(--color-accent)] transition-all duration-300 font-semibold scroll-reveal group" data-animation="fadeInUp">
-                <span className="scroll-reveal" data-animation="fadeInUp">Read More</span>
-                <FaArrowCircleRight className="ml-2 scroll-reveal group-hover:text-[var(--color-primary)] transition-colors" data-animation="fadeInUp" />
+            <div className="pt-4 scroll-reveal" data-animation="fadeInUp" data-delay="800">
+              <Link 
+                href="/about" 
+                className="inline-flex items-center justify-center bg-[var(--color-primary)] text-white px-8 py-3.5 rounded-full hover:bg-[var(--color-accent)] hover:scale-105 hover:shadow-lg transition-all duration-300 font-semibold group"
+              >
+                <span>Learn More About Us</span>
+                <FaArrowCircleRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
           </div>

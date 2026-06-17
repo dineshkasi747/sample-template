@@ -7,39 +7,33 @@ import WorkingProcessSection from '@/components/service-detail/WorkingProcessSec
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
 import { 
-  FaHeartPulse,
-  FaMicroscope,
-  FaFlask,
-  FaChildReaching,
-  FaHeartCircleBolt,
-  FaBrain,
-  FaUserDoctor
+  FaStethoscope,
+  FaBone,
+  FaBaby,
+  FaUserDoctor,
+  FaPills,
+  FaFileMedical
 } from 'react-icons/fa6';
 import { 
-  FaPlay, 
   FaCheckCircle, 
   FaPlus, 
   FaMinus, 
-  FaArrowAltCircleRight,
-  FaTimes 
+  FaArrowAltCircleRight 
 } from 'react-icons/fa';
 
 export default function ServiceDetailClient({ service }) {
   const sectionRef = useScrollAnimation();
 
-  // Modal State
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
-
   // Accordion State (index of currently open FAQ, default 0)
   const [openFaq, setOpenFaq] = useState(0);
 
   const sidebarLinks = [
-    { title: "Cardiology Clinic", slug: "cardiology-clinic", Icon: FaHeartPulse },
-    { title: "Pathology Clinic", slug: "pathology-clinic", Icon: FaMicroscope },
-    { title: "Laboratory Analysis", slug: "laboratory-analysis", Icon: FaFlask },
-    { title: "Pediatric Clinic", slug: "pediatric-clinic", Icon: FaChildReaching },
-    { title: "Cardiac Clinic", slug: "cardiac-clinic", Icon: FaHeartCircleBolt },
-    { title: "Neurology Clinic", slug: "neurology-clinic", Icon: FaBrain }
+    { title: "General Surgery", slug: "general-surgery", Icon: FaStethoscope },
+    { title: "Orthopedic Clinic", slug: "orthopedic-clinic", Icon: FaBone },
+    { title: "Gynecology & Obstetrics", slug: "gynecology-obstetrics", Icon: FaBaby },
+    { title: "General Medicine", slug: "general-medicine", Icon: FaUserDoctor },
+    { title: "Pharmacy & Emergency", slug: "pharmacy-emergency", Icon: FaPills },
+    { title: "Health Insurance Policies", slug: "health-insurance-policies", Icon: FaFileMedical }
   ];
 
   return (
@@ -54,24 +48,15 @@ export default function ServiceDetailClient({ service }) {
             {/* Left Content Column (70%) */}
             <div className="lg:w-[70%] w-full space-y-16">
               
-              {/* Video & Description */}
+              {/* Service Main Image & Description */}
               <div className="space-y-8">
-                {/* Video Thumbnail */}
-                <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden group scroll-reveal" data-animation="fadeInUp">
+                {/* Service Image */}
+                <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden shadow-sm scroll-reveal" data-animation="fadeInUp">
                   <img 
-                    src={service.video_thumbnail} 
+                    src={service.image} 
                     alt={service.title} 
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover"
                   />
-                  {/* Play Button Overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <button 
-                      onClick={() => setIsVideoOpen(true)}
-                      className="bg-[var(--color-accent)] text-white w-20 h-20 rounded-full flex items-center justify-center pl-1 hover:scale-110 hover:bg-[var(--color-primary)] transition-all duration-300 shadow-lg"
-                    >
-                      <FaPlay size={24} />
-                    </button>
-                  </div>
                 </div>
 
                 {/* Description Paragraphs */}
@@ -191,30 +176,6 @@ export default function ServiceDetailClient({ service }) {
       </section>
 
       <WorkingProcessSection />
-
-      {/* Video Modal */}
-      {isVideoOpen && (
-        <div className="fixed inset-0 bg-black/80 z-[100] flex items-center justify-center p-4 animate-fadeIn">
-          <button 
-            onClick={() => setIsVideoOpen(false)}
-            className="absolute top-6 right-6 text-white/70 hover:text-white transition-colors p-2 z-50"
-          >
-            <FaTimes size={32} />
-          </button>
-          
-          <div className="w-full max-w-5xl aspect-video bg-black rounded-xl overflow-hidden shadow-2xl relative z-10" onClick={(e) => e.stopPropagation()}>
-            <iframe 
-              width="100%" 
-              height="100%" 
-              src={`${service.video_url}?autoplay=1`} 
-              title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      )}
     </>
   );
 }

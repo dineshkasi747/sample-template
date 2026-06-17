@@ -4,8 +4,6 @@ import AboutSection from '@/components/home/AboutSection';
 import ServicesSection from '@/components/home/ServicesSection';
 import AppointmentStepsSection from '@/components/home/AppointmentStepsSection';
 import FAQSection from '@/components/home/FAQSection';
-import TestimonialsSection from '@/components/home/TestimonialsSection';
-import BlogSection from '@/components/home/BlogSection';
 import ContactSection from '@/components/home/ContactSection';
 
 export default function Home() {
@@ -17,8 +15,6 @@ export default function Home() {
       <ServicesSection />
       <AppointmentStepsSection />
       <FAQSection />
-      <TestimonialsSection />
-      <BlogSection />
       <ContactSection />
     </>
   );

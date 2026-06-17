@@ -10,42 +10,49 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   const faqs = [
-    { question: "Are telemedicine consultations available?", answer: "Yes, we offer telemedicine consultations for certain medical conditions. You can schedule a virtual appointment with one of our healthcare providers." },
-    { question: "Do you accept health insurance?", answer: "Yes, we accept most major health insurance plans. Please contact our office to verify if we participate with your specific insurance provider." },
-    { question: "How much does a consultation cost?", answer: "Consultation fees vary depending on the doctor and the type of consultation. We offer competitive pricing and can provide an estimate when you book." }
+    { question: "Are consulting doctors available 24/7?", answer: "Yes, our general practitioners and emergency medical officers are available 24 hours a day, 7 days a week. Specialists can also be reached on call for emergencies." },
+    { question: "Do you accept cashless health insurance policies?", answer: "Yes, we accept FHPL, Mediassist, Vidal (Steel Plant panel), Future Generali, Ericson, and other leading TPAs. Please present your insurance card at our desk." },
+    { question: "Where is the hospital located and is there parking?", answer: "We are located at Door No 64-144, Opposite Swamy Vivekananda School, Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam. Parking space is available for cars and two-wheelers." }
   ];
 
   return (
-    <section ref={sectionRef} className="py-24 bg-white overflow-hidden">
+    <section ref={sectionRef} className="py-28 bg-white overflow-hidden relative">
+      
+      {/* Decorative dots or circles */}
+      <div className="absolute right-0 bottom-0 w-80 h-80 bg-red-50/30 rounded-full blur-3xl pointer-events-none"></div>
+
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 scroll-reveal" data-animation="fadeInUp">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center scroll-reveal" data-animation="fadeInUp">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           
-          {/* Left Content - Image */}
-          <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-2xl scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/home-faq-img.jpg" alt="FAQ" className="w-full h-auto scroll-reveal" data-animation="paperReveal" />
+          {/* Left Content - Image (Col span 5) */}
+          <div className="lg:col-span-5 relative scroll-reveal" data-animation="fadeInUp">
+            {/* Outline highlight */}
+            <div className="absolute -left-3 -top-3 w-full h-full border-2 border-red-600/10 rounded-2xl pointer-events-none z-0"></div>
+            
+            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl scroll-reveal" data-animation="paperReveal">
+              <img src="/images/JPG/home-faq-img.jpg" alt="FAQ" className="w-full h-auto object-cover" />
             </div>
             
             {/* Floating Stats */}
-            <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl flex gap-8 scroll-reveal" data-animation="fadeInUp">
+            <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-2xl flex gap-6 z-20 border border-gray-100 scroll-reveal" data-animation="fadeInUp" data-delay="300">
               <div className="text-center scroll-reveal" data-animation="fadeInUp">
-                <div className="text-4xl font-bold text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">100+</div>
-                <div className="text-sm font-semibold text-[var(--color-primary)]/70 mt-1 uppercase tracking-wider scroll-reveal" data-animation="fadeInUp">Doctors</div>
+                <div className="text-3xl font-black text-red-600 scroll-reveal" data-animation="fadeInUp">24/7</div>
+                <div className="text-[10px] font-bold text-[var(--color-primary)]/60 mt-1 uppercase tracking-wider scroll-reveal" data-animation="fadeInUp">Emergency Care</div>
               </div>
               <div className="w-px bg-gray-200 scroll-reveal" data-animation="fadeInUp"></div>
               <div className="text-center scroll-reveal" data-animation="fadeInUp">
-                <div className="text-4xl font-bold text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">16+</div>
-                <div className="text-sm font-semibold text-[var(--color-primary)]/70 mt-1 uppercase tracking-wider scroll-reveal" data-animation="fadeInUp">World Office</div>
+                <div className="text-3xl font-black text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">Sai Store</div>
+                <div className="text-[10px] font-bold text-[var(--color-primary)]/60 mt-1 uppercase tracking-wider scroll-reveal" data-animation="fadeInUp">24h Pharmacy</div>
               </div>
             </div>
           </div>
 
-          {/* Right Content - Accordion */}
-          <div className="lg:pl-8 mt-12 lg:mt-0 scroll-reveal" data-animation="fadeInUp">
-            <span className="type-label text-[var(--color-accent)] scroll-reveal" data-animation="fadeInUp">
+          {/* Right Content - Accordion (Col span 7) */}
+          <div className="lg:col-span-7 lg:pl-6 mt-12 lg:mt-0 scroll-reveal" data-animation="fadeInUp">
+            <span className="type-label text-red-600 font-bold tracking-widest scroll-reveal" data-animation="fadeInUp">
               FAQs
             </span>
-            <h2 className="type-h2 text-[var(--color-primary)] mt-4 mb-10 scroll-reveal" data-animation="fadeInUp">
+            <h2 className="type-h2 text-[var(--color-primary)] font-extrabold mt-4 mb-10 scroll-reveal leading-tight" data-animation="fadeInUp">
               <SplitText text="Consultations with Qualified doctors." />
             </h2>
             
@@ -55,25 +62,25 @@ export default function FAQSection() {
                 return (
                   <div 
                     key={index}
-                    className="border border-gray-200 rounded-xl overflow-hidden transition-all duration-300 scroll-reveal"
+                    className={`border border-gray-150 rounded-2xl overflow-hidden transition-all duration-300 scroll-reveal ${isOpen ? 'shadow-lg border-red-500/20 bg-blue-50/10' : 'bg-white hover:bg-gray-50'}`}
                     data-animation="fadeInUp"
                   >
                     <button 
                       onClick={() => setOpenIndex(isOpen ? -1 : index)}
-                      className={`w-full text-left px-6 py-5 flex items-center justify-between font-bold text-lg transition-colors scroll-reveal ${isOpen ? 'bg-[var(--color-primary)] text-white' : 'bg-white text-[var(--color-primary)] hover:bg-gray-50'}`}
+                      className={`w-full text-left px-6 py-5 flex items-center justify-between font-bold text-lg transition-all duration-300 scroll-reveal ${isOpen ? 'text-red-700 bg-red-50/20 border-l-4 border-red-600 pl-5' : 'text-[var(--color-primary)] bg-white border-l-4 border-transparent'}`}
                       data-animation="fadeInUp"
                     >
-                      <span className="scroll-reveal" data-animation="fadeInUp">{faq.question}</span>
-                      <span className={`flex items-center justify-center w-8 h-8 rounded-full scroll-reveal ${isOpen ? 'bg-white/20' : 'bg-[var(--color-surface)] text-[var(--color-primary)]'}`} data-animation="fadeInUp">
-                        {isOpen ? <FaMinus size={14} className="scroll-reveal" data-animation="fadeInUp" /> : <FaPlus size={14} className="scroll-reveal" data-animation="fadeInUp" />}
+                      <span className="scroll-reveal pr-4 text-base sm:text-lg font-bold" data-animation="fadeInUp">{faq.question}</span>
+                      <span className={`flex items-center justify-center w-8 h-8 rounded-full flex-shrink-0 transition-all duration-300 scroll-reveal ${isOpen ? 'bg-red-600 text-white rotate-180' : 'bg-[var(--color-surface)] text-[var(--color-primary)]'}`} data-animation="fadeInUp">
+                        {isOpen ? <FaMinus size={12} className="scroll-reveal" data-animation="fadeInUp" /> : <FaPlus size={12} className="scroll-reveal" data-animation="fadeInUp" />}
                       </span>
                     </button>
                     
                     <div 
-                      className={`overflow-hidden transition-all duration-300 ease-in-out scroll-reveal ${isOpen ? 'max-h-48 opacity-100 visible' : 'max-h-0 opacity-0 invisible'}`}
+                      className={`overflow-hidden transition-all duration-350 ease-in-out scroll-reveal ${isOpen ? 'max-h-[300px] opacity-100 visible border-t border-gray-150/40' : 'max-h-0 opacity-0 invisible'}`}
                       data-animation="fadeInUp"
                     >
-                      <div className="p-6 bg-white text-[var(--color-primary)]/70 type-body border-t border-gray-100 scroll-reveal" data-animation="fadeInUp">
+                      <div className="p-6 text-gray-600 text-sm leading-relaxed scroll-reveal" data-animation="fadeInUp">
                         <span className="scroll-reveal" data-animation="fadeInUp">{faq.answer}</span>
                       </div>
                     </div>

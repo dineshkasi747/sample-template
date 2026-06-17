@@ -3,6 +3,7 @@ import './globals.css';
 import BootLoader from '@/components/shared/BootLoader';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FloatingButtons from '@/components/shared/FloatingButtons';
 
 const figtree = Figtree({ 
   subsets: ['latin'],
@@ -11,8 +12,8 @@ const figtree = Figtree({
 });
 
 export const metadata = {
-  title: 'MediPro - Medical Web Application',
-  description: 'We Take Care Of Your Health. Providing Best & Affordable Health Care.',
+  title: 'Pavan Sai Hospital - 24 Hours Healthcare in Visakhapatnam',
+  description: 'Pavan Sai Hospital offers affordable 24-hour healthcare services in Sriharipuram, Visakhapatnam. OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups & emergency care. Call 9515236524.',
 };
 
 export default function RootLayout({ children }) {
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <FloatingButtons />
       </body>
     </html>
   );

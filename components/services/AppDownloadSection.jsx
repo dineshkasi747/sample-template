@@ -18,7 +18,7 @@ export default function AppDownloadSection() {
             </span>
             
             <h2 className="type-h2 text-white scroll-reveal" data-animation="fadeInUp" data-delay="200">
-              <SplitText text="Download MediPro App & Get 100$ Healthcare." />
+              <SplitText text="Download Pavan Sai Hospital App & Access Healthcare Anywhere." />
             </h2>
             
             <p className="type-body text-white/70 scroll-reveal" data-animation="fadeInUp" data-delay="400">
@@ -52,7 +52,7 @@ export default function AppDownloadSection() {
             <div className="relative">
               <img 
                 src="/services/PNG/app-download-1.png" 
-                alt="MediPro App Mockup" 
+                alt="Pavan Sai Hospital App Mockup" 
                 className="w-full max-w-[459px] h-auto object-contain scroll-reveal drop-shadow-2xl" 
                 data-animation="slideInLeft" 
               />

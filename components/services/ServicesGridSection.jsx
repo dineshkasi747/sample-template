@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaHeartPulse, FaMicroscope, FaFlask, FaChildReaching, FaHeartCircleBolt, FaBrain } from 'react-icons/fa6';
+import { FaStethoscope, FaBone, FaBaby, FaUserDoctor, FaPills, FaFileMedical } from 'react-icons/fa6';
 import { FaCheckCircle, FaArrowAltCircleRight } from 'react-icons/fa';
 
 export default function ServicesGridSection() {
@@ -11,57 +11,57 @@ export default function ServicesGridSection() {
 
   const services = [
     {
-      id: "cardiology",
-      Icon: FaHeartPulse,
-      title: "Cardiology Clinic",
-      description: "Expert consultations with board-certified cardiologists to assess heart health, discuss symptoms, and develop personalized treatment.",
-      checklist: ["Cardiac Electrophysiology", "Cardiac Catheterization", "Arrhythmia Management"],
-      link: "/services/cardiology-clinic",
+      id: "general-surgery",
+      Icon: FaStethoscope,
+      title: "General Surgery",
+      description: "Expert surgical care specializing in laparoscopic and open procedures including hernia repairs, appendectomy, thyroidectomy, and trauma surgery.",
+      checklist: ["Laparoscopic Surgery", "Hernia & Hydrocele Repairs", "Thyroid & Appendectomy"],
+      link: "/services/general-surgery",
       delay: 100
     },
     {
-      id: "pathology",
-      Icon: FaMicroscope,
-      title: "Pathology Clinic",
-      description: "Comprehensive tests to analyze body fluids, aiding in the diagnosis and monitoring of organ function and metabolic disorders.",
-      checklist: ["Molecular Pathology", "Cytogenetics", "Immunology"],
-      link: "/services/pathology-clinic",
+      id: "orthopedics",
+      Icon: FaBone,
+      title: "Orthopedic Clinic",
+      description: "Specialized bone and joint treatments covering Total Hip and Knee Replacements, ACL reconstructions, and spine surgeries.",
+      checklist: ["Total Hip Replacement", "Total Knee Replacement", "Spine Laminectomy & Discectomy"],
+      link: "/services/orthopedic-clinic",
       delay: 200
     },
     {
-      id: "laboratory",
-      Icon: FaFlask,
-      title: "Laboratory Analysis",
-      description: "Our Laboratory Analysis Services offer a comprehensive range of advanced tests to aid in the accurate diagnosis and metabolic disorders.",
-      checklist: ["Comprehensive Test Menu", "Timely Turnaround", "Advanced Diagnostic Tests"],
-      link: "/services/laboratory-analysis",
+      id: "gynecology",
+      Icon: FaBaby,
+      title: "Gynecology & Obstetrics",
+      description: "Comprehensive women's healthcare from routine exams to maternity packages, normal deliveries, cesarean sections, and laparoscopic gynae surgeries.",
+      checklist: ["Maternity & Delivery Packages", "Hysterectomy Surgery", "Laparoscopic Gynae Surgeries"],
+      link: "/services/gynecology-obstetrics",
       delay: 300
     },
     {
-      id: "pediatric",
-      Icon: FaChildReaching,
-      title: "Pediatric Clinic",
-      description: "Comprehensive well-child checkups, growth monitoring, and developmental assessments to ensure your child's health track.",
-      checklist: ["Nutrition Counseling", "Pediatric Dermatology", "Developmental Evaluations"],
-      link: "/services/pediatric-clinic",
+      id: "general-medicine",
+      Icon: FaUserDoctor,
+      title: "General Medicine",
+      description: "Primary clinical care and preventative medicine, managing lifestyle conditions like diabetes, hypertension, metabolic disorders, and thyroid issues.",
+      checklist: ["Chronic Care Management", "Preventative Checkups", "Hypertension & Diabetes"],
+      link: "/services/general-medicine",
       delay: 400
     },
     {
-      id: "cardiac",
-      Icon: FaHeartCircleBolt,
-      title: "Cardiac Clinic",
-      description: "Find comprehensive care and support for heart failure patients, including lifestyle recommendations and advanced therapies.",
-      checklist: ["Heart Failure Program", "Cardiac Rehabilitation", "Lipid Management"],
-      link: "/services/cardiac-clinic",
+      id: "pharmacy-emergency",
+      Icon: FaPills,
+      title: "24/7 Pharmacy & Emergency",
+      description: "Round-the-clock emergency services with dedicated trauma units, immediate ambulance dispatch, and a fully stocked 24/7 in-house pharmacy.",
+      checklist: ["24/7 Emergency Ward", "Ambulance Services", "Round-the-clock Pharmacy"],
+      link: "/services/pharmacy-emergency",
       delay: 500
     },
     {
-      id: "neurology",
-      Icon: FaBrain,
-      title: "Neurology Clinic",
-      description: "Consultations with specialized neurologists to address various neurological concerns, symptoms, and disorders.",
-      checklist: ["Epilepsy Management", "Headache and Migraine Clinic", "Neurological Examinations"],
-      link: "/services/neurology-clinic",
+      id: "health-insurance",
+      Icon: FaFileMedical,
+      title: "Health Insurance Policies",
+      description: "Streamlined cashless hospitalization services, supporting all major TPAs including FHPL, Mediassist, Vidal (Steel Plant policies), and Future Generali.",
+      checklist: ["Cashless Treatment Desk", "FHPL & Mediassist Panel", "Vidal (Steel Plant) Partner"],
+      link: "/services/health-insurance-policies",
       delay: 600
     }
   ];
