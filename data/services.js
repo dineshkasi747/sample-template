@@ -142,5 +142,94 @@ export const servicesData = [
       { question: "Which insurance companies/TPAs do you accept?", answer: "We accept FHPL, Mediassist, Vidal (including Steel Plant policies), Future Generali, Ericson, and many other leading TPAs. Please contact our desk for a full list.", open: false },
       { question: "What documents are required for billing?", answer: "You will need your health insurance card, a valid government-issued photo ID (Aadhar/PAN card), doctor's prescription, and relevant diagnostic reports.", open: false }
     ]
+  },
+  {
+    slug: "cardiology",
+    title: "Cardiology",
+    breadcrumb: ["Home", "Services", "Cardiology"],
+    image: "/services/JPG/service-medicine.jpg",
+    description: [
+      "The Cardiology Center at Pavan Sai Hospital offers state-of-the-art cardiovascular care led by highly experienced heart specialists. We specialize in advanced heart diagnostics, clinical cardiology, and customized treatment plans for blood pressure, coronary artery disease, and heart failure.",
+      "Our diagnostic facilities include ECG, Echocardiogram (2D Echo), and stress testing to ensure early detection and prevention of heart-related ailments. We focus on patient-centered therapies, lifestyle counseling, and advanced lipid management to maintain long-term cardiovascular health."
+    ],
+    health_plan_items: [
+      "Advanced Heart Diagnostics",
+      "Hypertension Management",
+      "ECG & Echocardiogram (2D Echo)",
+      "Coronary Care & Lipid Management",
+      "Preventative Cardiac Screening",
+      "Expert Consultations"
+    ],
+    faq: [
+      { question: "What are the common signs of heart disease?", answer: "Common signs include chest pain, shortness of breath, palpitations, dizziness, and fatigue during physical activity.", open: true },
+      { question: "How often should I get my heart checked?", answer: "If you have risk factors such as high blood pressure, diabetes, high cholesterol, or a family history, you should get checked annually after age 40.", open: false }
+    ]
+  },
+  {
+    slug: "neurology",
+    title: "Neurology",
+    breadcrumb: ["Home", "Services", "Neurology"],
+    image: "/services/JPG/service-medicine.jpg",
+    description: [
+      "Our Neurology Department provides comprehensive care for disorders of the nervous system, including the brain, spinal cord, nerves, and muscles. Our neurologists are dedicated to accurate diagnosis and treatment of complex neurological conditions.",
+      "We offer diagnostic evaluations and management for headaches, migraines, epilepsy, stroke rehabilitation, neuropathies, Parkinson's disease, and cognitive disorders. We utilize modern imaging and diagnostic methods to guide therapeutic interventions and patient recovery."
+    ],
+    health_plan_items: [
+      "Stroke Care & Rehabilitation",
+      "Epilepsy & Seizure Management",
+      "Migraine & Headache Clinic",
+      "Neuropathy Diagnostics",
+      "Parkinson's & Movement Disorders",
+      "Nerve & Muscle Assessments"
+    ],
+    faq: [
+      { question: "When should I see a neurologist?", answer: "You should see a neurologist if you experience persistent symptoms like severe chronic headaches, unexplained numbness, tremors, seizures, or coordination difficulties.", open: true },
+      { question: "Do you offer post-stroke rehabilitation?", answer: "Yes, we work closely with physical therapists to provide comprehensive rehabilitation plans that help stroke patients regain function and independence.", open: false }
+    ]
+  },
+  {
+    slug: "gastroenterology",
+    title: "Gastroenterology",
+    breadcrumb: ["Home", "Services", "Gastroenterology"],
+    image: "/services/JPG/service-surgery.jpg",
+    description: [
+      "The Gastroenterology Department at Pavan Sai Hospital specializes in the diagnosis and treatment of diseases affecting the esophagus, stomach, intestines, liver, gallbladder, and pancreas.",
+      "Our clinic provides diagnostic and therapeutic care for conditions such as acid reflux, stomach ulcers, irritable bowel syndrome (IBS), liver disorders, and chronic constipation. We focus on patient comfort, advanced diagnostics, and dietary counseling to restore digestive wellness."
+    ],
+    health_plan_items: [
+      "Acid Reflux & GERD Treatment",
+      "Ulcer & Gastritis Care",
+      "Liver & Gallbladder Management",
+      "Irritable Bowel Syndrome Care",
+      "Diagnostics & Therapeutic Plans",
+      "Nutritional & Dietary Counseling"
+    ],
+    faq: [
+      { question: "What causes chronic acid reflux?", answer: "Chronic acid reflux (GERD) is often caused by a weakened lower esophageal sphincter, hiatal hernia, dietary triggers, or lifestyle factors. We offer personalized diagnostics to determine the exact cause.", open: true },
+      { question: "When is an endoscopy recommended?", answer: "An endoscopy may be recommended to investigate symptoms like persistent abdominal pain, difficulty swallowing, unexplained weight loss, or chronic heartburn.", open: false }
+    ]
+  },
+  {
+    slug: "pulmonology",
+    title: "Pulmonology",
+    breadcrumb: ["Home", "Services", "Pulmonology"],
+    image: "/services/JPG/service-medicine.jpg",
+    description: [
+      "Our Pulmonology Department delivers expert care for respiratory conditions, including asthma, chronic obstructive pulmonary disease (COPD), bronchitis, and chest infections. We are dedicated to helping you breathe easier and improve your lung health.",
+      "We provide diagnostic pulmonary function tests, nebulization therapy, allergy assessments, and long-term care management for chronic respiratory ailments. Our team focuses on clinical excellence and patient support to optimize respiratory function."
+    ],
+    health_plan_items: [
+      "Asthma & Allergy Management",
+      "COPD & Bronchitis Care",
+      "Nebulization & Inhalation Therapy",
+      "Pulmonary Function Testing",
+      "Respiratory Infection Treatment",
+      "Smoking Cessation Counseling"
+    ],
+    faq: [
+      { question: "What is a pulmonary function test (PFT)?", answer: "A PFT is a non-invasive test that measures how well your lungs take in and release air, and how efficiently they transfer oxygen into your blood.", open: true },
+      { question: "Do you offer nebulization for acute asthma attacks?", answer: "Yes, our emergency and OPD wards are fully equipped to administer immediate nebulization therapy for respiratory relief.", open: false }
+    ]
   }
 ];
+

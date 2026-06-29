@@ -7,7 +7,7 @@ import AppointmentBannerAbout from '@/components/about/AppointmentBannerAbout';
 
 export const metadata = {
   title: 'About Us - Pavan Sai Hospital | 24 Hours Healthcare in Visakhapatnam',
-  description: 'Pavan Sai Hospital is a trusted 24-hour healthcare facility in Sriharipuram, Visakhapatnam. We offer OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups, and emergency care. Call 9515236524.',
+  description: 'Pavan Sai Hospital is a trusted 24-hour healthcare facility in Sriharipuram, Visakhapatnam. We offer OPD consultation, diagnostic labs, pharmacy, health checkups, and emergency care. Call 9515236524.',
 };
 
 export default function AboutPage() {

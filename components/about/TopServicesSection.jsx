@@ -2,7 +2,7 @@
 
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaStethoscope, FaBandAid, FaFlask, FaLungs, FaCapsules, FaHeartbeat } from 'react-icons/fa';
+import { FaStethoscope, FaFlask, FaCapsules, FaHeartbeat } from 'react-icons/fa';
 
 export default function TopServicesSection() {
   const sectionRef = useScrollAnimation();
@@ -11,38 +11,26 @@ export default function TopServicesSection() {
     {
       icon: FaStethoscope,
       title: "OPD Consultation",
-      body: "Expert general physician consultations available round the clock for all your primary healthcare needs.",
+      body: "24/7 in and out patients. Expert general physician consultations available round the clock for all your primary healthcare needs.",
       delay: 100
     },
     {
-      icon: FaBandAid,
-      title: "Minor Procedures",
-      body: "Professional wound care, dressing, and minor surgical procedures handled by experienced medical staff.",
-      delay: 200
-    },
-    {
       icon: FaFlask,
-      title: "Diagnostic Tests",
+      title: "Diagnostic Labs",
       body: "Comprehensive lab and pathology services for accurate diagnosis with quick turnaround times.",
-      delay: 300
-    },
-    {
-      icon: FaLungs,
-      title: "Nebulization",
-      body: "Steam and inhalation therapy for respiratory conditions, administered in a comfortable clinical setting.",
-      delay: 400
+      delay: 200
     },
     {
       icon: FaCapsules,
       title: "Pharmacy",
       body: "In-house pharmacy with all medicines available, ensuring seamless access to prescribed medications.",
-      delay: 500
+      delay: 300
     },
     {
       icon: FaHeartbeat,
       title: "Health Checkups",
       body: "Affordable basic health packages designed for preventive care and early detection of health issues.",
-      delay: 600
+      delay: 400
     }
   ];
 

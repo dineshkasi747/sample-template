@@ -2,7 +2,7 @@
 
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaHeartPulse, FaFlask, FaVirus, FaHandHoldingMedical } from 'react-icons/fa6';
+import { FaHeartPulse, FaFlask, FaBone, FaStethoscope } from 'react-icons/fa6';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 
 export default function TopServiceSection() {
@@ -16,17 +16,17 @@ export default function TopServiceSection() {
     },
     {
       Icon: FaFlask,
-      title: "Diagnostics",
+      title: "Diagnostic Labs",
       delay: 200
     },
     {
-      Icon: FaVirus,
-      title: "Virology",
+      Icon: FaBone,
+      title: "Orthopaedics",
       delay: 300
     },
     {
-      Icon: FaHandHoldingMedical,
-      title: "Therapy",
+      Icon: FaStethoscope,
+      title: "General Surgery",
       delay: 400
     }
   ];
