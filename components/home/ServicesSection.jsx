@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaArrowCircleRight, FaStethoscope, FaBone, FaBabyCarriage, FaBriefcaseMedical, FaClock } from 'react-icons/fa';
+import { FaArrowCircleRight, FaHeartbeat, FaBone, FaBabyCarriage, FaBriefcaseMedical, FaClock, FaBrain, FaFlask, FaHeadSideCough } from 'react-icons/fa';
 
 export default function ServicesSection() {
   const sectionRef = useScrollAnimation();
@@ -11,10 +11,10 @@ export default function ServicesSection() {
   // Define actual react-icons instead of simple SVGs for a cleaner, modern look
   const services = [
     { 
-      title: "General Surgery", 
-      body: "State-of-the-art surgical care specializing in laparoscopic repairs, thyroidectomy, and trauma care.", 
-      icon: FaStethoscope,
-      href: "/services/general-surgery"
+      title: "Cardiology", 
+      body: "Expert cardiac care for heart conditions including ECG, echocardiography, hypertension management, and heart failure treatment.", 
+      icon: FaHeartbeat,
+      href: "/services/cardiology"
     },
     { 
       title: "Orthopedics (Ortho)", 
@@ -29,16 +29,34 @@ export default function ServicesSection() {
       href: "/services/gynecology-obstetrics"
     },
     { 
+      title: "Psychiatry", 
+      body: "Expert mental health care including counselling, therapy, and management of anxiety, depression, and more.", 
+      icon: FaBrain,
+      href: "/services/psychiatry"
+    },
+    { 
       title: "General Medicine", 
       body: "Primary consultations and long-term care management for diabetes, blood pressure, and chronic issues.", 
       icon: FaBriefcaseMedical,
       href: "/services/general-medicine"
     },
     { 
-      title: "24/7 Emergency", 
+      title: "24/7 Emergency & Pharmacy", 
       body: "Round-the-clock emergency stabilization with dedicated trauma beds and in-house pharmacy.", 
       icon: FaClock,
       href: "/services/pharmacy-emergency"
+    },
+    { 
+      title: "ENT", 
+      body: "Specialist care for ear, nose, and throat conditions including hearing loss, sinusitis, and tonsil disorders.", 
+      icon: FaHeadSideCough,
+      href: "/services/ent"
+    },
+    { 
+      title: "Diagnostic Lab", 
+      body: "Comprehensive pathology and diagnostic services including blood tests, X-ray, and advanced health screenings.", 
+      icon: FaFlask,
+      href: "/services/diagnostic-lab"
     }
   ];
 
@@ -62,7 +80,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 scroll-reveal" data-animation="fadeInUp">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 scroll-reveal" data-animation="fadeInUp">
           {services.map((service, index) => (
             <div 
               key={index} 

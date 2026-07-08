@@ -44,7 +44,7 @@ export default function OurCultureSection() {
           <div className="lg:pt-8">
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="400">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                At Pavan Sai Hospital, we pride ourselves on fostering a culture of care, where every individual's well-being is our utmost priority. Our commitment to excellence in healthcare is grounded.
+                At Sree Pavan Sai Hospital, we pride ourselves on fostering a culture of care, where every individual's well-being is our utmost priority. Our commitment to excellence in healthcare is grounded.
               </span>
             </p>
           </div>

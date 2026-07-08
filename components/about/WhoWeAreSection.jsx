@@ -22,7 +22,7 @@ export default function WhoWeAreSection() {
           {/* Left Content - Image */}
           <div className="relative scroll-reveal" data-animation="slideInLeft">
             <div className="rounded-2xl overflow-hidden shadow-2xl scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/pavan-sai-hospital.png" alt="Pavan Sai Hospital & Sai Medical Store" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
+              <img src="/images/JPG/pavan-sai-hospital.png" alt="Sree Pavan Sai Hospital & Sai Medical Store" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
             </div>
           </div>
 
@@ -38,7 +38,7 @@ export default function WhoWeAreSection() {
             
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="500">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                At Pavan Sai Hospital, we believe that quality healthcare should be accessible and affordable for everyone. Located in Sriharipuram, Visakhapatnam, Andhra Pradesh, our hospital has been serving the local community with dedication and compassion. We provide round-the-clock emergency care, OPD consultations, diagnostic services, and an in-house pharmacy — all under one roof.
+                At Sree Pavan Sai Hospital, we believe that quality healthcare should be accessible and affordable for everyone. Located in Sriharipuram, Visakhapatnam, Andhra Pradesh, our hospital has been serving the local community with dedication and compassion. We provide round-the-clock emergency care, OPD consultations, diagnostic services, and an in-house pharmacy — all under one roof.
               </span>
             </p>
 

@@ -1,7 +1,6 @@
 import ServicesPageHero from '@/components/services/ServicesPageHero';
 import ServicesGridSection from '@/components/services/ServicesGridSection';
 import TopServiceSection from '@/components/services/TopServiceSection';
-import OurDoctorsServicesSection from '@/components/services/OurDoctorsServicesSection';
 import OurCultureSection from '@/components/services/OurCultureSection';
 import AppDownloadSection from '@/components/services/AppDownloadSection';
 
@@ -16,7 +15,6 @@ export default function ServicesPage() {
       <ServicesPageHero />
       <ServicesGridSection />
       <TopServiceSection />
-      <OurDoctorsServicesSection />
       <OurCultureSection />
       <AppDownloadSection />
     </>

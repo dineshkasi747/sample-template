@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaCalendarAlt, FaStethoscope, FaCapsules, FaLaptopMedical, FaHeartbeat } from 'react-icons/fa';
+import { FaCalendarAlt, FaStethoscope, FaCapsules, FaLaptopMedical, FaHeartbeat, FaXRay } from 'react-icons/fa';
 
 export default function AppointmentStepsSection() {
   const sectionRef = useScrollAnimation();
@@ -12,7 +12,8 @@ export default function AppointmentStepsSection() {
     { icon: FaLaptopMedical, title: "Book An Appointment", desc: "Easily schedule a slot via call or WhatsApp.", num: "01" },
     { icon: FaStethoscope, title: "Conduct Checkup", desc: "Consult with our specialist doctors.", num: "02" },
     { icon: FaHeartbeat, title: "Perform Treatment", desc: "Receive immediate and customized care.", num: "03" },
-    { icon: FaCapsules, title: "Prescribe & Pharmacy", desc: "Get prescriptions and meds from Sai Store.", num: "04" }
+    { icon: FaCapsules, title: "Prescribe & Pharmacy", desc: "Get prescriptions and meds from Sai Store.", num: "04" },
+    { icon: FaXRay, title: "X-Ray", desc: "Fast digital X-ray imaging available on-site for accurate diagnosis.", num: "05" }
   ];
 
   return (
@@ -62,7 +63,7 @@ export default function AppointmentStepsSection() {
                 <SplitText text="A Seamless Process For Your Healthcare." />
               </h2>
               <p className="type-body text-gray-600 max-w-2xl scroll-reveal text-base leading-relaxed" data-animation="fadeInUp">
-                From your initial appointment booking to consults, diagnostic checkups, treatments, and prescriptions, Pavan Sai Hospital keeps the process clean, quick, and hassle-free.
+                From your initial appointment booking to consults, diagnostic checkups, treatments, and prescriptions, Sree Pavan Sai Hospital keeps the process clean, quick, and hassle-free.
               </p>
             </div>
 

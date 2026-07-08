@@ -32,7 +32,7 @@ export default function HeroSection() {
             </div>
             
             <h1 className="type-h1 text-white font-black leading-none scroll-reveal" data-animation="fadeInUp" data-delay="300">
-              Pavan Sai Hospital
+              Sree Pavan Sai Hospital
               <span className="text-[var(--color-accent)] block mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase">
                 24 Hours Healthcare in Visakhapatnam
               </span>
@@ -84,7 +84,7 @@ export default function HeroSection() {
             <div className="relative z-10 w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl border-[8px] border-white/10 scroll-reveal" data-animation="paperReveal">
               <img 
                 src="/images/JPG/pavan-sai-hospital-front.jpg" 
-                alt="Pavan Sai Hospital - 24 Hours Signboard" 
+                alt="Sree Pavan Sai Hospital - 24 Hours Signboard" 
                 className="w-full h-auto object-cover aspect-[4/3] transition-transform duration-1000 hover:scale-105" 
               />
               
