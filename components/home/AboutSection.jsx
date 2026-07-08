@@ -12,7 +12,7 @@ export default function AboutSection() {
     { text: '24 Hours Emergency Care', icon: FaHospital, desc: 'Critical care always open' },
     { text: 'Experienced Medical Team', icon: FaUserMd, desc: 'Specialist doctors on duty' },
     { text: 'Affordable Treatments', icon: FaWallet, desc: 'Fair & transparent pricing' },
-    { text: 'In-House Pharmacy & Lab', icon: FaPrescriptionBottleAlt, desc: 'Sai Medical Store 24/7' }
+    { text: 'In-House Pharmacy & Lab', icon: FaPrescriptionBottleAlt, desc: 'In-House Pharmacy 24/7' }
   ];
 
   return (

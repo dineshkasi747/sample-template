@@ -39,12 +39,12 @@ export default function HeroSection() {
             </h1>
             
             <p className="type-body text-white/80 max-w-lg scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="500">
-              Offering high-quality, compassionate, and affordable healthcare services. Visited by experienced doctors, fully prepared for minor procedures, diagnostic lab tests, and trauma emergencies.
+              Offering high-quality, compassionate, and affordable healthcare services. Visited by experienced doctors, fully prepared for diagnostic labs and trauma emergencies.
             </p>
 
             {/* Unique features in capsules */}
             <div className="flex flex-wrap gap-3 scroll-reveal" data-animation="fadeInUp" data-delay="700">
-              {['24/7 Pharmacy', 'OPD Consultations', 'Diagnostic Tests', 'Nebulization'].map((feat, idx) => (
+              {['24/7 Pharmacy', 'OPD Consultations', 'Diagnostic Labs'].map((feat, idx) => (
                 <span key={idx} className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/90 font-medium">
                   ✓ {feat}
                 </span>
