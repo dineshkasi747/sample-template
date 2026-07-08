@@ -7,11 +7,14 @@ import WorkingProcessSection from '@/components/service-detail/WorkingProcessSec
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
 import { 
-  FaStethoscope,
+  FaHeartPulse,
   FaBone,
   FaBaby,
+  FaBrain,
   FaUserDoctor,
   FaPills,
+  FaEarDeaf,
+  FaFlask,
   FaFileMedical
 } from 'react-icons/fa6';
 import { 
@@ -28,12 +31,15 @@ export default function ServiceDetailClient({ service }) {
   const [openFaq, setOpenFaq] = useState(0);
 
   const sidebarLinks = [
-    { title: "General Surgery", slug: "general-surgery", Icon: FaStethoscope },
+    { title: "Cardiology", slug: "cardiology", Icon: FaHeartPulse },
     { title: "Orthopedic Clinic", slug: "orthopedic-clinic", Icon: FaBone },
     { title: "Gynecology & Obstetrics", slug: "gynecology-obstetrics", Icon: FaBaby },
+    { title: "Psychiatry", slug: "psychiatry", Icon: FaBrain },
     { title: "General Medicine", slug: "general-medicine", Icon: FaUserDoctor },
-    { title: "Pharmacy & Emergency", slug: "pharmacy-emergency", Icon: FaPills },
-    { title: "Health Insurance Policies", slug: "health-insurance-policies", Icon: FaFileMedical }
+    { title: "Emergency & Pharmacy", slug: "pharmacy-emergency", Icon: FaPills },
+    { title: "ENT", slug: "ent", Icon: FaEarDeaf },
+    { title: "Diagnostic Lab", slug: "diagnostic-lab", Icon: FaFlask },
+    { title: "Health Insurance", slug: "health-insurance-policies", Icon: FaFileMedical }
   ];
 
   return (

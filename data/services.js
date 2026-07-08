@@ -1,26 +1,26 @@
 export const servicesData = [
   {
-    slug: "general-surgery",
-    title: "General Surgery",
-    breadcrumb: ["Home", "Services", "General Surgery"],
-    image: "/services/JPG/service-surgery.jpg",
+    slug: "cardiology",
+    title: "Cardiology",
+    breadcrumb: ["Home", "Services", "Cardiology"],
+    image: "/services/JPG/service-cardiology.jpg",
     description: [
-      "Sree Pavan Sai Hospital offers state-of-the-art general surgery services led by highly experienced surgeons. We specialize in both laparoscopic and open surgical procedures to treat a wide array of conditions, ensuring the highest standards of safety, precision, and post-operative care.",
-      "Our operation theaters are fully equipped with modern surgical infrastructure to support complex operations such as hernia repair, hydrocele correction, varicocele treatment, undescended testis surgery (orchidopexy), thyroidectomies, breast lump removal, breast cancer surgeries, appendicectomy, and cholecystectomy (gallbladder removal). We focus on patient comfort, minimal invasiveness, and fast recovery times."
+      "The Cardiology Center at Sree Pavan Sai Hospital offers state-of-the-art cardiovascular care led by highly experienced heart specialists. We specialize in advanced heart diagnostics, clinical cardiology, and customized treatment plans for blood pressure, coronary artery disease, and heart failure.",
+      "Our diagnostic facilities include ECG, Echocardiogram (2D Echo), and stress testing to ensure early detection and prevention of heart-related ailments. We focus on patient-centered therapies, lifestyle counseling, and advanced lipid management to maintain long-term cardiovascular health."
     ],
     health_plan_items: [
-      "Laparoscopic Surgery",
-      "Hernia & Hydrocele Repairs",
-      "Appendicectomy & Cholecystectomy",
-      "Thyroid Operations",
-      "Breast Lump & Cancer Surgery",
-      "Advanced Operation Theaters",
-      "Expert Post-Operative Care"
+      "Advanced Heart Diagnostics",
+      "Hypertension Management",
+      "ECG & Echocardiogram (2D Echo)",
+      "Coronary Artery Disease Care",
+      "Lipid & Cholesterol Management",
+      "Preventative Cardiac Screening",
+      "Heart Failure Treatment"
     ],
     faq: [
-      { question: "What surgical procedures do you specialize in?", answer: "We specialize in hernia repairs, hydrocele/varicocele corrections, appendicectomies, gallbladder removal (cholecystectomy), thyroid operations, and surgeries for breast lumps or cancers.", open: true },
-      { question: "Do you offer laparoscopic (keyhole) surgeries?", answer: "Yes, we perform advanced laparoscopic surgeries which result in smaller incisions, less post-operative pain, and faster recovery times for patients.", open: false },
-      { question: "How should I prepare for my surgery?", answer: "Our surgical team will provide detailed pre-operative instructions, including fasting guidelines, medical clearances, and details about what to expect on the day of the procedure.", open: false }
+      { question: "What are the common signs of heart disease?", answer: "Common signs include chest pain or tightness, shortness of breath, palpitations, dizziness, and unusual fatigue during physical activity. If you experience any of these, seek immediate care.", open: true },
+      { question: "How often should I get my heart checked?", answer: "If you have risk factors such as high blood pressure, diabetes, high cholesterol, or a family history of heart disease, annual cardiac screening is recommended after age 40.", open: false },
+      { question: "What is an ECG and when is it recommended?", answer: "An ECG (Electrocardiogram) records electrical activity of the heart and is recommended to detect arrhythmias, heart attacks, or other cardiac conditions. It is quick, painless, and non-invasive.", open: false }
     ]
   },
   {
@@ -72,6 +72,30 @@ export const servicesData = [
     ]
   },
   {
+    slug: "psychiatry",
+    title: "Psychiatry",
+    breadcrumb: ["Home", "Services", "Psychiatry"],
+    image: "/services/JPG/service-psychiatry.jpg",
+    description: [
+      "The Psychiatry Department at Sree Pavan Sai Hospital provides compassionate, confidential, and evidence-based mental health care. Our experienced psychiatrists and counselors work with patients to diagnose and manage a wide range of mental health conditions in a safe, judgment-free environment.",
+      "We offer individualized treatment plans combining medication management, psychotherapy, and behavioral interventions. Whether you are dealing with anxiety, depression, stress, or more complex psychiatric conditions, our team is committed to guiding you toward mental wellness and a better quality of life."
+    ],
+    health_plan_items: [
+      "Anxiety & Depression Treatment",
+      "Psychotherapy & Counseling",
+      "Stress & Burnout Management",
+      "OCD & Phobia Treatment",
+      "Bipolar Disorder Care",
+      "Addiction & De-addiction Support",
+      "Child & Adolescent Psychiatry"
+    ],
+    faq: [
+      { question: "Is psychiatric treatment confidential?", answer: "Absolutely. All consultations and patient records are strictly confidential. Your privacy and dignity are our utmost priority throughout your treatment journey.", open: true },
+      { question: "When should I seek psychiatric help?", answer: "You should seek help if you experience persistent sadness, anxiety, mood swings, sleep disturbances, changes in appetite, or difficulty functioning in daily life.", open: false },
+      { question: "Do you provide counseling without medication?", answer: "Yes, we offer standalone psychotherapy and behavioral counseling sessions. Medication is only prescribed when clinically necessary and always in conjunction with therapy.", open: false }
+    ]
+  },
+  {
     slug: "general-medicine",
     title: "General Medicine",
     breadcrumb: ["Home", "Services", "General Medicine"],
@@ -97,8 +121,8 @@ export const servicesData = [
   },
   {
     slug: "pharmacy-emergency",
-    title: "24/7 Pharmacy & Emergency",
-    breadcrumb: ["Home", "Services", "24/7 Pharmacy & Emergency"],
+    title: "24/7 Emergency & Pharmacy",
+    breadcrumb: ["Home", "Services", "24/7 Emergency & Pharmacy"],
     image: "/services/JPG/service-emergency.jpg",
     description: [
       "Sree Pavan Sai Hospital is fully prepared to handle medical emergencies 24 hours a day, 7 days a week. Our emergency department features dedicated triage beds, trauma bays, and life-support equipment to provide immediate care when seconds count.",
@@ -120,10 +144,58 @@ export const servicesData = [
     ]
   },
   {
+    slug: "ent",
+    title: "ENT (Ear, Nose & Throat)",
+    breadcrumb: ["Home", "Services", "ENT"],
+    image: "/services/JPG/service-ent.jpg",
+    description: [
+      "The ENT (Ear, Nose & Throat) Department at Sree Pavan Sai Hospital offers specialized diagnosis and treatment of disorders affecting the ear, nose, throat, head, and neck. Our expert ENT surgeons bring years of experience in both medical and surgical management of these conditions.",
+      "We treat a wide range of conditions including hearing loss, sinusitis, tonsillitis, nasal polyps, voice disorders, and vertigo. Our department is equipped with modern diagnostic tools to ensure accurate assessments and effective treatments tailored to each patient."
+    ],
+    health_plan_items: [
+      "Hearing Loss & Ear Infections",
+      "Sinusitis & Nasal Polyps",
+      "Tonsillectomy & Adenoidectomy",
+      "Voice & Throat Disorders",
+      "Vertigo & Balance Problems",
+      "Snoring & Sleep Apnea Care",
+      "Head & Neck Consultations"
+    ],
+    faq: [
+      { question: "What conditions does an ENT specialist treat?", answer: "ENT specialists treat disorders of the ears (hearing loss, infections, tinnitus), nose (sinusitis, polyps, deviated septum), and throat (tonsillitis, voice changes, swallowing difficulties).", open: true },
+      { question: "When should I see an ENT for hearing problems?", answer: "You should consult an ENT if you experience sudden or gradual hearing loss, ringing in the ears (tinnitus), ear pain, or discharge from the ear that persists for more than a few days.", open: false },
+      { question: "Is sinus surgery painful?", answer: "Modern endoscopic sinus surgery is minimally invasive with minimal discomfort. Most patients are discharged the same day and experience significant relief from chronic sinusitis symptoms within weeks.", open: false }
+    ]
+  },
+  {
+    slug: "diagnostic-lab",
+    title: "Diagnostic Lab",
+    breadcrumb: ["Home", "Services", "Diagnostic Lab"],
+    image: "/services/JPG/service-diagnostic-lab.jpg",
+    description: [
+      "The Diagnostic Laboratory at Sree Pavan Sai Hospital is equipped with advanced automated analyzers and state-of-the-art imaging equipment to deliver fast, accurate, and reliable test results. We serve both outpatients and inpatients with a comprehensive panel of pathology, biochemistry, and radiology services.",
+      "Our lab operates 24/7 to support emergency diagnostics and routine testing. From complete blood counts and lipid profiles to X-rays and urine analysis, our skilled lab technicians ensure precision at every step, enabling your doctors to make well-informed clinical decisions."
+    ],
+    health_plan_items: [
+      "Complete Blood Count (CBC)",
+      "Blood Sugar & HbA1c Testing",
+      "Lipid Profile & Liver Function",
+      "Urine & Stool Analysis",
+      "X-Ray Imaging",
+      "ECG & Cardiac Markers",
+      "Thyroid & Hormone Panels"
+    ],
+    faq: [
+      { question: "Do I need an appointment for lab tests?", answer: "No appointment is needed for most routine tests. Walk-in patients are accepted. However, for specific tests requiring fasting, please check with our lab desk in advance.", open: true },
+      { question: "How soon will I get my lab results?", answer: "Most routine tests like CBC, blood sugar, and urine analysis are available within 2–4 hours. Advanced panels may take up to 24 hours. Reports can be collected from the lab or sent digitally.", open: false },
+      { question: "Is X-ray available at your diagnostic center?", answer: "Yes, we have a fully operational digital X-ray unit available 24/7 for chest, abdomen, bone, and other imaging needs. Results are ready within 30–60 minutes.", open: false }
+    ]
+  },
+  {
     slug: "health-insurance-policies",
     title: "Health Insurance Policies",
     breadcrumb: ["Home", "Services", "Health Insurance Policies"],
-    image: "/services/JPG/service-insurance.jpg",
+    image: "/services/JPG/service-emergency.jpg",
     description: [
       "To ensure healthcare is accessible and stress-free, Sree Pavan Sai Hospital partners with major Third-Party Administrators (TPAs) and health insurance providers to offer cashless hospitalization. We help patients navigate their policy terms for hassle-free treatment.",
       "We accept insurance from leading providers including FHPL, Mediassist, Vidal (including Steel Plant employees), Future Generali, and Ericson, among others. Our dedicated TPA desk works closely with patients to coordinate pre-authorizations and process claims efficiently."
@@ -142,94 +214,5 @@ export const servicesData = [
       { question: "Which insurance companies/TPAs do you accept?", answer: "We accept FHPL, Mediassist, Vidal (including Steel Plant policies), Future Generali, Ericson, and many other leading TPAs. Please contact our desk for a full list.", open: false },
       { question: "What documents are required for billing?", answer: "You will need your health insurance card, a valid government-issued photo ID (Aadhar/PAN card), doctor's prescription, and relevant diagnostic reports.", open: false }
     ]
-  },
-  {
-    slug: "cardiology",
-    title: "Cardiology",
-    breadcrumb: ["Home", "Services", "Cardiology"],
-    image: "/services/JPG/service-medicine.jpg",
-    description: [
-      "The Cardiology Center at Pavan Sai Hospital offers state-of-the-art cardiovascular care led by highly experienced heart specialists. We specialize in advanced heart diagnostics, clinical cardiology, and customized treatment plans for blood pressure, coronary artery disease, and heart failure.",
-      "Our diagnostic facilities include ECG, Echocardiogram (2D Echo), and stress testing to ensure early detection and prevention of heart-related ailments. We focus on patient-centered therapies, lifestyle counseling, and advanced lipid management to maintain long-term cardiovascular health."
-    ],
-    health_plan_items: [
-      "Advanced Heart Diagnostics",
-      "Hypertension Management",
-      "ECG & Echocardiogram (2D Echo)",
-      "Coronary Care & Lipid Management",
-      "Preventative Cardiac Screening",
-      "Expert Consultations"
-    ],
-    faq: [
-      { question: "What are the common signs of heart disease?", answer: "Common signs include chest pain, shortness of breath, palpitations, dizziness, and fatigue during physical activity.", open: true },
-      { question: "How often should I get my heart checked?", answer: "If you have risk factors such as high blood pressure, diabetes, high cholesterol, or a family history, you should get checked annually after age 40.", open: false }
-    ]
-  },
-  {
-    slug: "neurology",
-    title: "Neurology",
-    breadcrumb: ["Home", "Services", "Neurology"],
-    image: "/services/JPG/service-medicine.jpg",
-    description: [
-      "Our Neurology Department provides comprehensive care for disorders of the nervous system, including the brain, spinal cord, nerves, and muscles. Our neurologists are dedicated to accurate diagnosis and treatment of complex neurological conditions.",
-      "We offer diagnostic evaluations and management for headaches, migraines, epilepsy, stroke rehabilitation, neuropathies, Parkinson's disease, and cognitive disorders. We utilize modern imaging and diagnostic methods to guide therapeutic interventions and patient recovery."
-    ],
-    health_plan_items: [
-      "Stroke Care & Rehabilitation",
-      "Epilepsy & Seizure Management",
-      "Migraine & Headache Clinic",
-      "Neuropathy Diagnostics",
-      "Parkinson's & Movement Disorders",
-      "Nerve & Muscle Assessments"
-    ],
-    faq: [
-      { question: "When should I see a neurologist?", answer: "You should see a neurologist if you experience persistent symptoms like severe chronic headaches, unexplained numbness, tremors, seizures, or coordination difficulties.", open: true },
-      { question: "Do you offer post-stroke rehabilitation?", answer: "Yes, we work closely with physical therapists to provide comprehensive rehabilitation plans that help stroke patients regain function and independence.", open: false }
-    ]
-  },
-  {
-    slug: "gastroenterology",
-    title: "Gastroenterology",
-    breadcrumb: ["Home", "Services", "Gastroenterology"],
-    image: "/services/JPG/service-surgery.jpg",
-    description: [
-      "The Gastroenterology Department at Pavan Sai Hospital specializes in the diagnosis and treatment of diseases affecting the esophagus, stomach, intestines, liver, gallbladder, and pancreas.",
-      "Our clinic provides diagnostic and therapeutic care for conditions such as acid reflux, stomach ulcers, irritable bowel syndrome (IBS), liver disorders, and chronic constipation. We focus on patient comfort, advanced diagnostics, and dietary counseling to restore digestive wellness."
-    ],
-    health_plan_items: [
-      "Acid Reflux & GERD Treatment",
-      "Ulcer & Gastritis Care",
-      "Liver & Gallbladder Management",
-      "Irritable Bowel Syndrome Care",
-      "Diagnostics & Therapeutic Plans",
-      "Nutritional & Dietary Counseling"
-    ],
-    faq: [
-      { question: "What causes chronic acid reflux?", answer: "Chronic acid reflux (GERD) is often caused by a weakened lower esophageal sphincter, hiatal hernia, dietary triggers, or lifestyle factors. We offer personalized diagnostics to determine the exact cause.", open: true },
-      { question: "When is an endoscopy recommended?", answer: "An endoscopy may be recommended to investigate symptoms like persistent abdominal pain, difficulty swallowing, unexplained weight loss, or chronic heartburn.", open: false }
-    ]
-  },
-  {
-    slug: "pulmonology",
-    title: "Pulmonology",
-    breadcrumb: ["Home", "Services", "Pulmonology"],
-    image: "/services/JPG/service-medicine.jpg",
-    description: [
-      "Our Pulmonology Department delivers expert care for respiratory conditions, including asthma, chronic obstructive pulmonary disease (COPD), bronchitis, and chest infections. We are dedicated to helping you breathe easier and improve your lung health.",
-      "We provide diagnostic pulmonary function tests, nebulization therapy, allergy assessments, and long-term care management for chronic respiratory ailments. Our team focuses on clinical excellence and patient support to optimize respiratory function."
-    ],
-    health_plan_items: [
-      "Asthma & Allergy Management",
-      "COPD & Bronchitis Care",
-      "Nebulization & Inhalation Therapy",
-      "Pulmonary Function Testing",
-      "Respiratory Infection Treatment",
-      "Smoking Cessation Counseling"
-    ],
-    faq: [
-      { question: "What is a pulmonary function test (PFT)?", answer: "A PFT is a non-invasive test that measures how well your lungs take in and release air, and how efficiently they transfer oxygen into your blood.", open: true },
-      { question: "Do you offer nebulization for acute asthma attacks?", answer: "Yes, our emergency and OPD wards are fully equipped to administer immediate nebulization therapy for respiratory relief.", open: false }
-    ]
   }
 ];
-
