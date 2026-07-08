@@ -24,7 +24,7 @@ export default function Navbar() {
     {
       label: 'Services',
       href: '/services',
-      dropdown: ['General Surgery', 'Orthopedic Clinic', 'Gynecology & Obstetrics', 'General Medicine', 'Pharmacy & Emergency', 'Health Insurance Policies']
+      dropdown: ['Cardiology', 'Orthopedic Clinic', 'Gynecology & Obstetrics', 'Psychiatry', 'General Medicine', 'Emergency & Pharmacy', 'ENT', 'Diagnostic Lab']
     },
     { label: 'Contact Us', href: '/contact' }
   ];

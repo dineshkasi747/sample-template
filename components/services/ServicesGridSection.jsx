@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaStethoscope, FaBone, FaBaby, FaUserDoctor, FaPills, FaFileMedical } from 'react-icons/fa6';
+import { FaHeartPulse, FaBone, FaBaby, FaUserDoctor, FaPills, FaFileMedical, FaEarDeaf } from 'react-icons/fa6';
 import { FaCheckCircle, FaArrowAltCircleRight } from 'react-icons/fa';
 
 export default function ServicesGridSection() {
@@ -11,12 +11,12 @@ export default function ServicesGridSection() {
 
   const services = [
     {
-      id: "general-surgery",
-      Icon: FaStethoscope,
-      title: "General Surgery",
-      description: "Expert surgical care specializing in laparoscopic and open procedures including hernia repairs, appendectomy, thyroidectomy, and trauma surgery.",
-      checklist: ["Laparoscopic Surgery", "Hernia & Hydrocele Repairs", "Thyroid & Appendectomy"],
-      link: "/services/general-surgery",
+      id: "cardiology",
+      Icon: FaHeartPulse,
+      title: "Cardiology",
+      description: "Expert cardiac care for heart conditions including ECG, echocardiography, hypertension management, coronary artery disease, and heart failure treatment.",
+      checklist: ["ECG & Echocardiogram", "Hypertension Management", "Coronary Artery Disease Care"],
+      link: "/services/cardiology",
       delay: 100
     },
     {
@@ -63,6 +63,15 @@ export default function ServicesGridSection() {
       checklist: ["Cashless Treatment Desk", "FHPL & Mediassist Panel", "Vidal (Steel Plant) Partner"],
       link: "/services/health-insurance-policies",
       delay: 600
+    },
+    {
+      id: "ent",
+      Icon: FaEarDeaf,
+      title: "ENT (Ear, Nose & Throat)",
+      description: "Specialist care for hearing loss, sinusitis, tonsillitis, nasal polyps, voice disorders, and vertigo by experienced ENT surgeons.",
+      checklist: ["Sinusitis & Nasal Polyps", "Tonsillectomy", "Hearing Loss Treatment"],
+      link: "/services/ent",
+      delay: 700
     }
   ];
 
