@@ -35,7 +35,7 @@ export default function HeroSection() {
             {/* Hospital Logo */}
             <div className="scroll-reveal" data-animation="fadeInDown" data-delay="200">
               <Image
-                src="/images/PNG/sree-pavan-sai-logo.png"
+                src="/images/JPG/sri-pavansai-logo.png"
                 alt="SRI Pavan Sai Hospital Logo"
                 width={180}
                 height={90}
