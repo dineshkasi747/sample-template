@@ -47,12 +47,6 @@ export default function ServicesSection() {
       href: "/services/general-surgery"
     },
     { 
-      title: "24/7 Emergency & Pharmacy", 
-      body: "Round-the-clock emergency stabilization with dedicated trauma beds and in-house pharmacy.", 
-      icon: FaClock,
-      href: "/services/pharmacy-emergency"
-    },
-    { 
       title: "ENT", 
       body: "Specialist care for ear, nose, and throat conditions including hearing loss, sinusitis, and tonsil disorders.", 
       icon: FaHeadSideCough,
@@ -63,6 +57,12 @@ export default function ServicesSection() {
       body: "Comprehensive pathology and diagnostic services including blood tests, X-Ray, ECG, and advanced health screenings.", 
       icon: FaFlask,
       href: "/services/diagnostic-lab"
+    },
+    { 
+      title: "24/7 Emergency & Pharmacy", 
+      body: "Round-the-clock emergency stabilization with dedicated trauma beds and in-house pharmacy.", 
+      icon: FaClock,
+      href: "/services/pharmacy-emergency"
     }
   ];
 
