@@ -54,7 +54,7 @@ export default function AboutIntroSection() {
           {/* Right Content - Hospital Photo */}
           <div className="relative w-full scroll-reveal" data-animation="fadeInUp" data-delay="300">
             <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-              <img src="/images/JPG/sree-pavan-sai-hospital.png" alt="Sree Pavan Sai Hospital - 24 Hours Healthcare" className="w-full h-auto object-cover" />
+              <img src="/images/JPG/pavan-sai-hospital-front.jpg" alt="Sree Pavan Sai Hospital - 24 Hours Healthcare" className="w-full h-auto object-cover" />
             </div>
             {/* 24 Hours Badge */}
             <div className="absolute -bottom-4 -left-4 bg-[var(--color-accent)] text-white px-6 py-3 rounded-xl shadow-lg font-bold text-lg">
