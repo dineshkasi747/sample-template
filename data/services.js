@@ -130,17 +130,17 @@ export const servicesData = [
     ],
     health_plan_items: [
       "24/7 Emergency Wards",
-      "Dedicated Ambulance Service",
       "Round-the-Clock Pharmacy",
       "Critical Care & Trauma Support",
       "Trained Paramedic Staff",
       "ICU & Ventilator Support",
-      "Immediate Admission Desk"
+      "Immediate Admission Desk",
+      "X-Ray & Emergency Diagnostics"
     ],
     faq: [
-      { question: "How do I access your 24/7 ambulance service?", answer: "You can call our emergency helpline at 9848620929 to request an ambulance dispatch. Our vehicles are equipped with life support and trained paramedics.", open: true },
-      { question: "Is the pharmacy open to non-hospital patients?", answer: "Yes, our pharmacy is open to the general public 24/7. Anyone with a valid prescription can purchase medications and surgical supplies.", open: false },
-      { question: "What should I do in case of a critical medical emergency?", answer: "Bring the patient directly to our emergency room. Our triage team will evaluate and initiate immediate stabilization procedures without delay.", open: false }
+      { question: "Is the pharmacy open to non-hospital patients?", answer: "Yes, our pharmacy is open to the general public 24/7. Anyone with a valid prescription can purchase medications and surgical supplies.", open: true },
+      { question: "What should I do in case of a critical medical emergency?", answer: "Bring the patient directly to our emergency room. Our triage team will evaluate and initiate immediate stabilization procedures without delay.", open: false },
+      { question: "Do you have ICU and ventilator support?", answer: "Yes, our emergency department is equipped with ICU beds and ventilator support for critically ill patients requiring intensive monitoring and care.", open: false }
     ]
   },
   {
@@ -214,5 +214,30 @@ export const servicesData = [
       { question: "Which insurance companies/TPAs do you accept?", answer: "We accept FHPL, Mediassist, Vidal (including Steel Plant policies), Future Generali, Ericson, and many other leading TPAs. Please contact our desk for a full list.", open: false },
       { question: "What documents are required for billing?", answer: "You will need your health insurance card, a valid government-issued photo ID (Aadhar/PAN card), doctor's prescription, and relevant diagnostic reports.", open: false }
     ]
+  },
+  {
+    slug: "general-surgery",
+    title: "General Surgery",
+    breadcrumb: ["Home", "Services", "General Surgery"],
+    image: "/services/JPG/service-cardiology.jpg",
+    description: [
+      "Sree Pavan Sai Hospital offers comprehensive general surgery services led by highly experienced surgeons. We specialize in both laparoscopic (keyhole) and open surgical procedures to treat a wide array of conditions with the highest standards of safety, precision, and post-operative care.",
+      "Our operation theaters are fully equipped with modern surgical infrastructure to support complex operations such as hernia repair, hydrocele correction, appendicectomy, cholecystectomy (gallbladder removal), thyroidectomy, and breast lump surgeries. We focus on patient comfort, minimal invasiveness, and fast recovery times."
+    ],
+    health_plan_items: [
+      "Laparoscopic Surgery",
+      "Hernia & Hydrocele Repairs",
+      "Appendicectomy & Cholecystectomy",
+      "Thyroid Operations",
+      "Breast Lump Surgery",
+      "Advanced Operation Theaters",
+      "Expert Post-Operative Care"
+    ],
+    faq: [
+      { question: "What surgical procedures do you specialize in?", answer: "We specialize in hernia repairs, hydrocele/varicocele corrections, appendicectomies, gallbladder removal (cholecystectomy), thyroid operations, and surgeries for breast lumps.", open: true },
+      { question: "Do you offer laparoscopic (keyhole) surgeries?", answer: "Yes, we perform advanced laparoscopic surgeries which result in smaller incisions, less post-operative pain, and faster recovery times for patients.", open: false },
+      { question: "How should I prepare for my surgery?", answer: "Our surgical team will provide detailed pre-operative instructions, including fasting guidelines, medical clearances, and details about what to expect on the day of the procedure.", open: false }
+    ]
   }
 ];
+

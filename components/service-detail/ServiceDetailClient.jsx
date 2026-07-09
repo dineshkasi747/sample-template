@@ -36,6 +36,7 @@ export default function ServiceDetailClient({ service }) {
     { title: "Gynecology & Obstetrics", slug: "gynecology-obstetrics", Icon: FaBaby },
     { title: "Psychiatry", slug: "psychiatry", Icon: FaBrain },
     { title: "General Medicine", slug: "general-medicine", Icon: FaUserDoctor },
+    { title: "General Surgery", slug: "general-surgery", Icon: FaUserDoctor },
     { title: "Emergency & Pharmacy", slug: "pharmacy-emergency", Icon: FaPills },
     { title: "ENT", slug: "ent", Icon: FaEarDeaf },
     { title: "Diagnostic Lab", slug: "diagnostic-lab", Icon: FaFlask },

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaArrowCircleRight, FaHeartbeat, FaBone, FaBabyCarriage, FaBriefcaseMedical, FaClock, FaBrain, FaFlask, FaHeadSideCough } from 'react-icons/fa';
+import { FaArrowCircleRight, FaHeartbeat, FaBone, FaVenus, FaBriefcaseMedical, FaClock, FaBrain, FaFlask, FaHeadSideCough, FaStethoscope } from 'react-icons/fa';
 
 export default function ServicesSection() {
   const sectionRef = useScrollAnimation();
@@ -25,7 +25,7 @@ export default function ServicesSection() {
     { 
       title: "Gynecology", 
       body: "Comprehensive care for women, routine wellness, normal deliveries, and C-sections.", 
-      icon: FaBabyCarriage,
+      icon: FaVenus,
       href: "/services/gynecology-obstetrics"
     },
     { 
@@ -39,6 +39,12 @@ export default function ServicesSection() {
       body: "Primary consultations and long-term care management for diabetes, blood pressure, and chronic issues.", 
       icon: FaBriefcaseMedical,
       href: "/services/general-medicine"
+    },
+    { 
+      title: "General Surgery", 
+      body: "Surgical care including laparoscopic procedures, hernia repairs, appendectomy, thyroidectomy, and more.", 
+      icon: FaStethoscope,
+      href: "/services/general-surgery"
     },
     { 
       title: "24/7 Emergency & Pharmacy", 

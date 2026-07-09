@@ -1,21 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import { FaWhatsapp, FaPhoneAlt, FaTimes } from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 export default function FloatingButtons() {
   const [showTooltip, setShowTooltip] = useState(null);
 
   const buttons = [
-    {
-      id: 'whatsapp',
-      icon: FaWhatsapp,
-      href: 'https://wa.me/919515236524',
-      label: 'WhatsApp Us',
-      bgColor: '#25D366',
-      hoverColor: '#1da851',
-      shadow: '0 4px 20px rgba(37, 211, 102, 0.4)',
-    },
     {
       id: 'call',
       icon: FaPhoneAlt,

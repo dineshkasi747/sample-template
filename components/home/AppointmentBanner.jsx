@@ -8,7 +8,7 @@ export default function AppointmentBanner() {
 
   const contacts = [
     { number: "9515236524", label: "Primary General Duty", bg: "bg-red-600 hover:bg-red-700 hover:shadow-red-600/30" },
-    { number: "9848620929", label: "Emergency Ambulance Support", bg: "bg-blue-600 hover:bg-blue-700 hover:shadow-blue-600/30" },
+    { number: "9848620929", label: "Emergency Support Line", bg: "bg-blue-600 hover:bg-blue-700 hover:shadow-blue-600/30" },
     { number: "8008380083", label: "Front Desk & Pharmacy", bg: "bg-[#0f172a] hover:bg-[#1e293b] hover:shadow-slate-600/30" }
   ];
 

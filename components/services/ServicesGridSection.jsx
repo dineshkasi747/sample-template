@@ -50,8 +50,8 @@ export default function ServicesGridSection() {
       id: "pharmacy-emergency",
       Icon: FaPills,
       title: "24/7 Pharmacy & Emergency",
-      description: "Round-the-clock emergency services with dedicated trauma units, immediate ambulance dispatch, and a fully stocked 24/7 in-house pharmacy.",
-      checklist: ["24/7 Emergency Ward", "Ambulance Services", "Round-the-clock Pharmacy"],
+      description: "Round-the-clock emergency services with dedicated trauma units, immediate critical care, and a fully stocked 24/7 in-house pharmacy.",
+      checklist: ["24/7 Emergency Ward", "X-Ray & Emergency Diagnostics", "Round-the-clock Pharmacy"],
       link: "/services/pharmacy-emergency",
       delay: 500
     },
