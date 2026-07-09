@@ -52,7 +52,7 @@ export default function HeroSection() {
             </h1>
             
             <p className="type-body text-white/80 max-w-lg scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="500">
-              Offering high-quality, compassionate, and affordable healthcare services. Visited by experienced doctors, fully prepared for diagnostic labs and trauma emergencies.
+              Offering high-quality, compassionate, and affordable healthcare services. Visited by experienced doctors, fully prepared for diagnostic lab, X-Ray & ECG and trauma emergencies.
             </p>
 
             {/* Unique features in capsules */}

@@ -16,7 +16,7 @@ export default function TopServicesSection() {
     },
     {
       icon: FaFlask,
-      title: "Diagnostic Labs",
+      title: "Diagnostic Labs, X-Ray & ECG",
       body: "Comprehensive lab and pathology services for accurate diagnosis with quick turnaround times.",
       delay: 200
     },

@@ -169,11 +169,11 @@ export const servicesData = [
   },
   {
     slug: "diagnostic-lab",
-    title: "Diagnostic Lab",
-    breadcrumb: ["Home", "Services", "Diagnostic Lab"],
+    title: "Diagnostic Lab, X-Ray & ECG",
+    breadcrumb: ["Home", "Services", "Diagnostic Lab, X-Ray & ECG"],
     image: "/services/JPG/service-diagnostic-lab.jpg",
     description: [
-      "The Diagnostic Laboratory at SRI Pavan Sai Hospital is equipped with advanced automated analyzers and state-of-the-art imaging equipment to deliver fast, accurate, and reliable test results. We serve both outpatients and inpatients with a comprehensive panel of pathology, biochemistry, and radiology services.",
+      "The Diagnostic Lab, X-Ray & ECG at SRI Pavan Sai Hospital is equipped with advanced automated analyzers and state-of-the-art imaging equipment to deliver fast, accurate, and reliable test results. We serve both outpatients and inpatients with a comprehensive panel of pathology, biochemistry, and radiology services.",
       "Our lab operates 24/7 to support emergency diagnostics and routine testing. From complete blood counts and lipid profiles to X-rays and urine analysis, our skilled lab technicians ensure precision at every step, enabling your doctors to make well-informed clinical decisions."
     ],
     health_plan_items: [

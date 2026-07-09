@@ -59,7 +59,7 @@ export default function ServicesSection() {
       href: "/services/ent"
     },
     { 
-      title: "Diagnostic Lab", 
+      title: "Diagnostic Lab, X-Ray & ECG", 
       body: "Comprehensive pathology and diagnostic services including blood tests, X-Ray, ECG, and advanced health screenings.", 
       icon: FaFlask,
       href: "/services/diagnostic-lab"

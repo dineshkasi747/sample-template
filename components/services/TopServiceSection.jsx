@@ -16,7 +16,7 @@ export default function TopServiceSection() {
     },
     {
       Icon: FaFlask,
-      title: "Diagnostic Labs",
+      title: "Diagnostic Labs, X-Ray & ECG",
       delay: 200
     },
     {

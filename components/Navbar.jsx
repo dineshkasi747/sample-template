@@ -24,7 +24,16 @@ export default function Navbar() {
     {
       label: 'Services',
       href: '/services',
-      dropdown: ['Cardiology', 'Orthopedic Clinic', 'Gynecology & Obstetrics', 'Psychiatry', 'General Medicine', 'Emergency & Pharmacy', 'ENT', 'Diagnostic Lab']
+      dropdown: [
+        { label: 'Cardiology', href: '/services/cardiology' },
+        { label: 'Orthopedic Clinic', href: '/services/orthopedic-clinic' },
+        { label: 'Gynecology & Obstetrics', href: '/services/gynecology-obstetrics' },
+        { label: 'Psychiatry', href: '/services/psychiatry' },
+        { label: 'General Medicine', href: '/services/general-medicine' },
+        { label: 'Emergency & Pharmacy', href: '/services/pharmacy-emergency' },
+        { label: 'ENT', href: '/services/ent' },
+        { label: 'Diagnostic Lab, X-Ray & ECG', href: '/services/diagnostic-lab' }
+      ]
     },
     { label: 'Contact Us', href: '/contact' }
   ];
@@ -64,19 +73,13 @@ export default function Navbar() {
                     className={`absolute top-full left-0 mt-2 w-48 bg-white rounded shadow-lg overflow-hidden transition-all duration-300 transform origin-top ${activeDropdown === link.label ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0'}`}
                   >
                     <ul className="py-2">
-                      {link.dropdown.map((item, i) => {
-                        let href = '#';
-                        if (link.label === 'Services') {
-                          href = `/services/${item.toLowerCase().replace(/&/g, '').replace(/\s+/g, '-').replace(/-+/g, '-')}`;
-                        }
-                        return (
-                          <li key={i}>
-                            <Link href={href} className="block px-4 py-2 text-[var(--color-primary)] hover:bg-[var(--color-surface)] hover:text-[var(--color-accent)] transition-colors text-[16px]" onClick={() => setActiveDropdown(null)}>
-                              {item}
-                            </Link>
-                          </li>
-                        );
-                      })}
+                      {link.dropdown.map((item, i) => (
+                        <li key={i}>
+                          <Link href={item.href} className="block px-4 py-2 text-[var(--color-primary)] hover:bg-[var(--color-surface)] hover:text-[var(--color-accent)] transition-colors text-[16px]" onClick={() => setActiveDropdown(null)}>
+                            {item.label}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 )}
@@ -134,19 +137,13 @@ export default function Navbar() {
                 
                 <div className={`overflow-hidden transition-all duration-300 ${mobileDropdownOpen === link.label ? 'max-h-[400px] mt-2' : 'max-h-0'}`}>
                   <ul className="pl-4 space-y-2 border-l-2 border-gray-200">
-                    {link.dropdown?.map((item, i) => {
-                      let href = '#';
-                      if (link.label === 'Services') {
-                        href = `/services/${item.toLowerCase().replace(/\s+/g, '-')}`;
-                      }
-                      return (
-                        <li key={i}>
-                          <Link href={href} className="block py-1 text-[var(--color-primary)]/70 hover:text-[var(--color-accent)]" onClick={() => setMobileMenuOpen(false)}>
-                            {item}
-                          </Link>
-                        </li>
-                      );
-                    })}
+                    {link.dropdown?.map((item, i) => (
+                      <li key={i}>
+                        <Link href={item.href} className="block py-1 text-[var(--color-primary)]/70 hover:text-[var(--color-accent)]" onClick={() => setMobileMenuOpen(false)}>
+                          {item.label}
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </li>

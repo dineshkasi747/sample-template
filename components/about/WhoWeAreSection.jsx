@@ -38,7 +38,7 @@ export default function WhoWeAreSection() {
             
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="500">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                At SRI Pavan Sai Hospital, we believe that quality healthcare should be accessible and affordable for everyone. Located in Sriharipuram, Andhra Pradesh, our hospital has been serving the local community with dedication and compassion. We provide round-the-clock emergency care, OPD consultations, diagnostic services, and an in-house pharmacy — all under one roof.
+                At SRI Pavan Sai Hospital, we believe that quality healthcare should be accessible and affordable for everyone. Located in Sriharipuram, Andhra Pradesh, our hospital has been serving the local community with dedication and compassion. We provide round-the-clock emergency care, OPD consultations, diagnostic (X-Ray & ECG) services, and an in-house pharmacy — all under one roof.
               </span>
             </p>
 
