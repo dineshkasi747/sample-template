@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center text-white/70">
                 <FaPhone className="text-[var(--color-accent)] mr-3 flex-shrink-0" size={18} />
-                <span>9515236524, 9848620929, 8008380083</span>
+                <span>9515236524, 0891 2585858</span>
               </li>
               <li className="flex items-start text-white/70">
                 <FaClock className="text-[var(--color-accent)] mt-1 mr-3 flex-shrink-0" size={18} />

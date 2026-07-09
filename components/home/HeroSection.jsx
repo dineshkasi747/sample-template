@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
 import SplitText from '@/components/shared/SplitText';
-import { FaWhatsapp, FaPhoneAlt, FaMapMarkerAlt, FaHospital, FaClinicMedical } from 'react-icons/fa';
+import { FaPhoneAlt, FaMapMarkerAlt, FaHospital, FaClinicMedical } from 'react-icons/fa';
 
 export default function HeroSection() {
   const sectionRef = useScrollAnimation();
@@ -45,9 +45,9 @@ export default function HeroSection() {
             </div>
 
             <h1 className="type-h1 text-white font-black leading-none scroll-reveal" data-animation="fadeInUp" data-delay="300">
-              Sree Pavan Sai Hospital
+              Sri Pavan Sai Hospital
               <span className="text-[var(--color-accent)] block mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase">
-                24 Hours Healthcare in Visakhapatnam
+                24 Hours Healthcare in Sriharipuram
               </span>
             </h1>
             
@@ -57,7 +57,7 @@ export default function HeroSection() {
 
             {/* Unique features in capsules */}
             <div className="flex flex-wrap gap-3 scroll-reveal" data-animation="fadeInUp" data-delay="700">
-              {['24/7 Pharmacy', 'OPD Consultations', 'Diagnostic Labs'].map((feat, idx) => (
+              {['24/7 Pharmacy', 'OPD Consultations', 'Diagnostic Labs, X-Ray & ECG'].map((feat, idx) => (
                 <span key={idx} className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/90 font-medium">
                   ✓ {feat}
                 </span>
@@ -66,16 +66,6 @@ export default function HeroSection() {
             
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center gap-4 pt-4 scroll-reveal" data-animation="fadeInUp" data-delay="900">
-              <a 
-                href="https://wa.me/919515236524" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="inline-flex items-center justify-center bg-[#25D366] text-white px-8 py-4 rounded-xl hover:bg-[#1da851] hover:scale-105 hover:shadow-[#25D366]/20 transition-all duration-300 font-bold group shadow-lg"
-              >
-                <FaWhatsapp className="mr-2.5 text-xl" />
-                <span>WhatsApp Us</span>
-              </a>
-              
               <Link 
                 href="/contact" 
                 className="inline-flex items-center justify-center border border-white/20 bg-white/5 text-white px-8 py-4 rounded-xl hover:bg-white hover:text-[var(--color-primary)] hover:scale-105 transition-all duration-300 font-bold group shadow-lg"

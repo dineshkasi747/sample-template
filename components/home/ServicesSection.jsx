@@ -60,7 +60,7 @@ export default function ServicesSection() {
     },
     { 
       title: "Diagnostic Lab", 
-      body: "Comprehensive pathology and diagnostic services including blood tests, X-ray, and advanced health screenings.", 
+      body: "Comprehensive pathology and diagnostic services including blood tests, X-Ray, ECG, and advanced health screenings.", 
       icon: FaFlask,
       href: "/services/diagnostic-lab"
     }
