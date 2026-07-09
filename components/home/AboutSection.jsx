@@ -31,7 +31,7 @@ export default function AboutSection() {
             <div className="absolute -left-2 -top-2 w-[85%] h-[90%] border-4 border-dashed border-red-500/20 rounded-2xl pointer-events-none z-0 hidden sm:block"></div>
             
             <div className="relative z-10 w-full max-w-[480px] rounded-2xl overflow-hidden shadow-2xl border-[6px] border-white scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/sree-pavan-sai-hospital.png" alt="Sree Pavan Sai Hospital" className="w-full h-auto object-cover" />
+              <img src="/images/JPG/sree-pavan-sai-hospital.png" alt="SRI Pavan Sai Hospital" className="w-full h-auto object-cover" />
             </div>
             
             {/* Red Gradient Badge 1 */}
@@ -46,7 +46,7 @@ export default function AboutSection() {
             {/* Glassmorphic Badge 2 */}
             <div className="absolute top-8 left-[-16px] bg-white/80 backdrop-blur-md border border-gray-100 px-5 py-2.5 rounded-full shadow-lg font-semibold text-sm text-[var(--color-primary)] flex items-center gap-2 z-20 scroll-reveal" data-animation="fadeInDown" data-delay="600">
               <FaHospital className="text-red-600" />
-              <span>Visakhapatnam, AP</span>
+              <span>Sriharipuram, AP</span>
             </div>
           </div>
 
@@ -54,7 +54,7 @@ export default function AboutSection() {
           <div className="lg:col-span-6 space-y-8">
             <div className="space-y-4">
               <span className="type-label text-red-600 font-bold tracking-wider scroll-reveal" data-animation="fadeInUp">
-                About Sree Pavan Sai Hospital
+                About SRI Pavan Sai Hospital
               </span>
               
               <h2 className="type-h2 text-[var(--color-primary)] font-extrabold scroll-reveal leading-tight" data-animation="fadeInUp" data-delay="200">
@@ -62,7 +62,7 @@ export default function AboutSection() {
               </h2>
               
               <p className="type-body text-gray-600 scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="400">
-                Sree Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram, Visakhapatnam. We are dedicated to providing compassionate, affordable, and high-quality medical services with highly experienced doctors and state-of-the-art facilities.
+                SRI Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram. We are dedicated to providing compassionate, affordable, and high-quality medical services with highly experienced doctors and state-of-the-art facilities.
               </p>
             </div>
             

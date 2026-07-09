@@ -58,7 +58,7 @@ export default function BootLoader() {
         >
           <img 
             src="/images/PNG/sree-pavan-sai-logo.png" 
-            alt="Sree Pavan Sai Hospital Logo" 
+            alt="SRI Pavan Sai Hospital Logo" 
             style={{
               height: '200px',
               width: 'auto',

@@ -42,7 +42,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="type-h3 text-[20px] text-[var(--color-primary)] mb-1">Phone Number</h3>
-                  <p className="type-body text-[#555555]">9515236524<br/>9848620929<br/>8008380083</p>
+                  <p className="type-body text-[#555555]">9515236524<br/>0891 2585858</p>
                 </div>
               </div>
 

@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <img src="/images/PNG/sree-pavan-sai-logo.png" alt="Sree Pavan Sai Hospital" className="h-20 w-auto object-contain" />
+              <img src="/images/PNG/sree-pavan-sai-logo.png" alt="SRI Pavan Sai Hospital" className="h-20 w-auto object-contain" />
             </Link>
             <p className="text-white/70 type-body">
               Our family-centered approach to healthcare ensures that each member of your family receives personalized attention.
@@ -78,7 +78,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-white/10 text-center text-white/50">
-          <p>Copyright 2026 © Sree Pavan Sai Hospital. All Rights Reserved.</p>
+          <p>Copyright 2026 © SRI Pavan Sai Hospital. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

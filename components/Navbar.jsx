@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 w-[240px] h-[64px] flex items-center">
             <Link href="/" className="block">
-              <img src="/images/PNG/sree-pavan-sai-logo.png" alt="Sree Pavan Sai Hospital" className="h-[80px] w-auto object-contain" />
+              <img src="/images/PNG/sree-pavan-sai-logo.png" alt="SRI Pavan Sai Hospital" className="h-[80px] w-auto object-contain" />
             </Link>
           </div>
 

@@ -12,8 +12,8 @@ const figtree = Figtree({
 });
 
 export const metadata = {
-  title: 'Sree Pavan Sai Hospital - 24 Hours Healthcare in Visakhapatnam',
-  description: 'Sree Pavan Sai Hospital offers affordable 24-hour healthcare services in Sriharipuram, Visakhapatnam. OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups & emergency care. Call 9515236524.',
+  title: 'SRI Pavan Sai Hospital - 24 Hours Healthcare in Sriharipuram',
+  description: 'SRI Pavan Sai Hospital offers affordable 24-hour healthcare services in Sriharipuram. OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups & emergency care. Call 9515236524.',
 };
 
 export default function RootLayout({ children }) {

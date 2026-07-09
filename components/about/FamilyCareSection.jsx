@@ -41,7 +41,7 @@ export default function FamilyCareSection() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h3 className="type-h3 text-[var(--color-accent)] scroll-reveal mb-4" data-animation="fadeInUp" data-delay="100">
-            <span className="scroll-reveal" data-animation="fadeInUp">Why Choose Sree Pavan Sai Hospital?</span>
+            <span className="scroll-reveal" data-animation="fadeInUp">Why Choose SRI Pavan Sai Hospital?</span>
           </h3>
           
           <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp" data-delay="300">

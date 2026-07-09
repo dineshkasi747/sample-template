@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import useScrollAnimation from '@/hooks/useScrollAnimation';
-import { FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 export default function AppointmentBannerAbout() {
   const sectionRef = useScrollAnimation();
@@ -22,15 +22,6 @@ export default function AppointmentBannerAbout() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 flex-shrink-0 scroll-reveal" data-animation="fadeInUp" data-delay="500">
-            <a 
-              href="https://wa.me/919515236524" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-[#25D366] text-white px-8 py-4 rounded-full hover:bg-[#1da851] transition-all duration-300 font-semibold shadow-lg"
-            >
-              <FaWhatsapp className="mr-2 text-xl" />
-              WhatsApp Us
-            </a>
             <a 
               href="tel:+919515236524"
               className="inline-flex items-center justify-center bg-[var(--color-accent)] text-white px-8 py-4 rounded-full hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300 font-semibold shadow-lg"

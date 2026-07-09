@@ -5,7 +5,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Cardiology"],
     image: "/services/JPG/service-cardiology.jpg",
     description: [
-      "The Cardiology Center at Sree Pavan Sai Hospital offers state-of-the-art cardiovascular care led by highly experienced heart specialists. We specialize in advanced heart diagnostics, clinical cardiology, and customized treatment plans for blood pressure, coronary artery disease, and heart failure.",
+      "The Cardiology Center at SRI Pavan Sai Hospital offers state-of-the-art cardiovascular care led by highly experienced heart specialists. We specialize in advanced heart diagnostics, clinical cardiology, and customized treatment plans for blood pressure, coronary artery disease, and heart failure.",
       "Our diagnostic facilities include ECG, Echocardiogram (2D Echo), and stress testing to ensure early detection and prevention of heart-related ailments. We focus on patient-centered therapies, lifestyle counseling, and advanced lipid management to maintain long-term cardiovascular health."
     ],
     health_plan_items: [
@@ -29,7 +29,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Orthopedic Clinic"],
     image: "/services/JPG/service-ortho.jpg",
     description: [
-      "The Orthopedic Clinic at Sree Pavan Sai Hospital delivers specialized care for bone, joint, ligament, and spine disorders. Our clinical team possesses extensive expertise in treating orthopedic conditions ranging from sports injuries to complex degenerative joint diseases.",
+      "The Orthopedic Clinic at SRI Pavan Sai Hospital delivers specialized care for bone, joint, ligament, and spine disorders. Our clinical team possesses extensive expertise in treating orthopedic conditions ranging from sports injuries to complex degenerative joint diseases.",
       "We specialize in joint reconstruction surgeries including Total Hip Replacement, Total Knee Replacement, and arthroscopic procedures like ACL reconstruction and meniscectomy. We combine surgical excellence with structured physical rehabilitation to help you regain pain-free mobility and return to your active lifestyle."
     ],
     health_plan_items: [
@@ -53,7 +53,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Gynecology & Obstetrics"],
     image: "/services/JPG/service-gynecology.jpg",
     description: [
-      "Sree Pavan Sai Hospital provides comprehensive healthcare for women at every stage of life. From routine gynecological wellness checks and maternity care to advanced laparoscopic gynecological surgeries, our clinic offers a safe, welcoming, and warm environment.",
+      "SRI Pavan Sai Hospital provides comprehensive healthcare for women at every stage of life. From routine gynecological wellness checks and maternity care to advanced laparoscopic gynecological surgeries, our clinic offers a safe, welcoming, and warm environment.",
       "Our obstetrics team is dedicated to supporting mothers through pregnancy, labor, and postpartum care. We are fully equipped for both normal deliveries and high-risk cesarean sections (C-sections), backed by round-the-clock neonatal care facilities."
     ],
     health_plan_items: [
@@ -77,7 +77,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Psychiatry"],
     image: "/services/JPG/service-psychiatry.jpg",
     description: [
-      "The Psychiatry Department at Sree Pavan Sai Hospital provides compassionate, confidential, and evidence-based mental health care. Our experienced psychiatrists and counselors work with patients to diagnose and manage a wide range of mental health conditions in a safe, judgment-free environment.",
+      "The Psychiatry Department at SRI Pavan Sai Hospital provides compassionate, confidential, and evidence-based mental health care. Our experienced psychiatrists and counselors work with patients to diagnose and manage a wide range of mental health conditions in a safe, judgment-free environment.",
       "We offer individualized treatment plans combining medication management, psychotherapy, and behavioral interventions. Whether you are dealing with anxiety, depression, stress, or more complex psychiatric conditions, our team is committed to guiding you toward mental wellness and a better quality of life."
     ],
     health_plan_items: [
@@ -125,7 +125,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "24/7 Emergency & Pharmacy"],
     image: "/services/JPG/service-emergency.jpg",
     description: [
-      "Sree Pavan Sai Hospital is fully prepared to handle medical emergencies 24 hours a day, 7 days a week. Our emergency department features dedicated triage beds, trauma bays, and life-support equipment to provide immediate care when seconds count.",
+      "SRI Pavan Sai Hospital is fully prepared to handle medical emergencies 24 hours a day, 7 days a week. Our emergency department features dedicated triage beds, trauma bays, and life-support equipment to provide immediate care when seconds count.",
       "Complementing our emergency care, our in-house pharmacy operates round-the-clock, stocking a comprehensive inventory of authentic medications, surgical consumables, and critical care drugs. We ensure patients have immediate access to prescribed treatments at any hour."
     ],
     health_plan_items: [
@@ -149,7 +149,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "ENT"],
     image: "/services/JPG/service-ent.jpg",
     description: [
-      "The ENT (Ear, Nose & Throat) Department at Sree Pavan Sai Hospital offers specialized diagnosis and treatment of disorders affecting the ear, nose, throat, head, and neck. Our expert ENT surgeons bring years of experience in both medical and surgical management of these conditions.",
+      "The ENT (Ear, Nose & Throat) Department at SRI Pavan Sai Hospital offers specialized diagnosis and treatment of disorders affecting the ear, nose, throat, head, and neck. Our expert ENT surgeons bring years of experience in both medical and surgical management of these conditions.",
       "We treat a wide range of conditions including hearing loss, sinusitis, tonsillitis, nasal polyps, voice disorders, and vertigo. Our department is equipped with modern diagnostic tools to ensure accurate assessments and effective treatments tailored to each patient."
     ],
     health_plan_items: [
@@ -173,7 +173,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Diagnostic Lab"],
     image: "/services/JPG/service-diagnostic-lab.jpg",
     description: [
-      "The Diagnostic Laboratory at Sree Pavan Sai Hospital is equipped with advanced automated analyzers and state-of-the-art imaging equipment to deliver fast, accurate, and reliable test results. We serve both outpatients and inpatients with a comprehensive panel of pathology, biochemistry, and radiology services.",
+      "The Diagnostic Laboratory at SRI Pavan Sai Hospital is equipped with advanced automated analyzers and state-of-the-art imaging equipment to deliver fast, accurate, and reliable test results. We serve both outpatients and inpatients with a comprehensive panel of pathology, biochemistry, and radiology services.",
       "Our lab operates 24/7 to support emergency diagnostics and routine testing. From complete blood counts and lipid profiles to X-rays and urine analysis, our skilled lab technicians ensure precision at every step, enabling your doctors to make well-informed clinical decisions."
     ],
     health_plan_items: [
@@ -197,7 +197,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Health Insurance Policies"],
     image: "/services/JPG/service-emergency.jpg",
     description: [
-      "To ensure healthcare is accessible and stress-free, Sree Pavan Sai Hospital partners with major Third-Party Administrators (TPAs) and health insurance providers to offer cashless hospitalization. We help patients navigate their policy terms for hassle-free treatment.",
+      "To ensure healthcare is accessible and stress-free, SRI Pavan Sai Hospital partners with major Third-Party Administrators (TPAs) and health insurance providers to offer cashless hospitalization. We help patients navigate their policy terms for hassle-free treatment.",
       "We accept insurance from leading providers including FHPL, Mediassist, Vidal (including Steel Plant employees), Future Generali, and Ericson, among others. Our dedicated TPA desk works closely with patients to coordinate pre-authorizations and process claims efficiently."
     ],
     health_plan_items: [
@@ -221,7 +221,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "General Surgery"],
     image: "/services/JPG/service-cardiology.jpg",
     description: [
-      "Sree Pavan Sai Hospital offers comprehensive general surgery services led by highly experienced surgeons. We specialize in both laparoscopic (keyhole) and open surgical procedures to treat a wide array of conditions with the highest standards of safety, precision, and post-operative care.",
+      "SRI Pavan Sai Hospital offers comprehensive general surgery services led by highly experienced surgeons. We specialize in both laparoscopic (keyhole) and open surgical procedures to treat a wide array of conditions with the highest standards of safety, precision, and post-operative care.",
       "Our operation theaters are fully equipped with modern surgical infrastructure to support complex operations such as hernia repair, hydrocele correction, appendicectomy, cholecystectomy (gallbladder removal), thyroidectomy, and breast lump surgeries. We focus on patient comfort, minimal invasiveness, and fast recovery times."
     ],
     health_plan_items: [

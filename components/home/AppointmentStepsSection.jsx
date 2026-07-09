@@ -62,7 +62,7 @@ export default function AppointmentStepsSection() {
                 <SplitText text="A Seamless Process For Your Healthcare." />
               </h2>
               <p className="type-body text-gray-600 max-w-2xl scroll-reveal text-base leading-relaxed" data-animation="fadeInUp">
-                From your initial appointment booking to consults, diagnostic checkups, treatments, and prescriptions, Sree Pavan Sai Hospital keeps the process clean, quick, and hassle-free.
+                From your initial appointment booking to consults, diagnostic checkups, treatments, and prescriptions, SRI Pavan Sai Hospital keeps the process clean, quick, and hassle-free.
               </p>
             </div>
 
