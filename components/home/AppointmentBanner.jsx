@@ -7,7 +7,12 @@ export default function AppointmentBanner() {
   const sectionRef = useScrollAnimation();
 
   const contacts = [
-    { number: "9515236524 / 0891 2585858", label: "Primary General Duty", bg: "bg-red-600 hover:bg-red-700 hover:shadow-red-600/30" },
+    { 
+      number: "9515236524 / 0891 2585858", 
+      label: "24/7 Emergency Helpline", 
+      bg: "bg-red-600 hover:bg-red-700 hover:shadow-red-600/30", 
+      href: "tel:+919515236524" 
+    }
   ];
 
   return (
@@ -26,10 +31,10 @@ export default function AppointmentBanner() {
               Direct Contact Center
             </span>
             <h2 className="text-3xl sm:text-4xl font-black tracking-tight leading-tight text-white scroll-reveal" data-animation="fadeInUp">
-              Need Urgent Care? <br/>Don't Hesitate To Call Us
+              Need Emergency Medical Assistance? <br/>Contact Us 24/7
             </h2>
             <p className="text-white/60 text-sm sm:text-base leading-relaxed max-w-md scroll-reveal" data-animation="fadeInUp">
-              Our operators and medical desk are online 24/7 to accept booking requests, handle emergency entries, and dispatch patient care. Click any card on the right to call instantly.
+              Our dedicated front office staff and emergency support team is available 24/7 to assist with appointments, emergency services, and patient enquiries. Click the contact card below to connect with us immediately.
             </p>
           </div>
 
@@ -38,8 +43,8 @@ export default function AppointmentBanner() {
             {contacts.map((contact, idx) => (
               <a 
                 key={idx} 
-                href={`tel:+91${contact.number}`}
-                className={`flex flex-col justify-between p-6 rounded-2xl text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${contact.bg} group border border-white/5`}
+                href={contact.href}
+                className={`flex flex-col justify-between p-6 rounded-2xl text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${contact.bg} group border border-white/5 md:col-span-2 lg:col-span-2`}
               >
                 <div>
                   <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white mb-4 group-hover:scale-110 transition-transform">
@@ -48,7 +53,7 @@ export default function AppointmentBanner() {
                   <div className="text-[10px] text-white/70 uppercase font-bold tracking-wider mb-1">
                     {contact.label}
                   </div>
-                  <div className="text-xl font-black tracking-wide">
+                  <div className="text-xl font-black tracking-wide whitespace-pre-line">
                     {contact.number}
                   </div>
                 </div>

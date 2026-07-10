@@ -33,7 +33,6 @@ export default function ServiceDetailClient({ service }) {
   const sidebarLinks = [
     { title: "Cardiology", slug: "cardiology", Icon: FaHeartPulse },
     { title: "Orthopedic Clinic", slug: "orthopedic-clinic", Icon: FaBone },
-    { title: "Gynecology & Obstetrics", slug: "gynecology-obstetrics", Icon: FaBaby },
     { title: "Psychiatry", slug: "psychiatry", Icon: FaBrain },
     { title: "General Medicine", slug: "general-medicine", Icon: FaUserDoctor },
     { title: "General Surgery", slug: "general-surgery", Icon: FaUserDoctor },

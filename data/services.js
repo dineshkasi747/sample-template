@@ -48,30 +48,6 @@ export const servicesData = [
     ]
   },
   {
-    slug: "gynecology-obstetrics",
-    title: "Gynecology & Obstetrics",
-    breadcrumb: ["Home", "Services", "Gynecology & Obstetrics"],
-    image: "/services/JPG/service-gynecology.jpg",
-    description: [
-      "SRI Pavan Sai Hospital provides comprehensive healthcare for women at every stage of life. From routine gynecological wellness checks and maternity care to advanced laparoscopic gynecological surgeries, our clinic offers a safe, welcoming, and warm environment.",
-      "Our obstetrics team is dedicated to supporting mothers through pregnancy, labor, and postpartum care. We are fully equipped for both normal deliveries and high-risk cesarean sections (C-sections), backed by round-the-clock neonatal care facilities."
-    ],
-    health_plan_items: [
-      "Comprehensive Maternity Care",
-      "Normal & Caesarean Deliveries",
-      "Hysterectomy (Womb Removal)",
-      "Laparoscopic Gynae Surgeries",
-      "Infertility Consultations",
-      "PCOD/PCOS Management",
-      "Adolescent Gynae Care"
-    ],
-    faq: [
-      { question: "What maternity packages do you offer?", answer: "We offer customized maternity packages covering prenatal consultations, diagnostic tests, delivery charges (normal or C-section), stay, and initial pediatric checkups.", open: true },
-      { question: "Do you perform minimally invasive surgeries?", answer: "Yes, we perform laparoscopic surgeries for ovarian cysts, fibroids, ectopic pregnancy, and laparoscopic hysterectomies, ensuring minimal scarring and faster recovery.", open: false },
-      { question: "Are consulting gynecologists available 24/7?", answer: "Yes, a gynecologist is always on call to handle emergency admissions, labor, and critical deliveries at any time of day or night.", open: false }
-    ]
-  },
-  {
     slug: "psychiatry",
     title: "Psychiatry",
     breadcrumb: ["Home", "Services", "Psychiatry"],

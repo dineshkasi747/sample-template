@@ -6,7 +6,7 @@ import FamilyCareSection from '@/components/about/FamilyCareSection';
 import AppointmentBannerAbout from '@/components/about/AppointmentBannerAbout';
 
 export const metadata = {
-  title: 'About Us - SRI Pavan Sai Hospital | 24 Hours Healthcare in Sriharipuram',
+  title: 'About Us - SRI Pavan Sai Hospital | 24-Hour Healthcare in Sriharipuram',
   description: 'SRI Pavan Sai Hospital is a trusted 24-hour healthcare facility in Sriharipuram. We offer OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups, and emergency care. Call 9515236524.',
 };
 

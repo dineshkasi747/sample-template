@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <img src="/images/PNG/sree-pavan-sai-logo.png" alt="SRI Pavan Sai Hospital" className="h-20 w-auto object-contain" />
+              <img src="/images/JPG/sri-pavansai-logo.png" alt="SRI Pavan Sai Hospital" className="h-20 w-auto object-contain" />
             </Link>
             <p className="text-white/70 type-body">
               Our family-centered approach to healthcare ensures that each member of your family receives personalized attention.
@@ -57,7 +57,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start text-white/70">
                 <FaMapMarkerAlt className="text-[var(--color-accent)] mt-1 mr-3 flex-shrink-0" size={18} />
-                <span>Door No 64-144, Opposite Swamy Vivekananda School, Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam-530011, Andhra Pradesh</span>
+                <span>Opposite Swamy Vivekananda School, Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam-530011, Andhra Pradesh</span>
               </li>
               <li className="flex items-center text-white/70">
                 <FaEnvelope className="text-[var(--color-accent)] mr-3 flex-shrink-0" size={18} />

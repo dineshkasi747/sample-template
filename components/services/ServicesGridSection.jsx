@@ -14,7 +14,7 @@ export default function ServicesGridSection() {
       id: "cardiology",
       Icon: FaHeartPulse,
       title: "Cardiology",
-      description: "Expert cardiac care for heart conditions including ECG, echocardiography, hypertension management, coronary artery disease, and heart failure treatment.",
+      description: "Comprehensive evaluation and management of common cardiovascular conditions, supported by ECG, echocardiography, and evidence-based treatment protocols.",
       checklist: ["ECG & Echocardiogram", "Hypertension Management", "Coronary Artery Disease Care"],
       link: "/services/cardiology",
       delay: 100
@@ -27,15 +27,6 @@ export default function ServicesGridSection() {
       checklist: ["Total Hip Replacement", "Total Knee Replacement", "Spine Laminectomy & Discectomy"],
       link: "/services/orthopedic-clinic",
       delay: 200
-    },
-    {
-      id: "gynecology",
-      Icon: FaBaby,
-      title: "Gynecology & Obstetrics",
-      description: "Comprehensive women's healthcare from routine exams to maternity packages, normal deliveries, cesarean sections, and laparoscopic gynae surgeries.",
-      checklist: ["Maternity & Delivery Packages", "Hysterectomy Surgery", "Laparoscopic Gynae Surgeries"],
-      link: "/services/gynecology-obstetrics",
-      delay: 300
     },
     {
       id: "general-medicine",

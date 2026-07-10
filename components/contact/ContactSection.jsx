@@ -32,7 +32,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="type-h3 text-[20px] text-[var(--color-primary)] mb-1">Our Location</h3>
-                  <p className="type-body text-[#555555]">Door No 64-144, Opposite Swamy Vivekananda School,<br/>Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam-530011</p>
+                  <p className="type-body text-[#555555]">Opposite Swamy Vivekananda School,<br/>Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam-530011</p>
                 </div>
               </div>
 

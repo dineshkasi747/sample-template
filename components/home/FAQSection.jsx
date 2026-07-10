@@ -12,7 +12,7 @@ export default function FAQSection() {
   const faqs = [
     { question: "Are consulting doctors available 24/7?", answer: "Yes, our general practitioners and emergency medical officers are available 24 hours a day, 7 days a week. Specialists can also be reached on call for emergencies." },
     { question: "Do you accept cashless health insurance policies?", answer: "Yes, we accept FHPL, Mediassist, Vidal (Steel Plant panel), Future Generali, Ericson, and other leading TPAs. Please present your insurance card at our desk." },
-    { question: "Where is the hospital located and is there parking?", answer: "We are located at Door No 64-144, Opposite Swamy Vivekananda School, Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam. Parking space is available for cars and two-wheelers." }
+    { question: "Where is the hospital located and is there parking?", answer: "We are located at Opposite Swamy Vivekananda School, Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam. Parking space is available for cars and two-wheelers." }
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function FAQSection() {
               </div>
               <div className="w-px bg-gray-200 scroll-reveal" data-animation="fadeInUp"></div>
               <div className="text-center scroll-reveal" data-animation="fadeInUp">
-                <div className="text-3xl font-black text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">Sai Store</div>
+                <div className="text-3xl font-black text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">Sai Pharmacy</div>
                 <div className="text-[10px] font-bold text-[var(--color-primary)]/60 mt-1 uppercase tracking-wider scroll-reveal" data-animation="fadeInUp">24h Pharmacy</div>
               </div>
             </div>

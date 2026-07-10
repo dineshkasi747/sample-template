@@ -9,10 +9,10 @@ export default function AboutSection() {
   const sectionRef = useScrollAnimation();
 
   const details = [
-    { text: '24 Hours Emergency Care', icon: FaHospital, desc: 'Critical care always open' },
-    { text: 'Experienced Medical Team', icon: FaUserMd, desc: 'Specialist doctors on duty' },
-    { text: 'Affordable Treatments', icon: FaWallet, desc: 'Fair & transparent pricing' },
-    { text: 'In-House Pharmacy & Lab', icon: FaPrescriptionBottleAlt, desc: 'In-House Pharmacy 24/7' }
+    { text: '24-Hour Emergency Care', icon: FaHospital, desc: 'Emergency care available 24/7' },
+    { text: 'Experienced Medical Team', icon: FaUserMd, desc: 'Experienced Specialist & Superspecialist doctors on duty' },
+    { text: 'Affordable Treatments', icon: FaWallet, desc: 'Transparent and affordable pricing' },
+    { text: 'In-House Pharmacy & Laboratory', icon: FaPrescriptionBottleAlt, desc: '24/7 in-house pharmacy and diagnostic laboratory services' }
   ];
 
   return (
@@ -62,7 +62,7 @@ export default function AboutSection() {
               </h2>
               
               <p className="type-body text-gray-600 scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="400">
-                SRI Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram. We are dedicated to providing compassionate, affordable, and high-quality medical services with highly experienced doctors and state-of-the-art facilities.
+                Sri Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram. We are committed to delivering compassionate, affordable, and high-quality healthcare services through experienced doctors, dedicated healthcare professionals, advanced diagnostic facilities, and state-of-the-art medical infrastructure. Our mission is to provide safe, patient-centered, and evidence-based care 24 hours a day, 7 days a week.
               </p>
             </div>
             

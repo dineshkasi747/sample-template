@@ -47,12 +47,12 @@ export default function HeroSection() {
             <h1 className="type-h1 text-white font-black leading-none scroll-reveal" data-animation="fadeInUp" data-delay="300">
               SRI Pavan Sai Hospital
               <span className="text-[var(--color-accent)] block mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase">
-                24 Hours Healthcare in Sriharipuram
+                24-Hour Healthcare in Sriharipuram
               </span>
             </h1>
             
             <p className="type-body text-white/80 max-w-lg scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="500">
-              Offering high-quality, compassionate, and affordable healthcare services. Visited by experienced doctors, fully prepared for diagnostic lab, X-Ray & ECG and trauma emergencies.
+              Providing 24-hour, high-quality, compassionate, and affordable healthcare services. Our experienced doctors and dedicated medical team are available around the clock, supported by a fully equipped diagnostic laboratory, X-ray, ECG, pharmacy, and emergency trauma care.
             </p>
 
             {/* Unique features in capsules */}
@@ -99,8 +99,8 @@ export default function HeroSection() {
             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white text-[var(--color-primary)] px-6 py-3 rounded-2xl shadow-2xl flex items-center gap-3 z-20 border border-gray-100 whitespace-nowrap scroll-reveal" data-animation="fadeInUp" data-delay="1100">
               <FaClinicMedical className="text-red-600 text-xl" />
               <div>
-                <div className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Sai Store Inside</div>
-                <div className="text-sm font-extrabold text-[var(--color-primary)]">24h Medical Store</div>
+                <div className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Sai Pharmacy Inside</div>
+                <div className="text-sm font-extrabold text-[var(--color-primary)]">24h Pharmacy</div>
               </div>
             </div>
 

@@ -12,7 +12,7 @@ export default function ServicesSection() {
   const services = [
     { 
       title: "Cardiology", 
-      body: "Expert cardiac care for heart conditions including ECG, echocardiography, hypertension management, and heart failure treatment.", 
+      body: "Comprehensive evaluation and management of common cardiovascular conditions, supported by ECG, echocardiography, and evidence-based treatment protocols.", 
       icon: FaHeartbeat,
       href: "/services/cardiology"
     },
@@ -21,12 +21,6 @@ export default function ServicesSection() {
       body: "Specialized bone and joint care covering replacements, ligament repairs, and spine surgeries.", 
       icon: FaBone,
       href: "/services/orthopedic-clinic"
-    },
-    { 
-      title: "Gynecology", 
-      body: "Comprehensive care for women, routine wellness, normal deliveries, and C-sections.", 
-      icon: FaVenus,
-      href: "/services/gynecology-obstetrics"
     },
     { 
       title: "Psychiatry", 
@@ -81,7 +75,7 @@ export default function ServicesSection() {
             Medical Services
           </span>
           <h2 className="type-h2 text-white font-extrabold mt-4 scroll-reveal" data-animation="fadeInUp">
-            <SplitText text="We are Providing Best Services." />
+            <SplitText text="Delivering Excellence in Healthcare" />
           </h2>
         </div>
 
@@ -112,7 +106,7 @@ export default function ServicesSection() {
                 className="inline-flex items-center text-red-400 font-semibold transition-all duration-300 scroll-reveal group/link text-sm mt-auto" 
                 data-animation="fadeInUp"
               >
-                <span className="scroll-reveal group-hover/link:text-white transition-colors" data-animation="fadeInUp">Explore Service</span>
+                <span className="scroll-reveal group-hover/link:text-white transition-colors" data-animation="fadeInUp">Learn more</span>
                 <FaArrowCircleRight className="ml-2 text-base scroll-reveal text-red-400 group-hover/link:text-white group-hover/link:translate-x-1 transition-all" data-animation="fadeInUp" />
               </Link>
             </div>

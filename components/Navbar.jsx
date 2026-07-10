@@ -27,7 +27,6 @@ export default function Navbar() {
       dropdown: [
         { label: 'Cardiology', href: '/services/cardiology' },
         { label: 'Orthopedic Clinic', href: '/services/orthopedic-clinic' },
-        { label: 'Gynecology & Obstetrics', href: '/services/gynecology-obstetrics' },
         { label: 'Psychiatry', href: '/services/psychiatry' },
         { label: 'General Medicine', href: '/services/general-medicine' },
         { label: 'Emergency & Pharmacy', href: '/services/pharmacy-emergency' },
