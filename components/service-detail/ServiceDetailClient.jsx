@@ -20,7 +20,7 @@ import {
 import { 
   FaCheckCircle, 
   FaPlus, 
-  FaMinus, 
+  FaMinus,
   FaArrowAltCircleRight 
 } from 'react-icons/fa';
 
@@ -90,12 +90,6 @@ export default function ServiceDetailClient({ service }) {
                   ))}
                 </div>
 
-                <div className="pt-4 scroll-reveal" data-animation="fadeInUp">
-                  <button className="inline-flex items-center gap-2 bg-[var(--color-accent)] text-white px-8 py-3 rounded-full font-semibold hover:bg-[var(--color-primary)] transition-colors duration-300 scroll-reveal" data-animation="fadeInUp">
-                    <span className="scroll-reveal" data-animation="fadeInUp">Get Started</span>
-                    <FaArrowAltCircleRight className="scroll-reveal" data-animation="fadeInUp" />
-                  </button>
-                </div>
               </div>
 
               {/* Key Benefits FAQ */}

@@ -5,20 +5,23 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Cardiology"],
     image: "/services/JPG/service-cardiology.jpg",
     description: [
-      "The Cardiology Center at SRI Pavan Sai Hospital offers state-of-the-art cardiovascular care led by highly experienced heart specialists. We specialize in advanced heart diagnostics, clinical cardiology, and customized treatment plans for blood pressure, coronary artery disease, and heart failure.",
-      "Our diagnostic facilities include ECG, Echocardiogram (2D Echo), and stress testing to ensure early detection and prevention of heart-related ailments. We focus on patient-centered therapies, lifestyle counseling, and advanced lipid management to maintain long-term cardiovascular health."
+      "At Sri Pavan Sai Hospital, we are committed to delivering comprehensive, patient-centered cardiovascular care with a focus on early diagnosis, effective treatment, and long-term heart health. Our experienced medical team provides evidence-based evaluation and management of a wide range of cardiovascular conditions.",
+      "We offer comprehensive cardiac assessment and management for hypertension, coronary artery disease, heart failure, cardiac rhythm disorders, and other common heart conditions. Individualized treatment plans are designed to meet each patient's specific clinical needs while promoting optimal cardiovascular health.",
+      "Our diagnostic services include Electrocardiography (ECG) and Echocardiography (2D Echo), enabling accurate evaluation of cardiac function and facilitating timely diagnosis and treatment. We also provide preventive cardiac screening, risk assessment, lifestyle counselling, and long-term follow-up to support heart health and improve patient outcomes.",
+      "Our commitment is to deliver safe, compassionate, and evidence-based cardiac care with the highest standards of clinical excellence."
     ],
     health_plan_items: [
-      "Advanced Heart Diagnostics",
+      "Comprehensive Cardiac Care",
+      "Advanced Cardiac Diagnostics",
       "Hypertension Management",
-      "ECG & Echocardiogram (2D Echo)",
-      "Coronary Artery Disease Care",
+      "Electrocardiography (ECG) & Echocardiography (2D Echo)",
+      "Coronary Artery Disease Management",
       "Lipid & Cholesterol Management",
-      "Preventative Cardiac Screening",
-      "Heart Failure Treatment"
+      "Preventive Cardiac Screening",
+      "Heart Failure Evaluation & Management"
     ],
     faq: [
-      { question: "What are the common signs of heart disease?", answer: "Common signs include chest pain or tightness, shortness of breath, palpitations, dizziness, and unusual fatigue during physical activity. If you experience any of these, seek immediate care.", open: true },
+      { question: "What are the common signs and symptoms of heart disease?", answer: "Common signs and symptoms of heart disease may include chest pain or discomfort, chest tightness, shortness of breath, palpitations, dizziness, fainting, swelling of the legs, and unexplained fatigue, particularly during physical activity. If you experience any of these symptoms, especially sudden or severe chest pain, seek immediate medical attention or visit the nearest emergency department.", open: true },
       { question: "How often should I get my heart checked?", answer: "If you have risk factors such as high blood pressure, diabetes, high cholesterol, or a family history of heart disease, annual cardiac screening is recommended after age 40.", open: false },
       { question: "What is an ECG and when is it recommended?", answer: "An ECG (Electrocardiogram) records electrical activity of the heart and is recommended to detect arrhythmias, heart attacks, or other cardiac conditions. It is quick, painless, and non-invasive.", open: false }
     ]
