@@ -22,8 +22,8 @@ export const servicesData = [
     ],
     faq: [
       { question: "What are the common signs and symptoms of heart disease?", answer: "Common signs and symptoms of heart disease may include chest pain or discomfort, chest tightness, shortness of breath, palpitations, dizziness, fainting, swelling of the legs, and unexplained fatigue, particularly during physical activity. If you experience any of these symptoms, especially sudden or severe chest pain, seek immediate medical attention or visit the nearest emergency department.", open: true },
-      { question: "How often should I get my heart checked?", answer: "If you have risk factors such as high blood pressure, diabetes, high cholesterol, or a family history of heart disease, annual cardiac screening is recommended after age 40.", open: false },
-      { question: "What is an ECG and when is it recommended?", answer: "An ECG (Electrocardiogram) records electrical activity of the heart and is recommended to detect arrhythmias, heart attacks, or other cardiac conditions. It is quick, painless, and non-invasive.", open: false }
+      { question: "How often should I undergo a heart health check-up?", answer: "The frequency of heart health check-ups depends on your age, medical history, and individual risk factors. Individuals with high blood pressure, diabetes, high cholesterol, obesity, smoking history, or a family history of heart disease should undergo regular cardiac evaluations as advised by their physician. For most adults aged 40 years and above, an annual heart health check-up is recommended to support early detection and prevention of cardiovascular disease.", open: false },
+      { question: "What is an ECG (Electrocardiogram), and when is it recommended?", answer: "An Electrocardiogram (ECG) is a simple, quick, and non-invasive diagnostic test that records the heart's electrical activity. It is commonly recommended for individuals experiencing chest pain, palpitations, dizziness, shortness of breath, or suspected heart disease. An ECG helps detect arrhythmias, heart attacks, conduction abnormalities, and other cardiac conditions, enabling timely diagnosis and appropriate treatment.", open: false }
     ]
   },
   {
@@ -32,17 +32,17 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Orthopedic Clinic"],
     image: "/services/JPG/service-ortho.jpg",
     description: [
-      "The Orthopedic Clinic at SRI Pavan Sai Hospital delivers specialized care for bone, joint, ligament, and spine disorders. Our clinical team possesses extensive expertise in treating orthopedic conditions ranging from sports injuries to complex degenerative joint diseases.",
-      "We specialize in joint reconstruction surgeries including Total Hip Replacement, Total Knee Replacement, and arthroscopic procedures like ACL reconstruction and meniscectomy. We combine surgical excellence with structured physical rehabilitation to help you regain pain-free mobility and return to your active lifestyle."
+      "At Sri Pavan Sai Hospital, we provide comprehensive orthopaedic care for disorders affecting the bones, joints, muscles, ligaments, tendons, and spine. Our experienced orthopaedic team offers accurate diagnosis and evidence-based treatment for fractures, arthritis, back pain, sports injuries, and other musculoskeletal conditions.",
+      "Our services include fracture management, slab and cast application, minor orthopaedic procedures, trauma care, and rehabilitation. Patients requiring advanced surgical procedures or super-specialty care are referred to appropriate centres whenever necessary, ensuring continuity of care and optimal clinical outcomes."
     ],
     health_plan_items: [
       "Total Hip Replacement",
       "Total Knee Replacement",
-      "ACL & Meniscus Repair",
-      "Avascular Necrosis Treatment",
-      "Laminectomy & Discectomy",
+      "ACL Reconstruction & Meniscus Repair",
+      "Management of Avascular Necrosis (AVN)",
+      "Laminectomy and Discectomy",
       "Fracture & Trauma Management",
-      "Post-Surgical Rehabilitation"
+      "Post-Operative Rehabilitation"
     ],
     faq: [
       { question: "When is joint replacement surgery recommended?", answer: "Joint replacement is recommended for severe arthritis or joint damage that causes chronic pain, restricts mobility, and does not respond to non-surgical treatments.", open: true },
@@ -56,22 +56,23 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Psychiatry"],
     image: "/services/JPG/service-psychiatry.jpg",
     description: [
-      "The Psychiatry Department at SRI Pavan Sai Hospital provides compassionate, confidential, and evidence-based mental health care. Our experienced psychiatrists and counselors work with patients to diagnose and manage a wide range of mental health conditions in a safe, judgment-free environment.",
-      "We offer individualized treatment plans combining medication management, psychotherapy, and behavioral interventions. Whether you are dealing with anxiety, depression, stress, or more complex psychiatric conditions, our team is committed to guiding you toward mental wellness and a better quality of life."
+      "At Sri Pavan Sai Hospital, we provide confidential and compassionate mental healthcare through qualified mental health professionals. Our services include psychiatric consultation, counselling, diagnosis, medication management, and follow-up care for individuals experiencing anxiety, depression, stress-related disorders, sleep disturbances, and other common mental health conditions.",
+      "We are committed to supporting our patients with personalized, evidence-based care in a safe and respectful environment."
     ],
+    health_plan_title: "Mental Health Services",
     health_plan_items: [
-      "Anxiety & Depression Treatment",
-      "Psychotherapy & Counseling",
+      "Anxiety & Depression Management",
+      "Psychotherapy & Counselling",
       "Stress & Burnout Management",
-      "OCD & Phobia Treatment",
-      "Bipolar Disorder Care",
-      "Addiction & De-addiction Support",
+      "Obsessive-Compulsive Disorder (OCD) & Phobia Management",
+      "Bipolar Disorder Management",
+      "Addiction Treatment & Recovery Support",
       "Child & Adolescent Psychiatry"
     ],
     faq: [
-      { question: "Is psychiatric treatment confidential?", answer: "Absolutely. All consultations and patient records are strictly confidential. Your privacy and dignity are our utmost priority throughout your treatment journey.", open: true },
-      { question: "When should I seek psychiatric help?", answer: "You should seek help if you experience persistent sadness, anxiety, mood swings, sleep disturbances, changes in appetite, or difficulty functioning in daily life.", open: false },
-      { question: "Do you provide counseling without medication?", answer: "Yes, we offer standalone psychotherapy and behavioral counseling sessions. Medication is only prescribed when clinically necessary and always in conjunction with therapy.", open: false }
+      { question: "Is my psychiatric consultation confidential?", answer: "Yes. We are committed to maintaining the highest standards of patient confidentiality and privacy. All consultations, medical records, and treatment information are handled with strict confidentiality in accordance with applicable medical ethics and privacy regulations. Your dignity, privacy, and trust remain our highest priorities throughout your care.", open: true },
+      { question: "When should I consider seeking psychiatric care?", answer: "You should consider seeking psychiatric care if you experience persistent feelings of sadness, anxiety, mood changes, sleep disturbances, changes in appetite, difficulty concentrating, excessive stress, or challenges in managing your daily activities, relationships, or work. Early evaluation and timely intervention can significantly improve mental well-being and overall quality of life.", open: false },
+      { question: "Do you provide counselling without medication?", answer: "Yes. At Sri Pavan Sai Hospital, treatment is tailored to each individual's clinical needs. Many patients benefit from counselling or psychotherapy without medication, while others may require medication, psychotherapy, or a combination of both. Our psychiatrists will recommend the most appropriate treatment plan after a comprehensive clinical evaluation.", open: false }
     ]
   },
   {
@@ -80,9 +81,11 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "General Medicine"],
     image: "/services/JPG/service-medicine.jpg",
     description: [
-      "Our General Medicine department serves as the primary gateway for diagnosing, managing, and treating a wide spectrum of acute and chronic health conditions. Led by experienced physicians, we focus on preventative care and medical management of illnesses.",
-      "We specialize in treating lifestyle diseases like diabetes, hypertension, and thyroid disorders, as well as infectious diseases, gastrointestinal issues, and respiratory conditions. We provide comprehensive health checkup packages for preventative screening."
+      "At Sri Pavan Sai Hospital, our Department of General Medicine serves as the first point of contact for the diagnosis, treatment, and long-term management of a wide range of acute and chronic medical conditions. Our experienced physicians are committed to delivering evidence-based, patient-centred care with a strong emphasis on disease prevention, early diagnosis, and comprehensive medical management.",
+      "We provide expert evaluation and treatment for lifestyle diseases such as diabetes mellitus, hypertension, thyroid disorders, and dyslipidaemia, as well as infectious diseases, respiratory illnesses, gastrointestinal disorders, and other common medical conditions. Our department also offers comprehensive preventive health check-up programmes, routine health screenings, and personalized wellness advice to promote long-term health and well-being.",
+      "Our commitment is to provide compassionate, high-quality, and evidence-based medical care tailored to the individual needs of every patient."
     ],
+    health_plan_title: "General Medicine Services",
     health_plan_items: [
       "Chronic Disease Management",
       "Hypertension & Diabetes Care",
@@ -93,9 +96,9 @@ export const servicesData = [
       "Vaccination & Immunization"
     ],
     faq: [
-      { question: "How often should I get a full health checkup?", answer: "For healthy adults, an annual comprehensive health screening is recommended to detect early signs of lifestyle diseases or metabolic imbalances.", open: true },
-      { question: "Do you provide chronic care for diabetes and blood pressure?", answer: "Yes, we offer structured long-term management plans including lifestyle guidance, regular diagnostics, and medication tuning to keep parameters in check.", open: false },
-      { question: "Can I consult a physician without prior booking?", answer: "While booking an appointment is recommended to minimize wait times, walk-in patients are always welcomed and evaluated by our duty physicians.", open: false }
+      { question: "How often should I get a full health checkup?", answer: "The frequency of health check-ups depends on your age, medical history, lifestyle, and individual risk factors. For most healthy adults, an annual comprehensive health check-up is recommended to support the early detection of chronic diseases and promote preventive healthcare. Individuals with diabetes, hypertension, heart disease, or other chronic medical conditions may require more frequent evaluations, as advised by their physician.", open: true },
+      { question: "Do you provide long-term care for diabetes and hypertension?", answer: "Yes. We provide comprehensive long-term management for diabetes and hypertension through personalized treatment plans, lifestyle modification counselling, regular health monitoring, diagnostic evaluations, and medication optimisation. Our goal is to help patients achieve effective disease control, prevent complications, and improve their overall quality of life.", open: false },
+      { question: "Can I consult a physician without an appointment?", answer: "Yes. While we recommend scheduling an appointment to minimise waiting times, walk-in patients are always welcome. Our duty physicians will assess your condition and ensure you receive timely and appropriate medical care.", open: false }
     ]
   },
   {

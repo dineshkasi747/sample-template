@@ -78,7 +78,7 @@ export default function ServiceDetailClient({ service }) {
               {/* Health Care Plans */}
               <div className="space-y-8">
                 <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">
-                  <SplitText text="Health Care Plans." />
+                  <SplitText text={service.health_plan_title || "Health Care Plans."} />
                 </h2>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
