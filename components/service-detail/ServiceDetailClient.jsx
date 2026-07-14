@@ -92,10 +92,10 @@ export default function ServiceDetailClient({ service }) {
 
               </div>
 
-              {/* Key Benefits FAQ */}
+              {/* Frequently Asked Questions (FAQs) */}
               <div className="space-y-8">
                 <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">
-                  <SplitText text="Key Benefits." />
+                  <SplitText text="Frequently Asked Questions (FAQs)." />
                 </h2>
 
                 <div className="space-y-3">

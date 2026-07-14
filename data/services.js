@@ -10,6 +10,7 @@ export const servicesData = [
       "Our diagnostic services include Electrocardiography (ECG) and Echocardiography (2D Echo), enabling accurate evaluation of cardiac function and facilitating timely diagnosis and treatment. We also provide preventive cardiac screening, risk assessment, lifestyle counselling, and long-term follow-up to support heart health and improve patient outcomes.",
       "Our commitment is to deliver safe, compassionate, and evidence-based cardiac care with the highest standards of clinical excellence."
     ],
+    health_plan_title: "Our Cardiology Services",
     health_plan_items: [
       "Comprehensive Cardiac Care",
       "Advanced Cardiac Diagnostics",
@@ -35,6 +36,7 @@ export const servicesData = [
       "At Sri Pavan Sai Hospital, we provide comprehensive orthopaedic care for disorders affecting the bones, joints, muscles, ligaments, tendons, and spine. Our experienced orthopaedic team offers accurate diagnosis and evidence-based treatment for fractures, arthritis, back pain, sports injuries, and other musculoskeletal conditions.",
       "Our services include fracture management, slab and cast application, minor orthopaedic procedures, trauma care, and rehabilitation. Patients requiring advanced surgical procedures or super-specialty care are referred to appropriate centres whenever necessary, ensuring continuity of care and optimal clinical outcomes."
     ],
+    health_plan_title: "Our Orthopedic Services",
     health_plan_items: [
       "Total Hip Replacement",
       "Total Knee Replacement",
@@ -110,18 +112,19 @@ export const servicesData = [
       "SRI Pavan Sai Hospital is fully prepared to handle medical emergencies 24 hours a day, 7 days a week. Our emergency department features dedicated triage beds, trauma bays, and life-support equipment to provide immediate care when seconds count.",
       "Complementing our emergency care, our in-house pharmacy operates round-the-clock, stocking a comprehensive inventory of authentic medications, surgical consumables, and critical care drugs. We ensure patients have immediate access to prescribed treatments at any hour."
     ],
+    health_plan_title: "Our Emergency & Pharmacy Services",
     health_plan_items: [
-      "24/7 Emergency Wards",
-      "Round-the-Clock Pharmacy",
-      "Critical Care & Trauma Support",
-      "Trained Paramedic Staff",
-      "ICU & Ventilator Support",
-      "Immediate Admission Desk",
-      "X-Ray & Emergency Diagnostics"
+      "24/7 Emergency Services",
+      "24/7 In-House Pharmacy",
+      "Advanced Trauma & Critical Care",
+      "Experienced Emergency Physicians & Paramedics",
+      "ICU, Ventilator & Life Support Services",
+      "Rapid Admission & Emergency Registration",
+      "Emergency Diagnostics (X-Ray, ECG & Laboratory Services)"
     ],
     faq: [
-      { question: "Is the pharmacy open to non-hospital patients?", answer: "Yes, our pharmacy is open to the general public 24/7. Anyone with a valid prescription can purchase medications and surgical supplies.", open: true },
-      { question: "What should I do in case of a critical medical emergency?", answer: "Bring the patient directly to our emergency room. Our triage team will evaluate and initiate immediate stabilization procedures without delay.", open: false },
+      { question: "Is your pharmacy open to the general public?", answer: "Yes. Our 24/7 in-house pharmacy is open to both hospital patients and the general public. Individuals with a valid prescription can purchase genuine medications, surgical consumables, and other essential healthcare products at any time, subject to applicable regulatory requirements.", open: true },
+      { question: "What should I do during a medical emergency?", answer: "If you are experiencing a medical emergency, seek immediate medical assistance and proceed to our 24/7 Emergency Department as quickly and safely as possible. Upon arrival, our experienced emergency team will perform rapid triage, initiate immediate stabilisation, and provide prompt, life-saving treatment without delay.", open: false },
       { question: "Do you have ICU and ventilator support?", answer: "Yes, our emergency department is equipped with ICU beds and ventilator support for critically ill patients requiring intensive monitoring and care.", open: false }
     ]
   },
@@ -131,22 +134,23 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "ENT"],
     image: "/services/JPG/service-ent.jpg",
     description: [
-      "The ENT (Ear, Nose & Throat) Department at SRI Pavan Sai Hospital offers specialized diagnosis and treatment of disorders affecting the ear, nose, throat, head, and neck. Our expert ENT surgeons bring years of experience in both medical and surgical management of these conditions.",
-      "We treat a wide range of conditions including hearing loss, sinusitis, tonsillitis, nasal polyps, voice disorders, and vertigo. Our department is equipped with modern diagnostic tools to ensure accurate assessments and effective treatments tailored to each patient."
+      "SRI Pavan Sai Hospital's Department of Otorhinolaryngology (ENT) provides comprehensive diagnosis and treatment for disorders affecting the ear, nose, throat, head, and neck. Our experienced ENT specialists offer advanced medical and surgical care using evidence-based practices and modern technology to deliver the highest standards of patient care.",
+      "We diagnose and treat a wide range of ENT conditions, including hearing loss, ear infections, sinusitis, tonsillitis, nasal polyps, allergic rhinitis, voice disorders, vertigo, and head and neck disorders. Our department is equipped with advanced diagnostic facilities and modern surgical technology to ensure accurate diagnosis, personalized treatment, and optimal clinical outcomes."
     ],
+    health_plan_title: "Our ENT Services",
     health_plan_items: [
-      "Hearing Loss & Ear Infections",
-      "Sinusitis & Nasal Polyps",
-      "Tonsillectomy & Adenoidectomy",
-      "Voice & Throat Disorders",
-      "Vertigo & Balance Problems",
-      "Snoring & Sleep Apnea Care",
-      "Head & Neck Consultations"
+      "Hearing Loss & Ear Disease Management",
+      "Sinusitis, Allergic Rhinitis & Nasal Polyps",
+      "Tonsil, Adenoid & Throat Disorders",
+      "Voice, Swallowing & Laryngeal Disorders",
+      "Vertigo & Balance Disorder Management",
+      "Snoring & Sleep Apnoea Evaluation",
+      "Head & Neck Disorders & Surgical Care"
     ],
     faq: [
-      { question: "What conditions does an ENT specialist treat?", answer: "ENT specialists treat disorders of the ears (hearing loss, infections, tinnitus), nose (sinusitis, polyps, deviated septum), and throat (tonsillitis, voice changes, swallowing difficulties).", open: true },
-      { question: "When should I see an ENT for hearing problems?", answer: "You should consult an ENT if you experience sudden or gradual hearing loss, ringing in the ears (tinnitus), ear pain, or discharge from the ear that persists for more than a few days.", open: false },
-      { question: "Is sinus surgery painful?", answer: "Modern endoscopic sinus surgery is minimally invasive with minimal discomfort. Most patients are discharged the same day and experience significant relief from chronic sinusitis symptoms within weeks.", open: false }
+      { question: "What conditions does an ENT specialist treat?", answer: "ENT specialists diagnose and treat a wide range of conditions affecting the ear, nose, throat, head, and neck. These include hearing loss, ear infections, tinnitus, vertigo, sinusitis, allergic rhinitis, nasal polyps, deviated nasal septum (DNS), tonsillitis, voice disorders, swallowing disorders, snoring, sleep apnoea, and head and neck conditions requiring medical or surgical care.", open: true },
+      { question: "When should I consult an ENT specialist for hearing problems?", answer: "Consult an ENT specialist if you notice sudden or gradual hearing loss, persistent tinnitus (ringing in the ears), ear pain, ear discharge, recurrent ear infections, dizziness or vertigo, balance disturbances, or a persistent sensation of ear blockage. Early diagnosis and timely intervention are essential for preserving hearing and preventing long-term complications.", open: false },
+      { question: "Is sinus surgery painful?", answer: "Endoscopic sinus surgery (FESS) is a safe and minimally invasive procedure performed under anaesthesia. Most patients experience minimal post-operative discomfort, which is effectively managed with medication. The procedure typically results in faster recovery, improved breathing, and significant relief from chronic sinusitis and nasal obstruction. Depending on the procedure and clinical condition, many patients are discharged on the same day or after a short hospital stay.", open: false }
     ]
   },
   {
@@ -155,22 +159,27 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Diagnostic Lab, X-Ray & ECG"],
     image: "/services/JPG/service-diagnostic-lab.jpg",
     description: [
-      "The Diagnostic Lab, X-Ray & ECG at SRI Pavan Sai Hospital is equipped with advanced automated analyzers and state-of-the-art imaging equipment to deliver fast, accurate, and reliable test results. We serve both outpatients and inpatients with a comprehensive panel of pathology, biochemistry, and radiology services.",
-      "Our lab operates 24/7 to support emergency diagnostics and routine testing. From complete blood counts and lipid profiles to X-rays and urine analysis, our skilled lab technicians ensure precision at every step, enabling your doctors to make well-informed clinical decisions."
+      "At SRI Pavan Sai Hospital, our Diagnostic Laboratory, X-Ray & ECG Department is equipped with advanced automated analyzers and modern diagnostic technology to deliver fast, accurate, and reliable results. We provide comprehensive diagnostic services for both outpatients and inpatients, supporting timely diagnosis and effective treatment through pathology, biochemistry, hematology, microbiology, radiology, and cardiac diagnostics.",
+      "Our diagnostic services operate 24 hours a day, 7 days a week, ensuring uninterrupted support for emergency and routine medical care. From complete blood counts, lipid profiles, liver and kidney function tests, thyroid profiles, blood sugar analysis, and urine examinations to Digital X-Ray and Electrocardiography (ECG), every investigation is performed with precision and strict quality standards.",
+      "Our experienced laboratory professionals and radiology technicians work closely with our medical team to provide dependable reports with quick turnaround times, enabling clinicians to make confident and timely treatment decisions while ensuring the highest standards of patient care."
     ],
+    health_plan_title: "Diagnostic Laboratory, X-Ray & ECG Services",
     health_plan_items: [
-      "Complete Blood Count (CBC)",
-      "Blood Sugar & HbA1c Testing",
-      "Lipid Profile & Liver Function",
-      "Urine & Stool Analysis",
-      "X-Ray Imaging",
-      "ECG & Cardiac Markers",
-      "Thyroid & Hormone Panels"
+      "Complete Blood Count (CBC) & Hematology Tests",
+      "Blood Sugar, HbA1c & Diabetes Profile",
+      "Liver Function Test (LFT) & Kidney Function Test (RFT).",
+      "Lipid Profile & Cardiac Risk Assessment",
+      "Thyroid Function & Hormone Profile",
+      "Urine, Stool & Microbiology Testing",
+      "Digital X-Ray & Electrocardiogram (ECG)",
+      "Cardiac Biomarkers (Troponin, CK-MB, etc.)",
+      "Preventive Health Check-up Packages",
+      "Emergency Diagnostic Services (24×7)"
     ],
     faq: [
-      { question: "Do I need an appointment for lab tests?", answer: "No appointment is needed for most routine tests. Walk-in patients are accepted. However, for specific tests requiring fasting, please check with our lab desk in advance.", open: true },
-      { question: "How soon will I get my lab results?", answer: "Most routine tests like CBC, blood sugar, and urine analysis are available within 2–4 hours. Advanced panels may take up to 24 hours. Reports can be collected from the lab or sent digitally.", open: false },
-      { question: "Is X-ray available at your diagnostic center?", answer: "Yes, we have a fully operational digital X-ray unit available 24/7 for chest, abdomen, bone, and other imaging needs. Results are ready within 30–60 minutes.", open: false }
+      { question: "Do I need an appointment for laboratory tests?", answer: "No appointment is required for most routine laboratory investigations. Walk-in patients are welcome throughout our working hours. However, certain tests—such as fasting blood sugar, lipid profile, glucose tolerance test (GTT), and other specialized investigations—may require prior preparation or fasting. We recommend contacting our laboratory team in advance for specific instructions to ensure accurate test results.", open: true },
+      { question: "How soon will I receive my laboratory test results?", answer: "Most routine laboratory investigations, including Complete Blood Count (CBC), Blood Glucose, Urine Analysis, and ECG reports, are available within 2–4 hours, depending on the test. Specialized investigations and advanced diagnostic panels may require up to 24–48 hours. Reports can be collected from the laboratory or securely shared through digital channels, ensuring convenient and timely access to your results.", open: false },
+      { question: "Is Digital X-ray available at your diagnostic center?", answer: "Yes. Our Diagnostic Department is equipped with a state-of-the-art Digital X-ray system that operates 24 hours a day, 7 days a week for both emergency and routine imaging. We provide high-quality imaging for the chest, spine, abdomen, skull, joints, and bones, with rapid image acquisition and expert reporting. Most routine X-ray reports are available within 30–60 minutes, depending on the examination and clinical urgency.", open: false }
     ]
   },
   {
@@ -179,9 +188,10 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "Health Insurance Policies"],
     image: "/services/JPG/service-emergency.jpg",
     description: [
-      "To ensure healthcare is accessible and stress-free, SRI Pavan Sai Hospital partners with major Third-Party Administrators (TPAs) and health insurance providers to offer cashless hospitalization. We help patients navigate their policy terms for hassle-free treatment.",
-      "We accept insurance from leading providers including FHPL, Mediassist, Vidal (including Steel Plant employees), Future Generali, and Ericson, among others. Our dedicated TPA desk works closely with patients to coordinate pre-authorizations and process claims efficiently."
+      "At SRI Pavan Sai Hospital, we are committed to making quality healthcare accessible, affordable, and hassle-free. We have partnered with leading Third-Party Administrators (TPAs) and health insurance providers to offer cashless hospitalization and seamless insurance claim assistance. Our dedicated TPA team guides patients through every step of the process, from eligibility verification and pre-authorization to claim documentation and final settlement.",
+      "We proudly accept cashless treatment under major TPAs and insurance providers, including FHPL, Medi Assist, Vidal Health (including RINL/Steel Plant beneficiaries), Future Generali, Ericson TPA, and several other recognized insurance networks. Our experienced insurance desk works closely with patients, families, employers, and insurers to ensure a smooth, transparent, and efficient claim process, allowing patients to focus on their recovery with complete peace of mind."
     ],
+    health_plan_title: "Our Health Insurance Services",
     health_plan_items: [
       "Cashless Hospitalization",
       "Pre-Authorization Support",
@@ -192,9 +202,9 @@ export const servicesData = [
       "Ericson TPA Coordinator"
     ],
     faq: [
-      { question: "How does cashless hospitalization work?", answer: "Upon admission, present your health card and ID at our TPA desk. We will submit a pre-authorization request to your insurer to approve cashless treatment.", open: true },
-      { question: "Which insurance companies/TPAs do you accept?", answer: "We accept FHPL, Mediassist, Vidal (including Steel Plant policies), Future Generali, Ericson, and many other leading TPAs. Please contact our desk for a full list.", open: false },
-      { question: "What documents are required for billing?", answer: "You will need your health insurance card, a valid government-issued photo ID (Aadhar/PAN card), doctor's prescription, and relevant diagnostic reports.", open: false }
+      { question: "How does cashless hospitalization work?", answer: "Upon admission, simply present your valid health insurance card, government-issued photo ID, and doctor's admission advice (if applicable) at our Insurance/TPA Help Desk. Our dedicated team will verify your policy, obtain the required pre-authorization from your insurance provider, and coordinate the cashless approval process. Once approval is received, eligible treatment expenses will be settled directly with your insurer as per your policy terms and conditions, ensuring a smooth and hassle-free hospitalization experience.", open: true },
+      { question: "What documents are required for hospital admission and insurance billing?", answer: "For a smooth admission and billing process, please carry a valid government-issued photo ID (Aadhaar, PAN, Passport, or Driving Licence), your health insurance card or policy details (if applicable), the treating doctor's prescription or admission advice, previous medical records, investigation reports, and any relevant diagnostic imaging. Additional documents may be required depending on your insurance provider or treatment plan.", open: false },
+      { question: "Which insurance companies/TPAs do you accept?", answer: "We accept FHPL, Medi Assist, Vidal Health (including RINL/Steel Plant beneficiaries), Future Generali, Ericson TPA, and many other leading TPAs. Please contact our desk for a full list.", open: false }
     ]
   },
   {
@@ -203,22 +213,24 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "General Surgery"],
     image: "/services/JPG/service-cardiology.jpg",
     description: [
-      "SRI Pavan Sai Hospital offers comprehensive general surgery services led by highly experienced surgeons. We specialize in both laparoscopic (keyhole) and open surgical procedures to treat a wide array of conditions with the highest standards of safety, precision, and post-operative care.",
-      "Our operation theaters are fully equipped with modern surgical infrastructure to support complex operations such as hernia repair, hydrocele correction, appendicectomy, cholecystectomy (gallbladder removal), thyroidectomy, and breast lump surgeries. We focus on patient comfort, minimal invasiveness, and fast recovery times."
+      "At Sri Pavan Sai Hospital, our Department of General Surgery provides comprehensive surgical care, supported by experienced surgeons and modern operation theatre facilities. We offer both laparoscopic (keyhole) and open surgical procedures, ensuring safe, effective, and evidence-based treatment with a strong focus on patient safety, precision, and quality post-operative care.",
+      "Our fully equipped operation theatres support a wide range of general surgical procedures, including hernia repair, hydrocele surgery, appendicectomy, laparoscopic cholecystectomy (gallbladder surgery), thyroid surgery, and breast lump excision, along with the management of various benign and emergency surgical conditions. We are committed to delivering minimally invasive surgical care whenever appropriate, promoting faster recovery, reduced postoperative discomfort, and improved clinical outcomes.",
+      "Our commitment is to provide safe, compassionate, and patient-centred surgical care using modern surgical techniques and evidence-based clinical practices."
     ],
+    health_plan_title: "Our General Surgery Services",
     health_plan_items: [
-      "Laparoscopic Surgery",
-      "Hernia & Hydrocele Repairs",
-      "Appendicectomy & Cholecystectomy",
-      "Thyroid Operations",
-      "Breast Lump Surgery",
-      "Advanced Operation Theaters",
-      "Expert Post-Operative Care"
+      "Laparoscopic (Keyhole) Surgery",
+      "Hernia & Hydrocele Surgery",
+      "Appendicectomy & Laparoscopic Cholecystectomy",
+      "Thyroid Surgery",
+      "Breast Lump Excision",
+      "Modern Operation Theatre Facilities",
+      "Comprehensive Post-Operative Care"
     ],
     faq: [
-      { question: "What surgical procedures do you specialize in?", answer: "We specialize in hernia repairs, hydrocele/varicocele corrections, appendicectomies, gallbladder removal (cholecystectomy), thyroid operations, and surgeries for breast lumps.", open: true },
-      { question: "Do you offer laparoscopic (keyhole) surgeries?", answer: "Yes, we perform advanced laparoscopic surgeries which result in smaller incisions, less post-operative pain, and faster recovery times for patients.", open: false },
-      { question: "How should I prepare for my surgery?", answer: "Our surgical team will provide detailed pre-operative instructions, including fasting guidelines, medical clearances, and details about what to expect on the day of the procedure.", open: false }
+      { question: "What general surgical procedures do you offer?", answer: "Our Department of General Surgery offers a comprehensive range of surgical procedures, including hernia repair, hydrocelectomy, varicocelectomy, appendicectomy, laparoscopic cholecystectomy (gallbladder removal), thyroid surgery, and breast lump excision. Whenever appropriate, we utilise minimally invasive (laparoscopic) techniques to promote faster recovery, reduced postoperative discomfort, and improved clinical outcomes.", open: true },
+      { question: "Do you offer laparoscopic (keyhole) surgeries?", answer: "Yes. We offer laparoscopic (keyhole) surgery for a wide range of surgical conditions, where clinically appropriate. This minimally invasive technique is associated with smaller incisions, reduced postoperative pain, shorter hospital stays, faster recovery, and improved cosmetic outcomes compared with conventional open surgery.", open: false },
+      { question: "How should I prepare for my surgery?", answer: "Our surgical team will provide comprehensive pre-operative instructions tailored to your procedure. These may include fasting guidelines, pre-anaesthetic evaluation, necessary laboratory investigations, medication instructions, medical clearance (if required), and guidance on what to expect before, during, and after surgery. Following these instructions carefully helps ensure a safe procedure and a smooth recovery.", open: false }
     ]
   }
 ];

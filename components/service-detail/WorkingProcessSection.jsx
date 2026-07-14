@@ -46,10 +46,10 @@ export default function WorkingProcessSection() {
         {/* Heading */}
         <div className="text-center mb-16 space-y-4 max-w-2xl mx-auto">
           <span className="type-label text-[var(--color-accent)] scroll-reveal" data-animation="fadeInUp">
-            <span className="scroll-reveal" data-animation="fadeInUp">Our Step</span>
+            <span className="scroll-reveal" data-animation="fadeInUp">Our Process</span>
           </span>
           <h2 className="type-h2 text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp" data-delay="200">
-            <SplitText text="Our Working Best Working Processs." />
+            <SplitText text="Our Patient Care Process." />
           </h2>
         </div>
 

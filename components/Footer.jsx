@@ -15,7 +15,7 @@ export default function Footer() {
               <img src="/images/JPG/sri-pavansai-logo.png" alt="SRI Pavan Sai Hospital" className="h-20 w-auto object-contain" />
             </Link>
             <p className="text-white/70 type-body">
-              Our family-centered approach to healthcare ensures that each member of your family receives personalized attention.
+              At Sri Pavan Sai Hospital, we are committed to delivering compassionate, patient-centered healthcare with clinical excellence—because your family's health, comfort, and well-being are our highest priority.
             </p>
             <div className="flex space-x-4">
               {[
