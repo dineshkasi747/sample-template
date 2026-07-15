@@ -29,7 +29,7 @@ export default function HeroSection() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#25D366]"></span>
               </span>
-              24 Hours Open Emergency Center
+              24/7 Open Emergency Center
             </div>
             
             {/* Hospital Logo */}
@@ -47,12 +47,12 @@ export default function HeroSection() {
             <h1 className="type-h1 text-white font-black leading-none scroll-reveal" data-animation="fadeInUp" data-delay="300">
               SRI Pavan Sai Hospital
               <span className="text-[var(--color-accent)] block mt-2 text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wide uppercase">
-                24-Hour Healthcare in Sriharipuram
+                24/7 Healthcare in Sriharipuram
               </span>
             </h1>
             
             <p className="type-body text-white/80 max-w-lg scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="500">
-              Providing 24-hour, high-quality, compassionate, and affordable healthcare services. Our experienced doctors and dedicated medical team are available around the clock, supported by a fully equipped diagnostic laboratory, X-ray, ECG, pharmacy, and emergency trauma care.
+              Providing 24/7, high-quality, compassionate, and affordable healthcare services. Our experienced doctors and dedicated medical team are available around the clock, supported by a fully equipped diagnostic laboratory, X-ray, ECG, pharmacy, and emergency trauma care.
             </p>
 
             {/* Unique features in capsules */}
@@ -87,7 +87,7 @@ export default function HeroSection() {
             <div className="relative z-10 w-full max-w-[480px] rounded-3xl overflow-hidden shadow-2xl border-[8px] border-white/10 scroll-reveal" data-animation="paperReveal">
               <img 
                 src="/images/JPG/pavan-sai-hospital-front.jpg" 
-                alt="SRI Pavan Sai Hospital - 24 Hours Signboard" 
+                alt="SRI Pavan Sai Hospital - 24/7 Signboard" 
                 className="w-full h-auto object-cover aspect-[4/3] transition-transform duration-1000 hover:scale-105" 
               />
               

@@ -12,8 +12,8 @@ const figtree = Figtree({
 });
 
 export const metadata = {
-  title: 'SRI Pavan Sai Hospital - 24-Hour Healthcare in Sriharipuram',
-  description: 'SRI Pavan Sai Hospital offers affordable 24-hour healthcare services in Sriharipuram. OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups & emergency care. Call 9515236524.',
+  title: 'SRI Pavan Sai Hospital - 24/7 Healthcare in Sriharipuram',
+  description: 'SRI Pavan Sai Hospital offers affordable 24/7 healthcare services in Sriharipuram. OPD consultation, diagnostic tests, pharmacy, nebulization, health checkups & emergency care. Call 9515236524.',
 };
 
 export default function RootLayout({ children }) {

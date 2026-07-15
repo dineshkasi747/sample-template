@@ -10,7 +10,7 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   const faqs = [
-    { question: "Are consulting doctors available 24/7?", answer: "Yes, our general practitioners and emergency medical officers are available 24 hours a day, 7 days a week. Specialists can also be reached on call for emergencies." },
+    { question: "Are consulting doctors available 24/7?", answer: "Yes, our general practitioners and emergency medical officers are available 24/7. Specialists can also be reached on call for emergencies." },
     { question: "Do you accept cashless health insurance policies?", answer: "Yes, we accept FHPL, Mediassist, Vidal (Steel Plant panel), Future Generali, Ericson, and other leading TPAs. Please present your insurance card at our desk." },
     { question: "Where is the hospital located and is there parking?", answer: "We are located at Opposite Swamy Vivekananda School, Main Road Jawaharlal Nagar, Sriharipuram, Visakhapatnam. Parking space is available for cars and two-wheelers." }
   ];

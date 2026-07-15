@@ -109,7 +109,7 @@ export const servicesData = [
     breadcrumb: ["Home", "Services", "24/7 Emergency & Pharmacy"],
     image: "/services/JPG/service-emergency.jpg",
     description: [
-      "SRI Pavan Sai Hospital is fully prepared to handle medical emergencies 24 hours a day, 7 days a week. Our emergency department features dedicated triage beds, trauma bays, and life-support equipment to provide immediate care when seconds count.",
+      "SRI Pavan Sai Hospital is fully prepared to handle medical emergencies 24/7. Our emergency department features dedicated triage beds, trauma bays, and life-support equipment to provide immediate care when seconds count.",
       "Complementing our emergency care, our in-house pharmacy operates round-the-clock, stocking a comprehensive inventory of authentic medications, surgical consumables, and critical care drugs. We ensure patients have immediate access to prescribed treatments at any hour."
     ],
     health_plan_title: "Our Emergency & Pharmacy Services",
@@ -160,7 +160,7 @@ export const servicesData = [
     image: "/services/JPG/service-diagnostic-lab.jpg",
     description: [
       "At SRI Pavan Sai Hospital, our Diagnostic Laboratory, X-Ray & ECG Department is equipped with advanced automated analyzers and modern diagnostic technology to deliver fast, accurate, and reliable results. We provide comprehensive diagnostic services for both outpatients and inpatients, supporting timely diagnosis and effective treatment through pathology, biochemistry, hematology, microbiology, radiology, and cardiac diagnostics.",
-      "Our diagnostic services operate 24 hours a day, 7 days a week, ensuring uninterrupted support for emergency and routine medical care. From complete blood counts, lipid profiles, liver and kidney function tests, thyroid profiles, blood sugar analysis, and urine examinations to Digital X-Ray and Electrocardiography (ECG), every investigation is performed with precision and strict quality standards.",
+      "Our diagnostic services operate 24/7, ensuring uninterrupted support for emergency and routine medical care. From complete blood counts, lipid profiles, liver and kidney function tests, thyroid profiles, blood sugar analysis, and urine examinations to Digital X-Ray and Electrocardiography (ECG), every investigation is performed with precision and strict quality standards.",
       "Our experienced laboratory professionals and radiology technicians work closely with our medical team to provide dependable reports with quick turnaround times, enabling clinicians to make confident and timely treatment decisions while ensuring the highest standards of patient care."
     ],
     health_plan_title: "Diagnostic Laboratory, X-Ray & ECG Services",
@@ -179,7 +179,7 @@ export const servicesData = [
     faq: [
       { question: "Do I need an appointment for laboratory tests?", answer: "No appointment is required for most routine laboratory investigations. Walk-in patients are welcome throughout our working hours. However, certain tests—such as fasting blood sugar, lipid profile, glucose tolerance test (GTT), and other specialized investigations—may require prior preparation or fasting. We recommend contacting our laboratory team in advance for specific instructions to ensure accurate test results.", open: true },
       { question: "How soon will I receive my laboratory test results?", answer: "Most routine laboratory investigations, including Complete Blood Count (CBC), Blood Glucose, Urine Analysis, and ECG reports, are available within 2–4 hours, depending on the test. Specialized investigations and advanced diagnostic panels may require up to 24–48 hours. Reports can be collected from the laboratory or securely shared through digital channels, ensuring convenient and timely access to your results.", open: false },
-      { question: "Is Digital X-ray available at your diagnostic center?", answer: "Yes. Our Diagnostic Department is equipped with a state-of-the-art Digital X-ray system that operates 24 hours a day, 7 days a week for both emergency and routine imaging. We provide high-quality imaging for the chest, spine, abdomen, skull, joints, and bones, with rapid image acquisition and expert reporting. Most routine X-ray reports are available within 30–60 minutes, depending on the examination and clinical urgency.", open: false }
+      { question: "Is Digital X-ray available at your diagnostic center?", answer: "Yes. Our Diagnostic Department is equipped with a state-of-the-art Digital X-ray system that operates 24/7 for both emergency and routine imaging. We provide high-quality imaging for the chest, spine, abdomen, skull, joints, and bones, with rapid image acquisition and expert reporting. Most routine X-ray reports are available within 30–60 minutes, depending on the examination and clinical urgency.", open: false }
     ]
   },
   {

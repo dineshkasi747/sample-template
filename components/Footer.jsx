@@ -69,7 +69,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start text-white/70">
                 <FaClock className="text-[var(--color-accent)] mt-1 mr-3 flex-shrink-0" size={18} />
-                <span>Open 24 Hours, Everyday</span>
+                <span>Open 24/7, Everyday</span>
               </li>
             </ul>
           </div>

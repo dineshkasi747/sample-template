@@ -9,7 +9,7 @@ export default function AboutSection() {
   const sectionRef = useScrollAnimation();
 
   const details = [
-    { text: '24-Hour Emergency Care', icon: FaHospital, desc: 'Emergency care available 24/7' },
+    { text: '24/7 Emergency Care', icon: FaHospital, desc: 'Emergency care available 24/7' },
     { text: 'Experienced Medical Team', icon: FaUserMd, desc: 'Experienced Specialist & Superspecialist doctors on duty' },
     { text: 'Affordable Treatments', icon: FaWallet, desc: 'Transparent and affordable pricing' },
     { text: 'In-House Pharmacy & Laboratory', icon: FaPrescriptionBottleAlt, desc: '24/7 in-house pharmacy and diagnostic laboratory services' }
@@ -31,7 +31,7 @@ export default function AboutSection() {
             <div className="absolute -left-2 -top-2 w-[85%] h-[90%] border-4 border-dashed border-red-500/20 rounded-2xl pointer-events-none z-0 hidden sm:block"></div>
             
             <div className="relative z-10 w-full max-w-[480px] rounded-2xl overflow-hidden shadow-2xl border-[6px] border-white scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/sri-pavansai.png" alt="SRI Pavan Sai Hospital" className="w-full h-auto object-cover" />
+              <img src="/images/JPG/changed-pavan-sai-hospital.png" alt="SRI Pavan Sai Hospital" className="w-full h-auto object-cover" />
             </div>
             
             {/* Red Gradient Badge 1 */}
@@ -40,7 +40,7 @@ export default function AboutSection() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-white"></span>
               </span>
-              <span>Open 24 Hours</span>
+              <span>Open 24/7</span>
             </div>
 
             {/* Glassmorphic Badge 2 */}
@@ -62,7 +62,7 @@ export default function AboutSection() {
               </h2>
               
               <p className="type-body text-gray-600 scroll-reveal text-lg leading-relaxed" data-animation="fadeInUp" data-delay="400">
-                Sri Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram. We are committed to delivering compassionate, affordable, and high-quality healthcare services through experienced doctors, dedicated healthcare professionals, advanced diagnostic facilities, and state-of-the-art medical infrastructure. Our mission is to provide safe, patient-centered, and evidence-based care 24 hours a day, 7 days a week.
+                Sri Pavan Sai Hospital is a trusted 24/7 healthcare facility located in Sriharipuram. We are committed to delivering compassionate, affordable, and high-quality healthcare services through experienced doctors, dedicated healthcare professionals, advanced diagnostic facilities, and state-of-the-art medical infrastructure. Our mission is to provide safe, patient-centered, and evidence-based care 24/7.
               </p>
             </div>
             

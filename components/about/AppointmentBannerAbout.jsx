@@ -17,7 +17,7 @@ export default function AppointmentBannerAbout() {
               <span className="scroll-reveal" data-animation="fadeInUp">Need Medical Assistance?</span>
             </h2>
             <p className="type-body text-white/70 scroll-reveal" data-animation="fadeInUp" data-delay="300">
-              <span className="scroll-reveal" data-animation="fadeInUp">We are open 24 hours for emergencies and appointments. Reach out to us anytime — your health is our priority.</span>
+              <span className="scroll-reveal" data-animation="fadeInUp">We are open 24/7 for emergencies and appointments. Reach out to us anytime — your health is our priority.</span>
             </p>
           </div>
 

@@ -24,7 +24,7 @@ export default function AboutIntroSection() {
             
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="400">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                SRI Pavan Sai Hospital is a trusted 24-hour healthcare facility located in Sriharipuram, Andhra Pradesh. We are dedicated to providing compassionate, affordable, and high-quality medical care to every patient who walks through our doors. Our hospital is equipped with modern facilities and staffed by experienced medical professionals who are committed to your well-being.
+                SRI Pavan Sai Hospital is a trusted 24/7 healthcare facility located in Sriharipuram, Andhra Pradesh. We are dedicated to providing compassionate, affordable, and high-quality medical care to every patient who walks through our doors. Our hospital is equipped with modern facilities and staffed by experienced medical professionals who are committed to your well-being.
               </span>
             </p>
             
@@ -54,11 +54,11 @@ export default function AboutIntroSection() {
           {/* Right Content - Hospital Photo */}
           <div className="relative w-full scroll-reveal" data-animation="fadeInUp" data-delay="300">
             <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-              <img src="/images/JPG/pavan-sai-hospital-front.jpg" alt="SRI Pavan Sai Hospital - 24 Hours Healthcare" className="w-full h-auto object-cover" />
+              <img src="/images/JPG/pavan-sai-hospital-front.jpg" alt="SRI Pavan Sai Hospital - 24/7 Healthcare" className="w-full h-auto object-cover" />
             </div>
-            {/* 24 Hours Badge */}
+            {/* 24/7 Badge */}
             <div className="absolute -bottom-4 -left-4 bg-[var(--color-accent)] text-white px-6 py-3 rounded-xl shadow-lg font-bold text-lg">
-              24 Hours Open
+              24/7 Open
             </div>
           </div>
 

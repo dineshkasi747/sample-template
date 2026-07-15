@@ -10,7 +10,7 @@ export default function FamilyCareSection() {
   const highlights = [
     {
       icon: FaClock,
-      title: "24 Hours Emergency Care",
+      title: "24/7 Emergency Care",
       body: "Our emergency department is open around the clock, ensuring immediate medical attention whenever you need it — day or night.",
       delay: 100
     },
