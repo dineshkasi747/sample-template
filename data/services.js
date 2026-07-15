@@ -90,7 +90,7 @@ export const servicesData = [
     health_plan_title: "General Medicine Services",
     health_plan_items: [
       "Chronic Disease Management",
-      "Hypertension & Diabetes Care",
+      "Hypertension, Diabetes & Thyroid Care",
       "Preventative Health Packages",
       "Infectious Disease Treatment",
       "Geriatric (Elderly) Care",
@@ -155,8 +155,8 @@ export const servicesData = [
   },
   {
     slug: "diagnostic-lab",
-    title: "Diagnostic Lab, X-Ray & ECG",
-    breadcrumb: ["Home", "Services", "Diagnostic Lab, X-Ray & ECG"],
+    title: "24/7 Diagnostic Lab, X-Ray & ECG",
+    breadcrumb: ["Home", "Services", "24/7 Diagnostic Lab, X-Ray & ECG"],
     image: "/services/JPG/service-diagnostic-lab.jpg",
     description: [
       "At SRI Pavan Sai Hospital, our Diagnostic Laboratory, X-Ray & ECG Department is equipped with advanced automated analyzers and modern diagnostic technology to deliver fast, accurate, and reliable results. We provide comprehensive diagnostic services for both outpatients and inpatients, supporting timely diagnosis and effective treatment through pathology, biochemistry, hematology, microbiology, radiology, and cardiac diagnostics.",

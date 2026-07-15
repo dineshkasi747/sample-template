@@ -33,7 +33,7 @@ export default function ServicesGridSection() {
       Icon: FaUserDoctor,
       title: "General Medicine",
       description: "Primary clinical care and preventative medicine, managing lifestyle conditions like diabetes, hypertension, metabolic disorders, and thyroid issues.",
-      checklist: ["Chronic Care Management", "Preventative Checkups", "Hypertension & Diabetes"],
+      checklist: ["Chronic Care Management", "Preventative Checkups", "Hypertension, Diabetes & Thyroid"],
       link: "/services/general-medicine",
       delay: 400
     },

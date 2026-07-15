@@ -30,7 +30,7 @@ export default function ServicesSection() {
     },
     { 
       title: "General Medicine", 
-      body: "Primary consultations and long-term care management for diabetes, blood pressure, and chronic issues.", 
+      body: "Primary consultations and long-term care management for diabetes, blood pressure, thyroid, and chronic issues.", 
       icon: FaBriefcaseMedical,
       href: "/services/general-medicine"
     },
@@ -47,8 +47,8 @@ export default function ServicesSection() {
       href: "/services/ent"
     },
     { 
-      title: "Diagnostic Lab, X-Ray & ECG", 
-      body: "Comprehensive pathology and diagnostic services including blood tests, X-Ray, ECG, and advanced health screenings.", 
+      title: "24/7 Diagnostic Lab, X-Ray & ECG", 
+      body: "Comprehensive 24/7 pathology and diagnostic services including blood tests, X-Ray, ECG, and advanced health screenings.", 
       icon: FaFlask,
       href: "/services/diagnostic-lab"
     },

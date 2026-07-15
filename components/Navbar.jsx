@@ -31,7 +31,7 @@ export default function Navbar() {
         { label: 'General Medicine', href: '/services/general-medicine' },
         { label: 'Emergency & Pharmacy', href: '/services/pharmacy-emergency' },
         { label: 'ENT', href: '/services/ent' },
-        { label: 'Diagnostic Lab, X-Ray & ECG', href: '/services/diagnostic-lab' }
+        { label: '24/7 Diagnostic Lab, X-Ray & ECG', href: '/services/diagnostic-lab' }
       ]
     },
     { label: 'Contact Us', href: '/contact' }

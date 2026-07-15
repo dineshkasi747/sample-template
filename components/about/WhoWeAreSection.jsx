@@ -22,7 +22,7 @@ export default function WhoWeAreSection() {
           {/* Left Content - Image */}
           <div className="relative scroll-reveal" data-animation="slideInLeft">
             <div className="rounded-2xl overflow-hidden shadow-2xl scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/changed-pavan-sai-hospital.png" alt="SRI Pavan Sai Hospital & Sai Pharmacy" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
+              <img src="/images/JPG/changed-pavan-sai-hospital.png" alt="SRI Pavan Sai Hospital & Sri Pavan Sai Pharmacy" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export default function WhoWeAreSection() {
 
             <p className="type-body text-[var(--color-primary)]/70 scroll-reveal" data-animation="fadeInUp" data-delay="600">
               <span className="scroll-reveal" data-animation="fadeInUp">
-                Our attached Sai Pharmacy ensures that all prescribed medicines are readily available, making the entire treatment process seamless and convenient for our patients and their families.
+                Our attached Sri Pavan Sai Pharmacy ensures that all prescribed medicines are readily available, making the entire treatment process seamless and convenient for our patients and their families.
               </span>
             </p>
             

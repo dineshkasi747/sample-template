@@ -57,7 +57,7 @@ export default function HeroSection() {
 
             {/* Unique features in capsules */}
             <div className="flex flex-wrap gap-3 scroll-reveal" data-animation="fadeInUp" data-delay="700">
-              {['24/7 Pharmacy', 'OPD Consultations', 'Diagnostic Labs, X-Ray & ECG'].map((feat, idx) => (
+              {['24/7 Pharmacy', 'OPD Consultations', '24/7 Diagnostic Labs, X-Ray & ECG'].map((feat, idx) => (
                 <span key={idx} className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-white/90 font-medium">
                   ✓ {feat}
                 </span>
@@ -99,7 +99,7 @@ export default function HeroSection() {
             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white text-[var(--color-primary)] px-6 py-3 rounded-2xl shadow-2xl flex items-center gap-3 z-20 border border-gray-100 whitespace-nowrap scroll-reveal" data-animation="fadeInUp" data-delay="1100">
               <FaClinicMedical className="text-red-600 text-xl" />
               <div>
-                <div className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Sai Pharmacy Inside</div>
+                <div className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Sri Pavan Sai Pharmacy Inside</div>
                 <div className="text-sm font-extrabold text-[var(--color-primary)]">24h Pharmacy</div>
               </div>
             </div>

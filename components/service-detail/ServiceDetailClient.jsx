@@ -38,7 +38,7 @@ export default function ServiceDetailClient({ service }) {
     { title: "General Surgery", slug: "general-surgery", Icon: FaUserDoctor },
     { title: "Emergency & Pharmacy", slug: "pharmacy-emergency", Icon: FaPills },
     { title: "ENT", slug: "ent", Icon: FaEarDeaf },
-    { title: "Diagnostic Lab, X-Ray & ECG", slug: "diagnostic-lab", Icon: FaFlask },
+    { title: "24/7 Diagnostic Lab, X-Ray & ECG", slug: "diagnostic-lab", Icon: FaFlask },
     { title: "Health Insurance", slug: "health-insurance-policies", Icon: FaFileMedical }
   ];
 
