@@ -22,7 +22,7 @@ export default function WhoWeAreSection() {
           {/* Left Content - Image */}
           <div className="relative scroll-reveal" data-animation="slideInLeft">
             <div className="rounded-2xl overflow-hidden shadow-2xl scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/changed-pavan-sai-hospital.png" alt="SRI Pavan Sai Hospital & Sri Pavan Sai Pharmacy" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
+              <img src="/images/JPG/main-pavansai.png" alt="SRI Pavan Sai Hospital & Sri Pavan Sai Pharmacy" className="w-full h-auto object-cover scroll-reveal" data-animation="paperReveal" />
             </div>
           </div>
 

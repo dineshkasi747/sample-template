@@ -99,8 +99,8 @@ export default function HeroSection() {
             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white text-[var(--color-primary)] px-6 py-3 rounded-2xl shadow-2xl flex items-center gap-3 z-20 border border-gray-100 whitespace-nowrap scroll-reveal" data-animation="fadeInUp" data-delay="1100">
               <FaClinicMedical className="text-red-600 text-xl" />
               <div>
-                <div className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Sri Pavan Sai Pharmacy Inside</div>
-                <div className="text-sm font-extrabold text-[var(--color-primary)]">24h Pharmacy</div>
+                <div className="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Sri Pavan Sai Pharmacy</div>
+                <div className="text-sm font-extrabold text-[var(--color-primary)]">24/7 Pharmacy</div>
               </div>
             </div>
 

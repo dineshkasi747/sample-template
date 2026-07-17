@@ -30,7 +30,7 @@ export default function FAQSection() {
             <div className="absolute -left-3 -top-3 w-full h-full border-2 border-red-600/10 rounded-2xl pointer-events-none z-0"></div>
             
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl scroll-reveal" data-animation="paperReveal">
-              <img src="/images/JPG/changed-pavan-sai-hospital.png" alt="FAQ" className="w-full h-auto object-cover" />
+              <img src="/images/JPG/main-pavansai.png" alt="FAQ" className="w-full h-auto object-cover" />
             </div>
             
             {/* Floating Stats */}
@@ -42,7 +42,7 @@ export default function FAQSection() {
               <div className="w-px bg-gray-200 scroll-reveal" data-animation="fadeInUp"></div>
               <div className="text-center scroll-reveal" data-animation="fadeInUp">
                 <div className="text-xl sm:text-2xl font-black text-[var(--color-primary)] scroll-reveal" data-animation="fadeInUp">Sri Pavan Sai Pharmacy</div>
-                <div className="text-[10px] font-bold text-[var(--color-primary)]/60 mt-1 uppercase tracking-wider scroll-reveal" data-animation="fadeInUp">24h Pharmacy</div>
+                <div className="text-[10px] font-bold text-[var(--color-primary)]/60 mt-1 uppercase tracking-wider scroll-reveal" data-animation="fadeInUp">24/7 Pharmacy</div>
               </div>
             </div>
           </div>
